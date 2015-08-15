@@ -1,0 +1,17 @@
+2015-08-13 21:07:54,949 [0] (D) Uninitializing subsystem: Logging Subsystem - , 0
+2015-08-14 05:49:57,424 [0] (D) Uninitializing subsystem: Logging Subsystem - , 0
+2015-08-14 05:59:06,289 [0] (D) Uninitializing subsystem: Logging Subsystem - , 0
+2015-08-14 05:59:22,962 [0] (D) Uninitializing subsystem: Logging Subsystem - , 0
+2015-08-14 05:59:36,698 [0] (D) Uninitializing subsystem: Logging Subsystem - , 0
+2015-08-14 06:00:47,612 [0] (I) Server started - src/neotracsrvtcp.cpp, 378
+2015-08-14 06:00:50,496 [0] (I) Termination requested. - src/neotracsrvtcp.cpp, 382
+2015-08-14 06:00:50,497 [0] (I) Reactor stopped. - src/neotracsrvtcp.cpp, 386
+2015-08-14 06:00:50,615 [0] (I) Thread joined. - src/neotracsrvtcp.cpp, 389
+2015-08-14 06:00:50,615 [0] (I) Server stopped. - src/neotracsrvtcp.cpp, 391
+2015-08-14 06:00:50,615 [0] (D) Uninitializing subsystem: Logging Subsystem - , 0
+2015-08-14 06:01:02,088 [0] (I) Server started - src/neotracsrvtcp.cpp, 378
+2015-08-14 06:01:03,712 [0] (I) Termination requested. - src/neotracsrvtcp.cpp, 382
+2015-08-14 06:01:03,712 [0] (I) Reactor stopped. - src/neotracsrvtcp.cpp, 386
+2015-08-14 06:01:03,840 [0] (I) Thread joined. - src/neotracsrvtcp.cpp, 389
+2015-08-14 06:01:03,840 [0] (I) Server stopped. - src/neotracsrvtcp.cpp, 391
+2015-08-14 06:01:03,840 [0] (D) Uninitializing subsystem: Logging Subsystem - , 0

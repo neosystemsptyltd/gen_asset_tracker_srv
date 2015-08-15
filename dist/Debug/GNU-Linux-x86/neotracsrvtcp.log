@@ -1,0 +1,444 @@
+2015-08-14 22:18:43,770 [0] (I) Server started - neotracsrvtcp.cpp, 460
+2015-08-14 22:18:46,829 [0] (I) Termination requested. - neotracsrvtcp.cpp, 464
+2015-08-14 22:18:46,829 [0] (I) Reactor stopped. - neotracsrvtcp.cpp, 468
+2015-08-14 22:18:47,024 [0] (I) Thread joined. - neotracsrvtcp.cpp, 471
+2015-08-14 22:18:47,025 [0] (I) Server stopped. - neotracsrvtcp.cpp, 473
+2015-08-14 22:18:47,025 [0] (D) Uninitializing subsystem: Logging Subsystem - , 0
+2015-08-14 22:21:19,549 [0] (I) Server started - neotracsrvtcp.cpp, 460
+2015-08-14 22:22:35,580 [1] (I) Connection from - neotracsrvtcp.cpp, 89
+2015-08-14 22:23:06,931 [1] (I) Connection Timeout - neotracsrvtcp.cpp, 335
+2015-08-14 22:23:06,931 [1] (I) Disconnecting - neotracsrvtcp.cpp, 105
+2015-08-14 22:23:28,843 [1] (I) Connection from - neotracsrvtcp.cpp, 89
+2015-08-14 22:23:36,731 [1] (E) Text command contains non printable characters - neotracsrvtcp.cpp, 144
+2015-08-14 22:23:36,731 [1] (E) 24 48 45 4C 50 0D 0A 
+ - ../common/custlog.cpp, 18
+2015-08-14 22:23:50,881 [1] (E) Text command contains non printable characters - neotracsrvtcp.cpp, 144
+2015-08-14 22:23:50,881 [1] (E) 24 48 45 4C 50 0D 0A 
+ - ../common/custlog.cpp, 18
+2015-08-14 22:24:15,919 [1] (I) Connection Timeout - neotracsrvtcp.cpp, 335
+2015-08-14 22:24:15,919 [1] (I) Disconnecting - neotracsrvtcp.cpp, 105
+2015-08-14 22:24:24,942 [0] (I) Termination requested. - neotracsrvtcp.cpp, 464
+2015-08-14 22:24:24,942 [0] (I) Reactor stopped. - neotracsrvtcp.cpp, 468
+2015-08-14 22:24:25,182 [0] (I) Thread joined. - neotracsrvtcp.cpp, 471
+2015-08-14 22:24:25,182 [0] (I) Server stopped. - neotracsrvtcp.cpp, 473
+2015-08-14 22:24:25,182 [0] (D) Uninitializing subsystem: Logging Subsystem - , 0
+2015-08-14 22:33:21,911 [0] (I) Server started - neotracsrvtcp.cpp, 460
+2015-08-14 22:33:44,297 [1] (I) Connection from - neotracsrvtcp.cpp, 89
+2015-08-14 22:33:52,612 [1] (E) Text command contains non printable characters - neotracsrvtcp.cpp, 144
+2015-08-14 22:33:52,613 [1] (E) 24 68 65 6C 70 0D 0A 
+ - ../common/custlog.cpp, 18
+2015-08-14 22:34:08,273 [1] (E) Text command contains non printable characters - neotracsrvtcp.cpp, 144
+2015-08-14 22:34:08,273 [1] (E) 24 43 4C 4F 53 45 0D 0A 
+ - ../common/custlog.cpp, 18
+2015-08-14 22:34:29,782 [1] (I) Nothing to be read - connection closed - neotracsrvtcp.cpp, 284
+2015-08-14 22:34:29,782 [1] (I) Disconnecting - neotracsrvtcp.cpp, 105
+2015-08-14 22:34:43,865 [0] (I) Termination requested. - neotracsrvtcp.cpp, 464
+2015-08-14 22:34:43,865 [0] (I) Reactor stopped. - neotracsrvtcp.cpp, 468
+2015-08-14 22:34:44,053 [0] (I) Thread joined. - neotracsrvtcp.cpp, 471
+2015-08-14 22:34:44,053 [0] (I) Server stopped. - neotracsrvtcp.cpp, 473
+2015-08-14 22:34:44,053 [0] (D) Uninitializing subsystem: Logging Subsystem - , 0
+2015-08-14 22:40:56,965 [0] (I) Server started - neotracsrvtcp.cpp, 460
+2015-08-14 22:41:28,784 [1] (I)  [Addr]: 127.0.0.1:32936 : Connection from - neotracsrvtcp.cpp, 89
+2015-08-14 22:41:40,323 [1] (E)  [Addr]: 127.0.0.1:32936 : Text command contains non printable characters - neotracsrvtcp.cpp, 144
+2015-08-14 22:41:40,323 [1] (E) 24 48 45 4C 50 0D 0A 
+ - ../common/custlog.cpp, 18
+2015-08-14 22:42:00,610 [1] (I)  [Addr]: 127.0.0.1:32936 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 284
+2015-08-14 22:42:00,610 [1] (I)  [Addr]: 127.0.0.1:32936 : Disconnecting - neotracsrvtcp.cpp, 105
+2015-08-14 22:42:03,402 [0] (I) Termination requested. - neotracsrvtcp.cpp, 464
+2015-08-14 22:42:03,402 [0] (I) Reactor stopped. - neotracsrvtcp.cpp, 468
+2015-08-14 22:42:03,615 [0] (I) Thread joined. - neotracsrvtcp.cpp, 471
+2015-08-14 22:42:03,615 [0] (I) Server stopped. - neotracsrvtcp.cpp, 473
+2015-08-14 22:42:03,615 [0] (D) Uninitializing subsystem: Logging Subsystem - , 0
+2015-08-14 22:46:08,207 [0] (I) Server started - neotracsrvtcp.cpp, 462
+2015-08-14 22:46:19,199 [1] (I)  [Addr]: 127.0.0.1:32951 : Connection from - neotracsrvtcp.cpp, 89
+2015-08-14 22:46:30,367 [1] (E)  [Addr]: 127.0.0.1:32951 : Text command contains non printable characters - neotracsrvtcp.cpp, 144
+2015-08-14 22:46:30,367 [1] (E) 24 68 65 6C 70 0D 0A 
+ - ../common/custlog.cpp, 18
+2015-08-14 22:46:56,249 [1] (I)  [Addr]: 127.0.0.1:32951 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 284
+2015-08-14 22:46:56,249 [1] (I)  [Addr]: 127.0.0.1:32951 : Disconnecting - neotracsrvtcp.cpp, 105
+2015-08-14 22:46:59,938 [0] (I) Termination requested. - neotracsrvtcp.cpp, 466
+2015-08-14 22:46:59,938 [0] (I) Reactor stopped. - neotracsrvtcp.cpp, 470
+2015-08-14 22:47:00,004 [0] (I) Thread joined. - neotracsrvtcp.cpp, 473
+2015-08-14 22:47:00,004 [0] (I) Server stopped. - neotracsrvtcp.cpp, 475
+2015-08-14 22:47:00,005 [0] (D) Uninitializing subsystem: Logging Subsystem - , 0
+2015-08-14 22:56:22,895 [0] (I) Server started - neotracsrvtcp.cpp, 462
+2015-08-14 22:56:32,144 [1] (I)  [Addr]: 127.0.0.1:32987 : Connection from - neotracsrvtcp.cpp, 89
+2015-08-14 22:56:32,394 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:32,645 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:32,896 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:33,146 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:33,397 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:33,647 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:33,898 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:34,148 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:34,399 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:34,649 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:34,649 [1] (D)  [Addr]: 127.0.0.1:32987 : Timeout 90 on - neotracsrvtcp.cpp, 332
+2015-08-14 22:56:34,900 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:35,150 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:35,401 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:35,652 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:35,902 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:36,153 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:36,403 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:36,654 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:36,904 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:37,155 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:37,155 [1] (D)  [Addr]: 127.0.0.1:32987 : Timeout 80 on - neotracsrvtcp.cpp, 332
+2015-08-14 22:56:37,406 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:37,656 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:37,907 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:38,157 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:38,408 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:38,658 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:38,909 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:39,159 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:39,410 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:39,660 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:39,661 [1] (D)  [Addr]: 127.0.0.1:32987 : Timeout 70 on - neotracsrvtcp.cpp, 332
+2015-08-14 22:56:39,911 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:40,162 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:40,412 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:40,663 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:40,913 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:41,164 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:41,414 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:41,665 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:41,915 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:42,166 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:42,166 [1] (D)  [Addr]: 127.0.0.1:32987 : Timeout 60 on - neotracsrvtcp.cpp, 332
+2015-08-14 22:56:42,417 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:42,667 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:42,918 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:43,169 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:43,419 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:43,670 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:43,920 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:44,171 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:44,421 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:44,436 [1] (T)  [Addr]: 127.0.0.1:32987 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 230
+2015-08-14 22:56:44,687 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:44,937 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:45,188 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:45,438 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:45,689 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:45,939 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:46,190 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:46,440 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:46,691 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:46,941 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:46,942 [1] (D)  [Addr]: 127.0.0.1:32987 : Timeout 90 on - neotracsrvtcp.cpp, 332
+2015-08-14 22:56:47,192 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:47,443 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:47,693 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:47,944 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:48,194 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:48,445 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:48,695 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:48,946 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:49,196 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:49,447 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:49,447 [1] (D)  [Addr]: 127.0.0.1:32987 : Timeout 80 on - neotracsrvtcp.cpp, 332
+2015-08-14 22:56:49,698 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:49,948 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:50,199 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:50,449 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:50,700 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:50,950 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:51,201 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:51,451 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:51,702 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:51,953 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:51,953 [1] (D)  [Addr]: 127.0.0.1:32987 : Timeout 70 on - neotracsrvtcp.cpp, 332
+2015-08-14 22:56:52,203 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:52,454 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:52,704 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:52,955 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:53,205 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:53,456 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:53,706 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:53,957 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:54,208 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:54,458 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:54,458 [1] (D)  [Addr]: 127.0.0.1:32987 : Timeout 60 on - neotracsrvtcp.cpp, 332
+2015-08-14 22:56:54,709 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:54,959 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:55,210 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:55,460 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:55,711 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:55,745 [0] (I) Termination requested. - neotracsrvtcp.cpp, 466
+2015-08-14 22:56:55,745 [0] (I) Reactor stopped. - neotracsrvtcp.cpp, 470
+2015-08-14 22:56:55,961 [1] (T)  [Addr]: 127.0.0.1:32987 : Processing text command - neotracsrvtcp.cpp, 324
+2015-08-14 22:56:55,961 [1] (I)  [Addr]: 127.0.0.1:32987 : Shutdown - conn close - neotracsrvtcp.cpp, 303
+2015-08-14 22:56:55,961 [1] (I)  [Addr]: 127.0.0.1:32987 : Disconnecting - neotracsrvtcp.cpp, 105
+2015-08-14 22:56:55,961 [0] (I) Thread joined. - neotracsrvtcp.cpp, 473
+2015-08-14 22:56:55,961 [0] (I) Server stopped. - neotracsrvtcp.cpp, 475
+2015-08-14 22:56:55,962 [0] (D) Uninitializing subsystem: Logging Subsystem - , 0
+2015-08-14 22:57:20,471 [0] (I) Server started - neotracsrvtcp.cpp, 461
+2015-08-14 22:57:26,284 [1] (I)  [Addr]: 127.0.0.1:32991 : Connection from - neotracsrvtcp.cpp, 89
+2015-08-14 22:57:28,788 [1] (D)  [Addr]: 127.0.0.1:32991 : Timeout 90 on - neotracsrvtcp.cpp, 331
+2015-08-14 22:57:29,865 [1] (T)  [Addr]: 127.0.0.1:32991 : Processing text command - neotracsrvtcp.cpp, 202
+2015-08-14 22:57:29,865 [1] (E)  [Addr]: 127.0.0.1:32991 : Text command contains non printable characters - neotracsrvtcp.cpp, 144
+2015-08-14 22:57:29,865 [1] (E) 24 50 49 4E 47 0D 0A 
+ - ../common/custlog.cpp, 18
+2015-08-14 22:57:32,369 [1] (D)  [Addr]: 127.0.0.1:32991 : Timeout 90 on - neotracsrvtcp.cpp, 331
+2015-08-14 22:57:34,873 [1] (D)  [Addr]: 127.0.0.1:32991 : Timeout 80 on - neotracsrvtcp.cpp, 331
+2015-08-14 22:57:37,377 [1] (D)  [Addr]: 127.0.0.1:32991 : Timeout 70 on - neotracsrvtcp.cpp, 331
+2015-08-14 22:57:39,881 [1] (D)  [Addr]: 127.0.0.1:32991 : Timeout 60 on - neotracsrvtcp.cpp, 331
+2015-08-14 22:57:42,385 [1] (D)  [Addr]: 127.0.0.1:32991 : Timeout 50 on - neotracsrvtcp.cpp, 331
+2015-08-14 22:57:44,888 [1] (D)  [Addr]: 127.0.0.1:32991 : Timeout 40 on - neotracsrvtcp.cpp, 331
+2015-08-14 22:57:47,392 [1] (D)  [Addr]: 127.0.0.1:32991 : Timeout 30 on - neotracsrvtcp.cpp, 331
+2015-08-14 22:57:49,896 [1] (D)  [Addr]: 127.0.0.1:32991 : Timeout 20 on - neotracsrvtcp.cpp, 331
+2015-08-14 22:57:52,400 [1] (D)  [Addr]: 127.0.0.1:32991 : Timeout 10 on - neotracsrvtcp.cpp, 331
+2015-08-14 22:57:54,904 [1] (D)  [Addr]: 127.0.0.1:32991 : Timeout 0 on - neotracsrvtcp.cpp, 331
+2015-08-14 22:57:54,904 [1] (I)  [Addr]: 127.0.0.1:32991 : Connection Timeout - neotracsrvtcp.cpp, 335
+2015-08-14 22:57:54,904 [1] (I)  [Addr]: 127.0.0.1:32991 : Disconnecting - neotracsrvtcp.cpp, 105
+2015-08-14 22:58:00,665 [1] (I)  [Addr]: 127.0.0.1:32994 : Connection from - neotracsrvtcp.cpp, 89
+2015-08-14 22:58:03,169 [1] (D)  [Addr]: 127.0.0.1:32994 : Timeout 90 on - neotracsrvtcp.cpp, 331
+2015-08-14 22:58:05,673 [1] (D)  [Addr]: 127.0.0.1:32994 : Timeout 80 on - neotracsrvtcp.cpp, 331
+2015-08-14 22:58:08,177 [1] (D)  [Addr]: 127.0.0.1:32994 : Timeout 70 on - neotracsrvtcp.cpp, 331
+2015-08-14 22:58:10,559 [1] (T)  [Addr]: 127.0.0.1:32994 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 230
+2015-08-14 22:58:11,669 [1] (T)  [Addr]: 127.0.0.1:32994 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 230
+2015-08-14 22:58:12,502 [1] (T)  [Addr]: 127.0.0.1:32994 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 230
+2015-08-14 22:58:13,364 [1] (T)  [Addr]: 127.0.0.1:32994 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 230
+2015-08-14 22:58:14,310 [1] (T)  [Addr]: 127.0.0.1:32994 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 230
+2015-08-14 22:58:15,249 [1] (T)  [Addr]: 127.0.0.1:32994 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 230
+2015-08-14 22:58:16,271 [1] (T)  [Addr]: 127.0.0.1:32994 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 230
+2015-08-14 22:58:16,989 [1] (T)  [Addr]: 127.0.0.1:32994 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 230
+2015-08-14 22:58:17,964 [1] (T)  [Addr]: 127.0.0.1:32994 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 230
+2015-08-14 22:58:18,924 [1] (T)  [Addr]: 127.0.0.1:32994 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 230
+2015-08-14 22:58:19,530 [1] (T)  [Addr]: 127.0.0.1:32994 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 230
+2015-08-14 22:58:20,306 [1] (T)  [Addr]: 127.0.0.1:32994 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 230
+2015-08-14 22:58:20,948 [1] (T)  [Addr]: 127.0.0.1:32994 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 230
+2015-08-14 22:58:21,709 [1] (T)  [Addr]: 127.0.0.1:32994 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 230
+2015-08-14 22:58:22,276 [1] (T)  [Addr]: 127.0.0.1:32994 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 230
+2015-08-14 22:58:22,809 [1] (T)  [Addr]: 127.0.0.1:32994 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 230
+2015-08-14 22:58:23,584 [1] (T)  [Addr]: 127.0.0.1:32994 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 230
+2015-08-14 22:58:24,173 [1] (T)  [Addr]: 127.0.0.1:32994 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 230
+2015-08-14 22:58:24,711 [1] (T)  [Addr]: 127.0.0.1:32994 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 230
+2015-08-14 22:58:25,122 [1] (T)  [Addr]: 127.0.0.1:32994 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 230
+2015-08-14 22:58:25,610 [1] (T)  [Addr]: 127.0.0.1:32994 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 230
+2015-08-14 22:58:25,983 [1] (T)  [Addr]: 127.0.0.1:32994 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 230
+2015-08-14 22:58:26,406 [1] (T)  [Addr]: 127.0.0.1:32994 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 230
+2015-08-14 22:58:26,759 [1] (T)  [Addr]: 127.0.0.1:32994 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 230
+2015-08-14 22:58:27,123 [1] (T)  [Addr]: 127.0.0.1:32994 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 230
+2015-08-14 22:58:27,570 [1] (T)  [Addr]: 127.0.0.1:32994 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 230
+2015-08-14 22:58:27,965 [1] (T)  [Addr]: 127.0.0.1:32994 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 230
+2015-08-14 22:58:28,382 [1] (T)  [Addr]: 127.0.0.1:32994 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 230
+2015-08-14 22:58:28,821 [1] (T)  [Addr]: 127.0.0.1:32994 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 230
+2015-08-14 22:58:29,221 [1] (T)  [Addr]: 127.0.0.1:32994 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 230
+2015-08-14 22:58:29,601 [1] (T)  [Addr]: 127.0.0.1:32994 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 230
+2015-08-14 22:58:29,963 [1] (T)  [Addr]: 127.0.0.1:32994 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 230
+2015-08-14 22:58:30,299 [1] (T)  [Addr]: 127.0.0.1:32994 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 230
+2015-08-14 22:58:30,635 [1] (T)  [Addr]: 127.0.0.1:32994 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 230
+2015-08-14 22:58:30,995 [1] (T)  [Addr]: 127.0.0.1:32994 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 230
+2015-08-14 22:58:31,333 [1] (T)  [Addr]: 127.0.0.1:32994 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 230
+2015-08-14 22:58:31,678 [1] (T)  [Addr]: 127.0.0.1:32994 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 230
+2015-08-14 22:58:31,997 [1] (T)  [Addr]: 127.0.0.1:32994 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 230
+2015-08-14 22:58:32,328 [1] (T)  [Addr]: 127.0.0.1:32994 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 230
+2015-08-14 22:58:32,730 [1] (T)  [Addr]: 127.0.0.1:32994 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 230
+2015-08-14 22:58:33,066 [1] (T)  [Addr]: 127.0.0.1:32994 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 230
+2015-08-14 22:58:33,372 [1] (T)  [Addr]: 127.0.0.1:32994 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 230
+2015-08-14 22:58:33,708 [1] (T)  [Addr]: 127.0.0.1:32994 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 230
+2015-08-14 22:58:36,212 [1] (D)  [Addr]: 127.0.0.1:32994 : Timeout 90 on - neotracsrvtcp.cpp, 331
+2015-08-14 22:58:38,716 [1] (D)  [Addr]: 127.0.0.1:32994 : Timeout 80 on - neotracsrvtcp.cpp, 331
+2015-08-14 22:58:41,220 [1] (D)  [Addr]: 127.0.0.1:32994 : Timeout 70 on - neotracsrvtcp.cpp, 331
+2015-08-14 22:58:43,724 [1] (D)  [Addr]: 127.0.0.1:32994 : Timeout 60 on - neotracsrvtcp.cpp, 331
+2015-08-14 22:58:46,228 [1] (D)  [Addr]: 127.0.0.1:32994 : Timeout 50 on - neotracsrvtcp.cpp, 331
+2015-08-14 22:58:48,732 [1] (D)  [Addr]: 127.0.0.1:32994 : Timeout 40 on - neotracsrvtcp.cpp, 331
+2015-08-14 22:58:51,236 [1] (D)  [Addr]: 127.0.0.1:32994 : Timeout 30 on - neotracsrvtcp.cpp, 331
+2015-08-14 22:58:53,740 [1] (D)  [Addr]: 127.0.0.1:32994 : Timeout 20 on - neotracsrvtcp.cpp, 331
+2015-08-14 22:58:56,243 [1] (D)  [Addr]: 127.0.0.1:32994 : Timeout 10 on - neotracsrvtcp.cpp, 331
+2015-08-14 22:58:58,685 [0] (I) Termination requested. - neotracsrvtcp.cpp, 465
+2015-08-14 22:58:58,686 [0] (I) Reactor stopped. - neotracsrvtcp.cpp, 469
+2015-08-14 22:58:58,747 [1] (D)  [Addr]: 127.0.0.1:32994 : Timeout 0 on - neotracsrvtcp.cpp, 331
+2015-08-14 22:58:58,747 [1] (I)  [Addr]: 127.0.0.1:32994 : Connection Timeout - neotracsrvtcp.cpp, 335
+2015-08-14 22:58:58,747 [1] (I)  [Addr]: 127.0.0.1:32994 : Disconnecting - neotracsrvtcp.cpp, 105
+2015-08-14 22:58:58,748 [0] (I) Thread joined. - neotracsrvtcp.cpp, 472
+2015-08-14 22:58:58,748 [0] (I) Server stopped. - neotracsrvtcp.cpp, 474
+2015-08-14 22:58:58,748 [0] (D) Uninitializing subsystem: Logging Subsystem - , 0
+2015-08-14 23:02:15,384 [0] (D) Uninitializing subsystem: Logging Subsystem - , 0
+2015-08-14 23:02:21,854 [0] (I) Server started - neotracsrvtcp.cpp, 466
+2015-08-14 23:02:30,467 [1] (I)  [Addr]: 127.0.0.1:33010 : Connection from - neotracsrvtcp.cpp, 89
+2015-08-14 23:02:32,971 [1] (D)  [Addr]: 127.0.0.1:33010 : Timeout 90 on - neotracsrvtcp.cpp, 336
+2015-08-14 23:02:33,813 [1] (T)  [Addr]: 127.0.0.1:33010 : Processing text command - neotracsrvtcp.cpp, 207
+2015-08-14 23:02:33,813 [1] (E)  [Addr]: 127.0.0.1:33010 : Text command contains non printable characters - neotracsrvtcp.cpp, 149
+2015-08-14 23:02:33,813 [1] (E) 24 48 45 4C 50 
+ - ../common/custlog.cpp, 18
+2015-08-14 23:02:36,317 [1] (D)  [Addr]: 127.0.0.1:33010 : Timeout 90 on - neotracsrvtcp.cpp, 336
+2015-08-14 23:02:38,821 [1] (D)  [Addr]: 127.0.0.1:33010 : Timeout 80 on - neotracsrvtcp.cpp, 336
+2015-08-14 23:02:41,325 [1] (D)  [Addr]: 127.0.0.1:33010 : Timeout 70 on - neotracsrvtcp.cpp, 336
+2015-08-14 23:02:42,867 [1] (T)  [Addr]: 127.0.0.1:33010 : Processing text command - neotracsrvtcp.cpp, 207
+2015-08-14 23:02:42,867 [1] (E)  [Addr]: 127.0.0.1:33010 : Text command contains non printable characters - neotracsrvtcp.cpp, 149
+2015-08-14 23:02:42,867 [1] (E) 24 45 43 48 4F 
+ - ../common/custlog.cpp, 18
+2015-08-14 23:02:45,371 [1] (D)  [Addr]: 127.0.0.1:33010 : Timeout 90 on - neotracsrvtcp.cpp, 336
+2015-08-14 23:02:47,875 [1] (D)  [Addr]: 127.0.0.1:33010 : Timeout 80 on - neotracsrvtcp.cpp, 336
+2015-08-14 23:02:50,379 [1] (D)  [Addr]: 127.0.0.1:33010 : Timeout 70 on - neotracsrvtcp.cpp, 336
+2015-08-14 23:02:52,883 [1] (D)  [Addr]: 127.0.0.1:33010 : Timeout 60 on - neotracsrvtcp.cpp, 336
+2015-08-14 23:02:55,387 [1] (D)  [Addr]: 127.0.0.1:33010 : Timeout 50 on - neotracsrvtcp.cpp, 336
+2015-08-14 23:02:57,891 [1] (D)  [Addr]: 127.0.0.1:33010 : Timeout 40 on - neotracsrvtcp.cpp, 336
+2015-08-14 23:03:00,395 [1] (D)  [Addr]: 127.0.0.1:33010 : Timeout 30 on - neotracsrvtcp.cpp, 336
+2015-08-14 23:03:02,899 [1] (D)  [Addr]: 127.0.0.1:33010 : Timeout 20 on - neotracsrvtcp.cpp, 336
+2015-08-14 23:03:05,403 [1] (D)  [Addr]: 127.0.0.1:33010 : Timeout 10 on - neotracsrvtcp.cpp, 336
+2015-08-14 23:03:07,907 [1] (D)  [Addr]: 127.0.0.1:33010 : Timeout 0 on - neotracsrvtcp.cpp, 336
+2015-08-14 23:03:07,907 [1] (I)  [Addr]: 127.0.0.1:33010 : Connection Timeout - neotracsrvtcp.cpp, 340
+2015-08-14 23:03:07,908 [1] (I)  [Addr]: 127.0.0.1:33010 : Disconnecting - neotracsrvtcp.cpp, 105
+2015-08-14 23:04:02,180 [0] (I) Termination requested. - neotracsrvtcp.cpp, 470
+2015-08-14 23:04:02,180 [0] (I) Reactor stopped. - neotracsrvtcp.cpp, 474
+2015-08-14 23:04:02,238 [0] (I) Thread joined. - neotracsrvtcp.cpp, 477
+2015-08-14 23:04:02,238 [0] (I) Server stopped. - neotracsrvtcp.cpp, 479
+2015-08-14 23:04:02,238 [0] (D) Uninitializing subsystem: Logging Subsystem - , 0
+2015-08-14 23:04:24,375 [0] (I) Server started - neotracsrvtcp.cpp, 466
+2015-08-14 23:04:28,855 [1] (I)  [Addr]: 127.0.0.1:33016 : Connection from - neotracsrvtcp.cpp, 89
+2015-08-14 23:04:31,359 [1] (D)  [Addr]: 127.0.0.1:33016 : Timeout 90 on - neotracsrvtcp.cpp, 336
+2015-08-14 23:04:31,771 [1] (T)  [Addr]: 127.0.0.1:33016 : Processing text command - neotracsrvtcp.cpp, 207
+2015-08-14 23:04:31,772 [1] (I)  [Addr]: 127.0.0.1:33016 : Incoming message: $ECHO
+ - neotracsrvtcp.cpp, 154
+2015-08-14 23:04:31,772 [1] (T)  [Addr]: 127.0.0.1:33016 : Processing ECHO command - neotracsrvtcp.cpp, 164
+2015-08-14 23:04:31,772 [1] (T)  [Addr]: 127.0.0.1:33016 : Transmit response: ECHO Command
+ - neotracsrvtcp.cpp, 188
+2015-08-14 23:04:34,276 [1] (D)  [Addr]: 127.0.0.1:33016 : Timeout 90 on - neotracsrvtcp.cpp, 336
+2015-08-14 23:04:36,780 [1] (D)  [Addr]: 127.0.0.1:33016 : Timeout 80 on - neotracsrvtcp.cpp, 336
+2015-08-14 23:04:37,141 [1] (T)  [Addr]: 127.0.0.1:33016 : Processing text command - neotracsrvtcp.cpp, 207
+2015-08-14 23:04:37,141 [1] (I)  [Addr]: 127.0.0.1:33016 : Incoming message: $PING
+ - neotracsrvtcp.cpp, 154
+2015-08-14 23:04:37,141 [1] (T)  [Addr]: 127.0.0.1:33016 : unknown text command - neotracsrvtcp.cpp, 179
+2015-08-14 23:04:37,142 [1] (T)  [Addr]: 127.0.0.1:33016 : Transmit response: Error: unknown command
+ - neotracsrvtcp.cpp, 188
+2015-08-14 23:04:39,645 [1] (D)  [Addr]: 127.0.0.1:33016 : Timeout 90 on - neotracsrvtcp.cpp, 336
+2015-08-14 23:04:40,724 [1] (T)  [Addr]: 127.0.0.1:33016 : Processing text command - neotracsrvtcp.cpp, 207
+2015-08-14 23:04:40,725 [1] (I)  [Addr]: 127.0.0.1:33016 : Incoming message: $TEST
+ - neotracsrvtcp.cpp, 154
+2015-08-14 23:04:40,725 [1] (T)  [Addr]: 127.0.0.1:33016 : Processing TEST command - neotracsrvtcp.cpp, 169
+2015-08-14 23:04:40,725 [1] (T)  [Addr]: 127.0.0.1:33016 : Transmit response: Server connection OK
+ - neotracsrvtcp.cpp, 188
+2015-08-14 23:04:43,229 [1] (D)  [Addr]: 127.0.0.1:33016 : Timeout 90 on - neotracsrvtcp.cpp, 336
+2015-08-14 23:04:45,733 [1] (D)  [Addr]: 127.0.0.1:33016 : Timeout 80 on - neotracsrvtcp.cpp, 336
+2015-08-14 23:04:46,392 [1] (T)  [Addr]: 127.0.0.1:33016 : Processing text command - neotracsrvtcp.cpp, 207
+2015-08-14 23:04:46,392 [1] (I)  [Addr]: 127.0.0.1:33016 : Incoming message: $HEP
+ - neotracsrvtcp.cpp, 154
+2015-08-14 23:04:46,392 [1] (T)  [Addr]: 127.0.0.1:33016 : unknown text command - neotracsrvtcp.cpp, 179
+2015-08-14 23:04:46,392 [1] (T)  [Addr]: 127.0.0.1:33016 : Transmit response: Error: unknown command
+ - neotracsrvtcp.cpp, 188
+2015-08-14 23:04:48,896 [1] (D)  [Addr]: 127.0.0.1:33016 : Timeout 90 on - neotracsrvtcp.cpp, 336
+2015-08-14 23:04:49,745 [1] (T)  [Addr]: 127.0.0.1:33016 : Processing text command - neotracsrvtcp.cpp, 207
+2015-08-14 23:04:49,746 [1] (I)  [Addr]: 127.0.0.1:33016 : Incoming message: $HELP
+ - neotracsrvtcp.cpp, 154
+2015-08-14 23:04:49,746 [1] (T)  [Addr]: 127.0.0.1:33016 : Processing HELP command - neotracsrvtcp.cpp, 159
+2015-08-14 23:04:49,746 [1] (T)  [Addr]: 127.0.0.1:33016 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 188
+2015-08-14 23:04:52,250 [1] (D)  [Addr]: 127.0.0.1:33016 : Timeout 90 on - neotracsrvtcp.cpp, 336
+2015-08-14 23:04:54,754 [1] (D)  [Addr]: 127.0.0.1:33016 : Timeout 80 on - neotracsrvtcp.cpp, 336
+2015-08-14 23:04:57,258 [1] (D)  [Addr]: 127.0.0.1:33016 : Timeout 70 on - neotracsrvtcp.cpp, 336
+2015-08-14 23:04:59,762 [1] (D)  [Addr]: 127.0.0.1:33016 : Timeout 60 on - neotracsrvtcp.cpp, 336
+2015-08-14 23:05:02,266 [1] (D)  [Addr]: 127.0.0.1:33016 : Timeout 50 on - neotracsrvtcp.cpp, 336
+2015-08-14 23:05:04,770 [1] (D)  [Addr]: 127.0.0.1:33016 : Timeout 40 on - neotracsrvtcp.cpp, 336
+2015-08-14 23:05:07,274 [1] (D)  [Addr]: 127.0.0.1:33016 : Timeout 30 on - neotracsrvtcp.cpp, 336
+2015-08-14 23:05:09,778 [1] (D)  [Addr]: 127.0.0.1:33016 : Timeout 20 on - neotracsrvtcp.cpp, 336
+2015-08-14 23:05:12,281 [1] (D)  [Addr]: 127.0.0.1:33016 : Timeout 10 on - neotracsrvtcp.cpp, 336
+2015-08-14 23:05:14,785 [1] (D)  [Addr]: 127.0.0.1:33016 : Timeout 0 on - neotracsrvtcp.cpp, 336
+2015-08-14 23:05:14,786 [1] (I)  [Addr]: 127.0.0.1:33016 : Connection Timeout - neotracsrvtcp.cpp, 340
+2015-08-14 23:05:14,786 [1] (I)  [Addr]: 127.0.0.1:33016 : Disconnecting - neotracsrvtcp.cpp, 105
+2015-08-15 05:24:34,862 [0] (I) Termination requested. - neotracsrvtcp.cpp, 470
+2015-08-15 05:24:34,862 [0] (I) Reactor stopped. - neotracsrvtcp.cpp, 474
+2015-08-15 05:24:34,956 [0] (I) Thread joined. - neotracsrvtcp.cpp, 477
+2015-08-15 05:24:34,956 [0] (I) Server stopped. - neotracsrvtcp.cpp, 479
+2015-08-15 05:24:34,956 [0] (D) Uninitializing subsystem: Logging Subsystem - , 0
+2015-08-15 05:24:50,251 [0] (I) Server started - neotracsrvtcp.cpp, 462
+2015-08-15 05:24:56,416 [1] (I)  [Addr]: 127.0.0.1:33142 : Connection from - neotracsrvtcp.cpp, 89
+2015-08-15 05:24:58,920 [1] (D)  [Addr]: 127.0.0.1:33142 : Timeout 90 on - neotracsrvtcp.cpp, 332
+2015-08-15 05:24:59,153 [1] (T)  [Addr]: 127.0.0.1:33142 : Processing text command - neotracsrvtcp.cpp, 203
+2015-08-15 05:24:59,153 [1] (I)  [Addr]: 127.0.0.1:33142 : Incoming message: $PING - neotracsrvtcp.cpp, 150
+2015-08-15 05:24:59,153 [1] (T)  [Addr]: 127.0.0.1:33142 : unknown text command - neotracsrvtcp.cpp, 175
+2015-08-15 05:24:59,153 [1] (T)  [Addr]: 127.0.0.1:33142 : Transmit response: Error: unknown command
+ - neotracsrvtcp.cpp, 184
+2015-08-15 05:25:01,657 [1] (D)  [Addr]: 127.0.0.1:33142 : Timeout 90 on - neotracsrvtcp.cpp, 332
+2015-08-15 05:25:04,161 [1] (D)  [Addr]: 127.0.0.1:33142 : Timeout 80 on - neotracsrvtcp.cpp, 332
+2015-08-15 05:25:06,665 [1] (D)  [Addr]: 127.0.0.1:33142 : Timeout 70 on - neotracsrvtcp.cpp, 332
+2015-08-15 05:25:09,169 [1] (D)  [Addr]: 127.0.0.1:33142 : Timeout 60 on - neotracsrvtcp.cpp, 332
+2015-08-15 05:25:10,244 [1] (T)  [Addr]: 127.0.0.1:33142 : Processing text command - neotracsrvtcp.cpp, 203
+2015-08-15 05:25:10,244 [1] (I)  [Addr]: 127.0.0.1:33142 : Incoming message: $TEST - neotracsrvtcp.cpp, 150
+2015-08-15 05:25:10,244 [1] (T)  [Addr]: 127.0.0.1:33142 : Processing TEST command - neotracsrvtcp.cpp, 165
+2015-08-15 05:25:10,244 [1] (T)  [Addr]: 127.0.0.1:33142 : Transmit response: Server connection OK
+ - neotracsrvtcp.cpp, 184
+2015-08-15 05:25:12,748 [1] (D)  [Addr]: 127.0.0.1:33142 : Timeout 90 on - neotracsrvtcp.cpp, 332
+2015-08-15 05:25:14,114 [1] (T)  [Addr]: 127.0.0.1:33142 : Processing text command - neotracsrvtcp.cpp, 203
+2015-08-15 05:25:14,114 [1] (I)  [Addr]: 127.0.0.1:33142 : Incoming message: $HELP - neotracsrvtcp.cpp, 150
+2015-08-15 05:25:14,114 [1] (T)  [Addr]: 127.0.0.1:33142 : Processing HELP command - neotracsrvtcp.cpp, 155
+2015-08-15 05:25:14,114 [1] (T)  [Addr]: 127.0.0.1:33142 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 184
+2015-08-15 05:25:16,618 [1] (D)  [Addr]: 127.0.0.1:33142 : Timeout 90 on - neotracsrvtcp.cpp, 332
+2015-08-15 05:25:19,122 [1] (D)  [Addr]: 127.0.0.1:33142 : Timeout 80 on - neotracsrvtcp.cpp, 332
+2015-08-15 05:25:21,626 [1] (D)  [Addr]: 127.0.0.1:33142 : Timeout 70 on - neotracsrvtcp.cpp, 332
+2015-08-15 05:25:24,130 [1] (D)  [Addr]: 127.0.0.1:33142 : Timeout 60 on - neotracsrvtcp.cpp, 332
+2015-08-15 05:25:26,634 [1] (D)  [Addr]: 127.0.0.1:33142 : Timeout 50 on - neotracsrvtcp.cpp, 332
+2015-08-15 05:25:28,936 [1] (T)  [Addr]: 127.0.0.1:33142 : Processing text command - neotracsrvtcp.cpp, 203
+2015-08-15 05:25:28,936 [1] (I)  [Addr]: 127.0.0.1:33142 : Incoming message: $TIME - neotracsrvtcp.cpp, 150
+2015-08-15 05:25:28,936 [1] (T)  [Addr]: 127.0.0.1:33142 : unknown text command - neotracsrvtcp.cpp, 175
+2015-08-15 05:25:28,936 [1] (T)  [Addr]: 127.0.0.1:33142 : Transmit response: Error: unknown command
+ - neotracsrvtcp.cpp, 184
+2015-08-15 05:25:31,440 [1] (D)  [Addr]: 127.0.0.1:33142 : Timeout 90 on - neotracsrvtcp.cpp, 332
+2015-08-15 05:25:32,809 [1] (T)  [Addr]: 127.0.0.1:33142 : Processing text command - neotracsrvtcp.cpp, 203
+2015-08-15 05:25:32,809 [1] (I)  [Addr]: 127.0.0.1:33142 : Incoming message: $HELP - neotracsrvtcp.cpp, 150
+2015-08-15 05:25:32,809 [1] (T)  [Addr]: 127.0.0.1:33142 : Processing HELP command - neotracsrvtcp.cpp, 155
+2015-08-15 05:25:32,809 [1] (T)  [Addr]: 127.0.0.1:33142 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 184
+2015-08-15 05:25:34,821 [1] (T)  [Addr]: 127.0.0.1:33142 : Processing text command - neotracsrvtcp.cpp, 203
+2015-08-15 05:25:34,821 [1] (I)  [Addr]: 127.0.0.1:33142 : Incoming message: $ECHO - neotracsrvtcp.cpp, 150
+2015-08-15 05:25:34,821 [1] (T)  [Addr]: 127.0.0.1:33142 : Processing ECHO command - neotracsrvtcp.cpp, 160
+2015-08-15 05:25:34,821 [1] (T)  [Addr]: 127.0.0.1:33142 : Transmit response: ECHO Command
+ - neotracsrvtcp.cpp, 184
+2015-08-15 05:25:37,325 [1] (D)  [Addr]: 127.0.0.1:33142 : Timeout 90 on - neotracsrvtcp.cpp, 332
+2015-08-15 05:25:37,706 [1] (T)  [Addr]: 127.0.0.1:33142 : Processing text command - neotracsrvtcp.cpp, 203
+2015-08-15 05:25:37,706 [1] (I)  [Addr]: 127.0.0.1:33142 : Incoming message: $CLOSE - neotracsrvtcp.cpp, 150
+2015-08-15 05:25:37,706 [1] (T)  [Addr]: 127.0.0.1:33142 : Processing CLOSE command - neotracsrvtcp.cpp, 170
+2015-08-15 05:25:37,706 [1] (I)  [Addr]: 127.0.0.1:33142 : Disconnecting - neotracsrvtcp.cpp, 105
+2015-08-15 05:25:58,679 [1] (I)  [Addr]: 127.0.0.1:33152 : Connection from - neotracsrvtcp.cpp, 89
+2015-08-15 05:26:01,183 [1] (D)  [Addr]: 127.0.0.1:33152 : Timeout 90 on - neotracsrvtcp.cpp, 332
+2015-08-15 05:26:01,461 [1] (T)  [Addr]: 127.0.0.1:33152 : Processing text command - neotracsrvtcp.cpp, 203
+2015-08-15 05:26:01,461 [1] (I)  [Addr]: 127.0.0.1:33152 : Incoming message: $CLOSE - neotracsrvtcp.cpp, 150
+2015-08-15 05:26:01,461 [1] (T)  [Addr]: 127.0.0.1:33152 : Processing CLOSE command - neotracsrvtcp.cpp, 170
+2015-08-15 05:26:01,461 [1] (I)  [Addr]: 127.0.0.1:33152 : Disconnecting - neotracsrvtcp.cpp, 105
+2015-08-15 05:26:22,147 [1] (I)  [Addr]: 127.0.0.1:33153 : Connection from - neotracsrvtcp.cpp, 89
+2015-08-15 05:26:24,651 [1] (D)  [Addr]: 127.0.0.1:33153 : Timeout 90 on - neotracsrvtcp.cpp, 332
+2015-08-15 05:26:25,405 [1] (T)  [Addr]: 127.0.0.1:33153 : Processing text command - neotracsrvtcp.cpp, 203
+2015-08-15 05:26:25,405 [1] (I)  [Addr]: 127.0.0.1:33153 : Incoming message: $HELP - neotracsrvtcp.cpp, 150
+2015-08-15 05:26:25,406 [1] (T)  [Addr]: 127.0.0.1:33153 : Processing HELP command - neotracsrvtcp.cpp, 155
+2015-08-15 05:26:25,406 [1] (T)  [Addr]: 127.0.0.1:33153 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 184
+2015-08-15 05:26:27,910 [1] (D)  [Addr]: 127.0.0.1:33153 : Timeout 90 on - neotracsrvtcp.cpp, 332
+2015-08-15 05:26:28,691 [1] (T)  [Addr]: 127.0.0.1:33153 : Processing text command - neotracsrvtcp.cpp, 203
+2015-08-15 05:26:28,691 [1] (I)  [Addr]: 127.0.0.1:33153 : Incoming message: $CLOSE - neotracsrvtcp.cpp, 150
+2015-08-15 05:26:28,691 [1] (T)  [Addr]: 127.0.0.1:33153 : Processing CLOSE command - neotracsrvtcp.cpp, 170
+2015-08-15 05:26:28,691 [1] (I)  [Addr]: 127.0.0.1:33153 : Disconnecting - neotracsrvtcp.cpp, 105
+2015-08-15 05:29:01,068 [1] (I)  [Addr]: 127.0.0.1:33163 : Connection from - neotracsrvtcp.cpp, 89
+2015-08-15 05:29:03,572 [1] (D)  [Addr]: 127.0.0.1:33163 : Timeout 90 on - neotracsrvtcp.cpp, 332
+2015-08-15 05:29:06,076 [1] (D)  [Addr]: 127.0.0.1:33163 : Timeout 80 on - neotracsrvtcp.cpp, 332
+2015-08-15 05:29:06,645 [1] (I)  [Addr]: 127.0.0.1:33163 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 285
+2015-08-15 05:29:06,645 [1] (I)  [Addr]: 127.0.0.1:33163 : Disconnecting - neotracsrvtcp.cpp, 105
+2015-08-15 05:29:19,266 [1] (I)  [Addr]: 127.0.0.1:33165 : Connection from - neotracsrvtcp.cpp, 89
+2015-08-15 05:29:21,755 [1] (T)  [Addr]: 127.0.0.1:33165 : Processing text command - neotracsrvtcp.cpp, 203
+2015-08-15 05:29:21,755 [1] (I)  [Addr]: 127.0.0.1:33165 : Incoming message: $CLOSE - neotracsrvtcp.cpp, 150
+2015-08-15 05:29:21,755 [1] (T)  [Addr]: 127.0.0.1:33165 : Processing CLOSE command - neotracsrvtcp.cpp, 170
+2015-08-15 05:29:21,755 [1] (I)  [Addr]: 127.0.0.1:33165 : Disconnecting - neotracsrvtcp.cpp, 105
+2015-08-15 05:33:17,607 [0] (I) Termination requested. - neotracsrvtcp.cpp, 466
+2015-08-15 05:33:17,607 [0] (I) Reactor stopped. - neotracsrvtcp.cpp, 470
+2015-08-15 05:33:17,857 [0] (I) Thread joined. - neotracsrvtcp.cpp, 473
+2015-08-15 05:33:17,857 [0] (I) Server stopped. - neotracsrvtcp.cpp, 475
+2015-08-15 05:33:17,857 [0] (D) Uninitializing subsystem: Logging Subsystem - , 0
+2015-08-15 05:33:30,679 [0] (I) Server started - neotracsrvtcp.cpp, 470
+2015-08-15 05:33:39,407 [1] (I)  [Addr]: 127.0.0.1:33183 : Connection from - neotracsrvtcp.cpp, 89
+2015-08-15 05:33:41,911 [1] (D)  [Addr]: 127.0.0.1:33183 : Timeout 90 on - neotracsrvtcp.cpp, 339
+2015-08-15 05:33:42,416 [1] (T)  [Addr]: 127.0.0.1:33183 : Processing text command - neotracsrvtcp.cpp, 204
+2015-08-15 05:33:42,416 [1] (I)  [Addr]: 127.0.0.1:33183 : Incoming message: $HELP - neotracsrvtcp.cpp, 151
+2015-08-15 05:33:42,416 [1] (T)  [Addr]: 127.0.0.1:33183 : Processing HELP command - neotracsrvtcp.cpp, 156
+2015-08-15 05:33:42,416 [1] (T)  [Addr]: 127.0.0.1:33183 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 185
+2015-08-15 05:33:44,920 [1] (D)  [Addr]: 127.0.0.1:33183 : Timeout 90 on - neotracsrvtcp.cpp, 339
+2015-08-15 05:33:47,424 [1] (D)  [Addr]: 127.0.0.1:33183 : Timeout 80 on - neotracsrvtcp.cpp, 339
+2015-08-15 05:33:49,911 [1] (T)  [Addr]: 127.0.0.1:33183 : Processing text command - neotracsrvtcp.cpp, 204
+2015-08-15 05:33:49,912 [1] (I)  [Addr]: 127.0.0.1:33183 : Incoming message: $CLOSE - neotracsrvtcp.cpp, 151
+2015-08-15 05:33:49,912 [1] (T)  [Addr]: 127.0.0.1:33183 : Processing CLOSE command - neotracsrvtcp.cpp, 171
+2015-08-15 05:33:49,912 [1] (I)  [Addr]: 127.0.0.1:33183 : Remote requested close - neotracsrvtcp.cpp, 286
+2015-08-15 05:33:49,912 [1] (I)  [Addr]: 127.0.0.1:33183 : Disconnecting - neotracsrvtcp.cpp, 106

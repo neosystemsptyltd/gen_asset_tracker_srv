@@ -1,0 +1,3394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="94">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="build">
+        <df name="config">
+        </df>
+        <df name="rules">
+        </df>
+        <df name="script">
+          <in>makedepend.cxx</in>
+        </df>
+        <df name="vms">
+        </df>
+        <df name="vxconfig">
+        </df>
+      </df>
+      <df name="cmake">
+      </df>
+      <df name="contrib">
+      </df>
+      <df name="CppUnit">
+        <df name="doc">
+        </df>
+        <df name="include">
+          <df name="CppUnit">
+            <in>CppUnit.h</in>
+            <in>CppUnitException.h</in>
+            <in>Guards.h</in>
+            <in>Orthodox.h</in>
+            <in>RepeatedTest.h</in>
+            <in>Test.h</in>
+            <in>TestCaller.h</in>
+            <in>TestCase.h</in>
+            <in>TestDecorator.h</in>
+            <in>TestFailure.h</in>
+            <in>TestResult.h</in>
+            <in>TestRunner.h</in>
+            <in>TestSetup.h</in>
+            <in>TestSuite.h</in>
+            <in>TextTestResult.h</in>
+            <in>estring.h</in>
+          </df>
+        </df>
+        <df name="obj">
+          <df name="Linux">
+            <df name="i686">
+              <df name="debug_shared">
+              </df>
+              <df name="debug_static">
+              </df>
+              <df name="release_shared">
+              </df>
+              <df name="release_static">
+              </df>
+            </df>
+          </df>
+        </df>
+        <df name="src">
+          <in>CppUnitException.cpp</in>
+          <in>TestCase.cpp</in>
+          <in>TestDecorator.cpp</in>
+          <in>TestFailure.cpp</in>
+          <in>TestResult.cpp</in>
+          <in>TestRunner.cpp</in>
+          <in>TestSuite.cpp</in>
+          <in>TextTestResult.cpp</in>
+        </df>
+        <df name="WinTestRunner">
+          <df name="include">
+            <df name="WinTestRunner">
+              <in>WinTestRunner.h</in>
+            </df>
+          </df>
+          <df name="res">
+            <in>Resource.h</in>
+          </df>
+          <df name="src">
+            <in>ActiveTest.cpp</in>
+            <in>ActiveTest.h</in>
+            <in>DLLMain.cpp</in>
+            <in>GUITestResult.cpp</in>
+            <in>GUITestResult.h</in>
+            <in>ProgressBar.cpp</in>
+            <in>ProgressBar.h</in>
+            <in>SynchronizedTestResult.h</in>
+            <in>TestResultDecorator.h</in>
+            <in>TestRunnerDlg.cpp</in>
+            <in>TestRunnerDlg.h</in>
+            <in>WinTestRunner.cpp</in>
+          </df>
+        </df>
+      </df>
+      <df name="doc">
+      </df>
+      <df name="Foundation">
+        <df name="cmake">
+        </df>
+        <df name="include">
+          <df name="Poco">
+            <df name="Dynamic">
+              <in>Pair.h</in>
+              <in>Struct.h</in>
+              <in>Var.h</in>
+              <in>VarHolder.h</in>
+              <in>VarIterator.h</in>
+            </df>
+            <in>ASCIIEncoding.h</in>
+            <in>AbstractCache.h</in>
+            <in>AbstractDelegate.h</in>
+            <in>AbstractEvent.h</in>
+            <in>AbstractObserver.h</in>
+            <in>AbstractPriorityDelegate.h</in>
+            <in>AbstractStrategy.h</in>
+            <in>AccessExpirationDecorator.h</in>
+            <in>AccessExpireCache.h</in>
+            <in>AccessExpireLRUCache.h</in>
+            <in>AccessExpireStrategy.h</in>
+            <in>ActiveDispatcher.h</in>
+            <in>ActiveMethod.h</in>
+            <in>ActiveResult.h</in>
+            <in>ActiveRunnable.h</in>
+            <in>ActiveStarter.h</in>
+            <in>Activity.h</in>
+            <in>Alignment.h</in>
+            <in>Any.h</in>
+            <in>ArchiveStrategy.h</in>
+            <in>Array.h</in>
+            <in>Ascii.h</in>
+            <in>AsyncChannel.h</in>
+            <in>AtomicCounter.h</in>
+            <in>AutoPtr.h</in>
+            <in>AutoReleasePool.h</in>
+            <in>Base32Decoder.h</in>
+            <in>Base32Encoder.h</in>
+            <in>Base64Decoder.h</in>
+            <in>Base64Encoder.h</in>
+            <in>BasicEvent.h</in>
+            <in>BinaryReader.h</in>
+            <in>BinaryWriter.h</in>
+            <in>Buffer.h</in>
+            <in>BufferAllocator.h</in>
+            <in>BufferedBidirectionalStreamBuf.h</in>
+            <in>BufferedStreamBuf.h</in>
+            <in>Bugcheck.h</in>
+            <in>ByteOrder.h</in>
+            <in>Channel.h</in>
+            <in>Checksum.h</in>
+            <in>ClassLibrary.h</in>
+            <in>ClassLoader.h</in>
+            <in>Clock.h</in>
+            <in>Condition.h</in>
+            <in>Config.h</in>
+            <in>Configurable.h</in>
+            <in>ConsoleChannel.h</in>
+            <in>CountingStream.h</in>
+            <in>DateTime.h</in>
+            <in>DateTimeFormat.h</in>
+            <in>DateTimeFormatter.h</in>
+            <in>DateTimeParser.h</in>
+            <in>Debugger.h</in>
+            <in>DefaultStrategy.h</in>
+            <in>DeflatingStream.h</in>
+            <in>Delegate.h</in>
+            <in>DigestEngine.h</in>
+            <in>DigestStream.h</in>
+            <in>DirectoryIterator.h</in>
+            <in>DirectoryIteratorStrategy.h</in>
+            <in>DirectoryIterator_UNIX.h</in>
+            <in>DirectoryIterator_VMS.h</in>
+            <in>DirectoryIterator_WIN32.h</in>
+            <in>DirectoryIterator_WIN32U.h</in>
+            <in>DirectoryWatcher.h</in>
+            <in>DynamicAny.h</in>
+            <in>DynamicAnyHolder.h</in>
+            <in>DynamicFactory.h</in>
+            <in>DynamicStruct.h</in>
+            <in>Environment.h</in>
+            <in>Environment_UNIX.h</in>
+            <in>Environment_VMS.h</in>
+            <in>Environment_VX.h</in>
+            <in>Environment_WIN32.h</in>
+            <in>Environment_WIN32U.h</in>
+            <in>Environment_WINCE.h</in>
+            <in>Error.h</in>
+            <in>ErrorHandler.h</in>
+            <in>Event.h</in>
+            <in>EventArgs.h</in>
+            <in>EventLogChannel.h</in>
+            <in>Event_POSIX.h</in>
+            <in>Event_VX.h</in>
+            <in>Event_WIN32.h</in>
+            <in>Exception.h</in>
+            <in>ExpirationDecorator.h</in>
+            <in>Expire.h</in>
+            <in>ExpireCache.h</in>
+            <in>ExpireLRUCache.h</in>
+            <in>ExpireStrategy.h</in>
+            <in>FIFOBuffer.h</in>
+            <in>FIFOBufferStream.h</in>
+            <in>FIFOEvent.h</in>
+            <in>FIFOStrategy.h</in>
+            <in>FPEnvironment.h</in>
+            <in>FPEnvironment_C99.h</in>
+            <in>FPEnvironment_DEC.h</in>
+            <in>FPEnvironment_DUMMY.h</in>
+            <in>FPEnvironment_SUN.h</in>
+            <in>FPEnvironment_WIN32.h</in>
+            <in>File.h</in>
+            <in>FileChannel.h</in>
+            <in>FileStream.h</in>
+            <in>FileStreamFactory.h</in>
+            <in>FileStream_POSIX.h</in>
+            <in>FileStream_WIN32.h</in>
+            <in>File_UNIX.h</in>
+            <in>File_VMS.h</in>
+            <in>File_VX.h</in>
+            <in>File_WIN32.h</in>
+            <in>File_WIN32U.h</in>
+            <in>File_WINCE.h</in>
+            <in>Format.h</in>
+            <in>Formatter.h</in>
+            <in>FormattingChannel.h</in>
+            <in>Foundation.h</in>
+            <in>FunctionDelegate.h</in>
+            <in>FunctionPriorityDelegate.h</in>
+            <in>Glob.h</in>
+            <in>HMACEngine.h</in>
+            <in>Hash.h</in>
+            <in>HashFunction.h</in>
+            <in>HashMap.h</in>
+            <in>HashSet.h</in>
+            <in>HashStatistic.h</in>
+            <in>HashTable.h</in>
+            <in>HexBinaryDecoder.h</in>
+            <in>HexBinaryEncoder.h</in>
+            <in>InflatingStream.h</in>
+            <in>Instantiator.h</in>
+            <in>KeyValueArgs.h</in>
+            <in>LRUCache.h</in>
+            <in>LRUStrategy.h</in>
+            <in>Latin1Encoding.h</in>
+            <in>Latin2Encoding.h</in>
+            <in>Latin9Encoding.h</in>
+            <in>LineEndingConverter.h</in>
+            <in>LinearHashTable.h</in>
+            <in>ListMap.h</in>
+            <in>LocalDateTime.h</in>
+            <in>LogFile.h</in>
+            <in>LogFile_STD.h</in>
+            <in>LogFile_VMS.h</in>
+            <in>LogFile_WIN32.h</in>
+            <in>LogFile_WIN32U.h</in>
+            <in>LogStream.h</in>
+            <in>Logger.h</in>
+            <in>LoggingFactory.h</in>
+            <in>LoggingRegistry.h</in>
+            <in>MD4Engine.h</in>
+            <in>MD5Engine.h</in>
+            <in>Manifest.h</in>
+            <in>MemoryPool.h</in>
+            <in>MemoryStream.h</in>
+            <in>Message.h</in>
+            <in>MetaObject.h</in>
+            <in>MetaProgramming.h</in>
+            <in>Mutex.h</in>
+            <in>Mutex_POSIX.h</in>
+            <in>Mutex_VX.h</in>
+            <in>Mutex_WIN32.h</in>
+            <in>Mutex_WINCE.h</in>
+            <in>NObserver.h</in>
+            <in>NamedEvent.h</in>
+            <in>NamedEvent_Android.h</in>
+            <in>NamedEvent_UNIX.h</in>
+            <in>NamedEvent_VMS.h</in>
+            <in>NamedEvent_WIN32.h</in>
+            <in>NamedEvent_WIN32U.h</in>
+            <in>NamedMutex.h</in>
+            <in>NamedMutex_Android.h</in>
+            <in>NamedMutex_UNIX.h</in>
+            <in>NamedMutex_VMS.h</in>
+            <in>NamedMutex_WIN32.h</in>
+            <in>NamedMutex_WIN32U.h</in>
+            <in>NamedTuple.h</in>
+            <in>NestedDiagnosticContext.h</in>
+            <in>Notification.h</in>
+            <in>NotificationCenter.h</in>
+            <in>NotificationQueue.h</in>
+            <in>NotificationStrategy.h</in>
+            <in>NullChannel.h</in>
+            <in>NullStream.h</in>
+            <in>Nullable.h</in>
+            <in>NumberFormatter.h</in>
+            <in>NumberParser.h</in>
+            <in>NumericString.h</in>
+            <in>ObjectPool.h</in>
+            <in>Observer.h</in>
+            <in>OpcomChannel.h</in>
+            <in>Optional.h</in>
+            <in>PBKDF2Engine.h</in>
+            <in>Path.h</in>
+            <in>Path_UNIX.h</in>
+            <in>Path_VMS.h</in>
+            <in>Path_WIN32.h</in>
+            <in>Path_WIN32U.h</in>
+            <in>Path_WINCE.h</in>
+            <in>PatternFormatter.h</in>
+            <in>Pipe.h</in>
+            <in>PipeImpl.h</in>
+            <in>PipeImpl_DUMMY.h</in>
+            <in>PipeImpl_POSIX.h</in>
+            <in>PipeImpl_WIN32.h</in>
+            <in>PipeStream.h</in>
+            <in>Platform.h</in>
+            <in>Platform_POSIX.h</in>
+            <in>Platform_VMS.h</in>
+            <in>Platform_VX.h</in>
+            <in>Platform_WIN32.h</in>
+            <in>Poco.h</in>
+            <in>PriorityDelegate.h</in>
+            <in>PriorityEvent.h</in>
+            <in>PriorityExpire.h</in>
+            <in>PriorityNotificationQueue.h</in>
+            <in>PriorityStrategy.h</in>
+            <in>Process.h</in>
+            <in>Process_UNIX.h</in>
+            <in>Process_VMS.h</in>
+            <in>Process_VX.h</in>
+            <in>Process_WIN32.h</in>
+            <in>Process_WIN32U.h</in>
+            <in>Process_WINCE.h</in>
+            <in>PurgeStrategy.h</in>
+            <in>RWLock.h</in>
+            <in>RWLock_Android.h</in>
+            <in>RWLock_POSIX.h</in>
+            <in>RWLock_VX.h</in>
+            <in>RWLock_WIN32.h</in>
+            <in>RWLock_WINCE.h</in>
+            <in>Random.h</in>
+            <in>RandomStream.h</in>
+            <in>RecursiveDirectoryIterator.h</in>
+            <in>RecursiveDirectoryIteratorImpl.h</in>
+            <in>RefCountedObject.h</in>
+            <in>RegularExpression.h</in>
+            <in>RotateStrategy.h</in>
+            <in>Runnable.h</in>
+            <in>RunnableAdapter.h</in>
+            <in>SHA1Engine.h</in>
+            <in>ScopedLock.h</in>
+            <in>ScopedUnlock.h</in>
+            <in>Semaphore.h</in>
+            <in>Semaphore_POSIX.h</in>
+            <in>Semaphore_VX.h</in>
+            <in>Semaphore_WIN32.h</in>
+            <in>SharedLibrary.h</in>
+            <in>SharedLibrary_HPUX.h</in>
+            <in>SharedLibrary_UNIX.h</in>
+            <in>SharedLibrary_VMS.h</in>
+            <in>SharedLibrary_VX.h</in>
+            <in>SharedLibrary_WIN32.h</in>
+            <in>SharedLibrary_WIN32U.h</in>
+            <in>SharedMemory.h</in>
+            <in>SharedMemory_DUMMY.h</in>
+            <in>SharedMemory_POSIX.h</in>
+            <in>SharedMemory_WIN32.h</in>
+            <in>SharedPtr.h</in>
+            <in>SignalHandler.h</in>
+            <in>SimpleFileChannel.h</in>
+            <in>SimpleHashTable.h</in>
+            <in>SingletonHolder.h</in>
+            <in>SortedDirectoryIterator.h</in>
+            <in>SplitterChannel.h</in>
+            <in>Stopwatch.h</in>
+            <in>StrategyCollection.h</in>
+            <in>StreamChannel.h</in>
+            <in>StreamConverter.h</in>
+            <in>StreamCopier.h</in>
+            <in>StreamTokenizer.h</in>
+            <in>StreamUtil.h</in>
+            <in>String.h</in>
+            <in>StringTokenizer.h</in>
+            <in>SynchronizedObject.h</in>
+            <in>SyslogChannel.h</in>
+            <in>Task.h</in>
+            <in>TaskManager.h</in>
+            <in>TaskNotification.h</in>
+            <in>TeeStream.h</in>
+            <in>TemporaryFile.h</in>
+            <in>TextBufferIterator.h</in>
+            <in>TextConverter.h</in>
+            <in>TextEncoding.h</in>
+            <in>TextIterator.h</in>
+            <in>Thread.h</in>
+            <in>ThreadLocal.h</in>
+            <in>ThreadPool.h</in>
+            <in>ThreadTarget.h</in>
+            <in>Thread_POSIX.h</in>
+            <in>Thread_VX.h</in>
+            <in>Thread_WIN32.h</in>
+            <in>Thread_WINCE.h</in>
+            <in>TimedNotificationQueue.h</in>
+            <in>Timer.h</in>
+            <in>Timespan.h</in>
+            <in>Timestamp.h</in>
+            <in>Timezone.h</in>
+            <in>Token.h</in>
+            <in>Tuple.h</in>
+            <in>TypeList.h</in>
+            <in>Types.h</in>
+            <in>URI.h</in>
+            <in>URIStreamFactory.h</in>
+            <in>URIStreamOpener.h</in>
+            <in>UTF16Encoding.h</in>
+            <in>UTF32Encoding.h</in>
+            <in>UTF8Encoding.h</in>
+            <in>UTF8String.h</in>
+            <in>UTFString.h</in>
+            <in>UUID.h</in>
+            <in>UUIDGenerator.h</in>
+            <in>UnWindows.h</in>
+            <in>UnbufferedStreamBuf.h</in>
+            <in>Unicode.h</in>
+            <in>UnicodeConverter.h</in>
+            <in>UniqueAccessExpireCache.h</in>
+            <in>UniqueAccessExpireLRUCache.h</in>
+            <in>UniqueAccessExpireStrategy.h</in>
+            <in>UniqueExpireCache.h</in>
+            <in>UniqueExpireLRUCache.h</in>
+            <in>UniqueExpireStrategy.h</in>
+            <in>ValidArgs.h</in>
+            <in>Version.h</in>
+            <in>Void.h</in>
+            <in>Windows1250Encoding.h</in>
+            <in>Windows1251Encoding.h</in>
+            <in>Windows1252Encoding.h</in>
+            <in>WindowsConsoleChannel.h</in>
+            <in>zconf.h</in>
+            <in>zlib.h</in>
+          </df>
+        </df>
+        <df name="obj">
+          <df name="Linux">
+            <df name="i686">
+              <df name="debug_shared">
+              </df>
+              <df name="debug_static">
+              </df>
+              <df name="release_shared">
+              </df>
+              <df name="release_static">
+              </df>
+            </df>
+          </df>
+        </df>
+        <df name="samples">
+          <df name="ActiveMethod">
+            <df name="bin">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="obj">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="debug_shared">
+                  </df>
+                  <df name="debug_static">
+                  </df>
+                  <df name="release_shared">
+                  </df>
+                  <df name="release_static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="src">
+              <in>ActiveMethod.cpp</in>
+            </df>
+          </df>
+          <df name="Activity">
+            <df name="bin">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="obj">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="debug_shared">
+                  </df>
+                  <df name="debug_static">
+                  </df>
+                  <df name="release_shared">
+                  </df>
+                  <df name="release_static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="src">
+              <in>Activity.cpp</in>
+            </df>
+          </df>
+          <df name="base64decode">
+            <df name="bin">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="obj">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="debug_shared">
+                  </df>
+                  <df name="debug_static">
+                  </df>
+                  <df name="release_shared">
+                  </df>
+                  <df name="release_static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="src">
+              <in>base64decode.cpp</in>
+            </df>
+          </df>
+          <df name="base64encode">
+            <df name="bin">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="obj">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="debug_shared">
+                  </df>
+                  <df name="debug_static">
+                  </df>
+                  <df name="release_shared">
+                  </df>
+                  <df name="release_static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="src">
+              <in>base64encode.cpp</in>
+            </df>
+          </df>
+          <df name="BinaryReaderWriter">
+            <df name="bin">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="obj">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="debug_shared">
+                  </df>
+                  <df name="debug_static">
+                  </df>
+                  <df name="release_shared">
+                  </df>
+                  <df name="release_static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="src">
+              <in>BinaryReaderWriter.cpp</in>
+            </df>
+          </df>
+          <df name="DateTime">
+            <df name="bin">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="obj">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="debug_shared">
+                  </df>
+                  <df name="debug_static">
+                  </df>
+                  <df name="release_shared">
+                  </df>
+                  <df name="release_static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="src">
+              <in>DateTime.cpp</in>
+            </df>
+          </df>
+          <df name="deflate">
+            <df name="bin">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="obj">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="debug_shared">
+                  </df>
+                  <df name="debug_static">
+                  </df>
+                  <df name="release_shared">
+                  </df>
+                  <df name="release_static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="src">
+              <in>deflate.cpp</in>
+            </df>
+          </df>
+          <df name="dir">
+            <df name="bin">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="obj">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="debug_shared">
+                  </df>
+                  <df name="debug_static">
+                  </df>
+                  <df name="release_shared">
+                  </df>
+                  <df name="release_static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="src">
+              <in>dir.cpp</in>
+            </df>
+          </df>
+          <df name="grep">
+            <df name="bin">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="obj">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="debug_shared">
+                  </df>
+                  <df name="debug_static">
+                  </df>
+                  <df name="release_shared">
+                  </df>
+                  <df name="release_static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="src">
+              <in>grep.cpp</in>
+            </df>
+          </df>
+          <df name="hmacmd5">
+            <df name="bin">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="obj">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="debug_shared">
+                  </df>
+                  <df name="debug_static">
+                  </df>
+                  <df name="release_shared">
+                  </df>
+                  <df name="release_static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="src">
+              <in>hmacmd5.cpp</in>
+            </df>
+          </df>
+          <df name="inflate">
+            <df name="bin">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="obj">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="debug_shared">
+                  </df>
+                  <df name="debug_static">
+                  </df>
+                  <df name="release_shared">
+                  </df>
+                  <df name="release_static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="src">
+              <in>inflate.cpp</in>
+            </df>
+          </df>
+          <df name="LineEndingConverter">
+            <df name="bin">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="obj">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="debug_shared">
+                  </df>
+                  <df name="debug_static">
+                  </df>
+                  <df name="release_shared">
+                  </df>
+                  <df name="release_static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="src">
+              <in>LineEndingConverter.cpp</in>
+            </df>
+          </df>
+          <df name="Logger">
+            <df name="bin">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="obj">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="debug_shared">
+                  </df>
+                  <df name="debug_static">
+                  </df>
+                  <df name="release_shared">
+                  </df>
+                  <df name="release_static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="src">
+              <in>Logger.cpp</in>
+            </df>
+          </df>
+          <df name="LogRotation">
+            <df name="src">
+              <in>LogRotation.cpp</in>
+            </df>
+          </df>
+          <df name="md5">
+            <df name="bin">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="obj">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="debug_shared">
+                  </df>
+                  <df name="debug_static">
+                  </df>
+                  <df name="release_shared">
+                  </df>
+                  <df name="release_static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="src">
+              <in>md5.cpp</in>
+            </df>
+          </df>
+          <df name="NotificationQueue">
+            <df name="bin">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="obj">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="debug_shared">
+                  </df>
+                  <df name="debug_static">
+                  </df>
+                  <df name="release_shared">
+                  </df>
+                  <df name="release_static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="src">
+              <in>NotificationQueue.cpp</in>
+            </df>
+          </df>
+          <df name="StringTokenizer">
+            <df name="bin">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="obj">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="debug_shared">
+                  </df>
+                  <df name="debug_static">
+                  </df>
+                  <df name="release_shared">
+                  </df>
+                  <df name="release_static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="src">
+              <in>StringTokenizer.cpp</in>
+            </df>
+          </df>
+          <df name="Timer">
+            <df name="bin">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="obj">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="debug_shared">
+                  </df>
+                  <df name="debug_static">
+                  </df>
+                  <df name="release_shared">
+                  </df>
+                  <df name="release_static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="src">
+              <in>Timer.cpp</in>
+            </df>
+          </df>
+          <df name="URI">
+            <df name="bin">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="obj">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="debug_shared">
+                  </df>
+                  <df name="debug_static">
+                  </df>
+                  <df name="release_shared">
+                  </df>
+                  <df name="release_static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="src">
+              <in>URI.cpp</in>
+            </df>
+          </df>
+          <df name="uuidgen">
+            <df name="bin">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="obj">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="debug_shared">
+                  </df>
+                  <df name="debug_static">
+                  </df>
+                  <df name="release_shared">
+                  </df>
+                  <df name="release_static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="src">
+              <in>uuidgen.cpp</in>
+            </df>
+          </df>
+        </df>
+        <df name="src">
+          <in>ASCIIEncoding.cpp</in>
+          <in>AbstractObserver.cpp</in>
+          <in>ActiveDispatcher.cpp</in>
+          <in>ArchiveStrategy.cpp</in>
+          <in>Ascii.cpp</in>
+          <in>AsyncChannel.cpp</in>
+          <in>AtomicCounter.cpp</in>
+          <in>Base32Decoder.cpp</in>
+          <in>Base32Encoder.cpp</in>
+          <in>Base64Decoder.cpp</in>
+          <in>Base64Encoder.cpp</in>
+          <in>BinaryReader.cpp</in>
+          <in>BinaryWriter.cpp</in>
+          <in>Bugcheck.cpp</in>
+          <in>ByteOrder.cpp</in>
+          <in>Channel.cpp</in>
+          <in>Checksum.cpp</in>
+          <in>Clock.cpp</in>
+          <in>Condition.cpp</in>
+          <in>Configurable.cpp</in>
+          <in>ConsoleChannel.cpp</in>
+          <in>CountingStream.cpp</in>
+          <in>DateTime.cpp</in>
+          <in>DateTimeFormat.cpp</in>
+          <in>DateTimeFormatter.cpp</in>
+          <in>DateTimeParser.cpp</in>
+          <in>Debugger.cpp</in>
+          <in>DeflatingStream.cpp</in>
+          <in>DigestEngine.cpp</in>
+          <in>DigestStream.cpp</in>
+          <in>DirectoryIterator.cpp</in>
+          <in>DirectoryIteratorStrategy.cpp</in>
+          <in>DirectoryIterator_UNIX.cpp</in>
+          <in>DirectoryIterator_VMS.cpp</in>
+          <in>DirectoryIterator_WIN32.cpp</in>
+          <in>DirectoryIterator_WIN32U.cpp</in>
+          <in>DirectoryWatcher.cpp</in>
+          <in>Environment.cpp</in>
+          <in>Environment_UNIX.cpp</in>
+          <in>Environment_VMS.cpp</in>
+          <in>Environment_VX.cpp</in>
+          <in>Environment_WIN32.cpp</in>
+          <in>Environment_WIN32U.cpp</in>
+          <in>Environment_WINCE.cpp</in>
+          <in>Error.cpp</in>
+          <in>ErrorHandler.cpp</in>
+          <in>Event.cpp</in>
+          <in>EventArgs.cpp</in>
+          <in>EventLogChannel.cpp</in>
+          <in>Event_POSIX.cpp</in>
+          <in>Event_VX.cpp</in>
+          <in>Event_WIN32.cpp</in>
+          <in>Exception.cpp</in>
+          <in>FIFOBufferStream.cpp</in>
+          <in>FPEnvironment.cpp</in>
+          <in>FPEnvironment_C99.cpp</in>
+          <in>FPEnvironment_DEC.cpp</in>
+          <in>FPEnvironment_DUMMY.cpp</in>
+          <in>FPEnvironment_SUN.cpp</in>
+          <in>FPEnvironment_WIN32.cpp</in>
+          <in>File.cpp</in>
+          <in>FileChannel.cpp</in>
+          <in>FileStream.cpp</in>
+          <in>FileStreamFactory.cpp</in>
+          <in>FileStream_POSIX.cpp</in>
+          <in>FileStream_WIN32.cpp</in>
+          <in>File_UNIX.cpp</in>
+          <in>File_VMS.cpp</in>
+          <in>File_VX.cpp</in>
+          <in>File_WIN32.cpp</in>
+          <in>File_WIN32U.cpp</in>
+          <in>File_WINCE.cpp</in>
+          <in>Format.cpp</in>
+          <in>Formatter.cpp</in>
+          <in>FormattingChannel.cpp</in>
+          <in>Glob.cpp</in>
+          <in>Hash.cpp</in>
+          <in>HashStatistic.cpp</in>
+          <in>HexBinaryDecoder.cpp</in>
+          <in>HexBinaryEncoder.cpp</in>
+          <in>InflatingStream.cpp</in>
+          <in>Latin1Encoding.cpp</in>
+          <in>Latin2Encoding.cpp</in>
+          <in>Latin9Encoding.cpp</in>
+          <in>LineEndingConverter.cpp</in>
+          <in>LocalDateTime.cpp</in>
+          <in>LogFile.cpp</in>
+          <in>LogFile_STD.cpp</in>
+          <in>LogFile_VMS.cpp</in>
+          <in>LogFile_WIN32.cpp</in>
+          <in>LogFile_WIN32U.cpp</in>
+          <in>LogStream.cpp</in>
+          <in>Logger.cpp</in>
+          <in>LoggingFactory.cpp</in>
+          <in>LoggingRegistry.cpp</in>
+          <in>MD4Engine.cpp</in>
+          <in>MD5Engine.cpp</in>
+          <in>Manifest.cpp</in>
+          <in>MemoryPool.cpp</in>
+          <in>MemoryStream.cpp</in>
+          <in>Message.cpp</in>
+          <in>Mutex.cpp</in>
+          <in>Mutex_POSIX.cpp</in>
+          <in>Mutex_VX.cpp</in>
+          <in>Mutex_WIN32.cpp</in>
+          <in>Mutex_WINCE.cpp</in>
+          <in>NamedEvent.cpp</in>
+          <in>NamedEvent_Android.cpp</in>
+          <in>NamedEvent_UNIX.cpp</in>
+          <in>NamedEvent_VMS.cpp</in>
+          <in>NamedEvent_WIN32.cpp</in>
+          <in>NamedEvent_WIN32U.cpp</in>
+          <in>NamedMutex.cpp</in>
+          <in>NamedMutex_Android.cpp</in>
+          <in>NamedMutex_UNIX.cpp</in>
+          <in>NamedMutex_VMS.cpp</in>
+          <in>NamedMutex_WIN32.cpp</in>
+          <in>NamedMutex_WIN32U.cpp</in>
+          <in>NestedDiagnosticContext.cpp</in>
+          <in>Notification.cpp</in>
+          <in>NotificationCenter.cpp</in>
+          <in>NotificationQueue.cpp</in>
+          <in>NullChannel.cpp</in>
+          <in>NullStream.cpp</in>
+          <in>NumberFormatter.cpp</in>
+          <in>NumberParser.cpp</in>
+          <in>NumericString.cpp</in>
+          <in>OpcomChannel.cpp</in>
+          <in>Path.cpp</in>
+          <in>Path_UNIX.cpp</in>
+          <in>Path_VMS.cpp</in>
+          <in>Path_WIN32.cpp</in>
+          <in>Path_WIN32U.cpp</in>
+          <in>Path_WINCE.cpp</in>
+          <in>PatternFormatter.cpp</in>
+          <in>Pipe.cpp</in>
+          <in>PipeImpl.cpp</in>
+          <in>PipeImpl_DUMMY.cpp</in>
+          <in>PipeImpl_POSIX.cpp</in>
+          <in>PipeImpl_WIN32.cpp</in>
+          <in>PipeStream.cpp</in>
+          <in>PriorityNotificationQueue.cpp</in>
+          <in>Process.cpp</in>
+          <in>Process_UNIX.cpp</in>
+          <in>Process_VMS.cpp</in>
+          <in>Process_VX.cpp</in>
+          <in>Process_WIN32.cpp</in>
+          <in>Process_WIN32U.cpp</in>
+          <in>Process_WINCE.cpp</in>
+          <in>PurgeStrategy.cpp</in>
+          <in>RWLock.cpp</in>
+          <in>RWLock_Android.cpp</in>
+          <in>RWLock_POSIX.cpp</in>
+          <in>RWLock_VX.cpp</in>
+          <in>RWLock_WIN32.cpp</in>
+          <in>RWLock_WINCE.cpp</in>
+          <in>Random.cpp</in>
+          <in>RandomStream.cpp</in>
+          <in>RefCountedObject.cpp</in>
+          <in>RegularExpression.cpp</in>
+          <in>RotateStrategy.cpp</in>
+          <in>Runnable.cpp</in>
+          <in>SHA1Engine.cpp</in>
+          <in>Semaphore.cpp</in>
+          <in>Semaphore_POSIX.cpp</in>
+          <in>Semaphore_VX.cpp</in>
+          <in>Semaphore_WIN32.cpp</in>
+          <in>SharedLibrary.cpp</in>
+          <in>SharedLibrary_HPUX.cpp</in>
+          <in>SharedLibrary_UNIX.cpp</in>
+          <in>SharedLibrary_VMS.cpp</in>
+          <in>SharedLibrary_VX.cpp</in>
+          <in>SharedLibrary_WIN32.cpp</in>
+          <in>SharedLibrary_WIN32U.cpp</in>
+          <in>SharedMemory.cpp</in>
+          <in>SharedMemory_DUMMY.cpp</in>
+          <in>SharedMemory_POSIX.cpp</in>
+          <in>SharedMemory_WIN32.cpp</in>
+          <in>SignalHandler.cpp</in>
+          <in>SimpleFileChannel.cpp</in>
+          <in>SortedDirectoryIterator.cpp</in>
+          <in>SplitterChannel.cpp</in>
+          <in>Stopwatch.cpp</in>
+          <in>StreamChannel.cpp</in>
+          <in>StreamConverter.cpp</in>
+          <in>StreamCopier.cpp</in>
+          <in>StreamTokenizer.cpp</in>
+          <in>String.cpp</in>
+          <in>StringTokenizer.cpp</in>
+          <in>SynchronizedObject.cpp</in>
+          <in>SyslogChannel.cpp</in>
+          <in>Task.cpp</in>
+          <in>TaskManager.cpp</in>
+          <in>TaskNotification.cpp</in>
+          <in>TeeStream.cpp</in>
+          <in>TemporaryFile.cpp</in>
+          <in>TextBufferIterator.cpp</in>
+          <in>TextConverter.cpp</in>
+          <in>TextEncoding.cpp</in>
+          <in>TextIterator.cpp</in>
+          <in>Thread.cpp</in>
+          <in>ThreadLocal.cpp</in>
+          <in>ThreadPool.cpp</in>
+          <in>ThreadTarget.cpp</in>
+          <in>Thread_POSIX.cpp</in>
+          <in>Thread_VX.cpp</in>
+          <in>Thread_WIN32.cpp</in>
+          <in>Thread_WINCE.cpp</in>
+          <in>TimedNotificationQueue.cpp</in>
+          <in>Timer.cpp</in>
+          <in>Timespan.cpp</in>
+          <in>Timestamp.cpp</in>
+          <in>Timezone.cpp</in>
+          <in>Timezone_UNIX.cpp</in>
+          <in>Timezone_VX.cpp</in>
+          <in>Timezone_WIN32.cpp</in>
+          <in>Timezone_WINCE.cpp</in>
+          <in>Token.cpp</in>
+          <in>URI.cpp</in>
+          <in>URIStreamFactory.cpp</in>
+          <in>URIStreamOpener.cpp</in>
+          <in>UTF16Encoding.cpp</in>
+          <in>UTF32Encoding.cpp</in>
+          <in>UTF8Encoding.cpp</in>
+          <in>UTF8String.cpp</in>
+          <in>UUID.cpp</in>
+          <in>UUIDGenerator.cpp</in>
+          <in>Unicode.cpp</in>
+          <in>UnicodeConverter.cpp</in>
+          <in>Var.cpp</in>
+          <in>VarHolder.cpp</in>
+          <in>VarIterator.cpp</in>
+          <in>Void.cpp</in>
+          <in>Windows1250Encoding.cpp</in>
+          <in>Windows1251Encoding.cpp</in>
+          <in>Windows1252Encoding.cpp</in>
+          <in>WindowsConsoleChannel.cpp</in>
+          <in>adler32.c</in>
+          <in>bignum-dtoa.cc</in>
+          <in>bignum-dtoa.h</in>
+          <in>bignum.cc</in>
+          <in>bignum.h</in>
+          <in>cached-powers.cc</in>
+          <in>cached-powers.h</in>
+          <in>compress.c</in>
+          <in>crc32.c</in>
+          <in>crc32.h</in>
+          <in>deflate.c</in>
+          <in>deflate.h</in>
+          <in>diy-fp.cc</in>
+          <in>diy-fp.h</in>
+          <in>double-conversion.cc</in>
+          <in>double-conversion.h</in>
+          <in>fast-dtoa.cc</in>
+          <in>fast-dtoa.h</in>
+          <in>fixed-dtoa.cc</in>
+          <in>fixed-dtoa.h</in>
+          <in>gzguts.h</in>
+          <in>ieee.h</in>
+          <in>infback.c</in>
+          <in>inffast.c</in>
+          <in>inffast.h</in>
+          <in>inffixed.h</in>
+          <in>inflate.c</in>
+          <in>inflate.h</in>
+          <in>inftrees.c</in>
+          <in>inftrees.h</in>
+          <in>pcre.h</in>
+          <in>pcre_byte_order.c</in>
+          <in>pcre_chartables.c</in>
+          <in>pcre_compile.c</in>
+          <in>pcre_config.c</in>
+          <in>pcre_config.h</in>
+          <in>pcre_dfa_exec.c</in>
+          <in>pcre_exec.c</in>
+          <in>pcre_fullinfo.c</in>
+          <in>pcre_get.c</in>
+          <in>pcre_globals.c</in>
+          <in>pcre_internal.h</in>
+          <in>pcre_jit_compile.c</in>
+          <in>pcre_maketables.c</in>
+          <in>pcre_newline.c</in>
+          <in>pcre_ord2utf8.c</in>
+          <in>pcre_refcount.c</in>
+          <in>pcre_string_utils.c</in>
+          <in>pcre_study.c</in>
+          <in>pcre_tables.c</in>
+          <in>pcre_ucd.c</in>
+          <in>pcre_valid_utf8.c</in>
+          <in>pcre_version.c</in>
+          <in>pcre_xclass.c</in>
+          <in>strtod.cc</in>
+          <in>strtod.h</in>
+          <in>trees.c</in>
+          <in>trees.h</in>
+          <in>ucp.h</in>
+          <in>utils.h</in>
+          <in>zconf.h</in>
+          <in>zlib.h</in>
+          <in>zutil.c</in>
+          <in>zutil.h</in>
+        </df>
+        <df name="testsuite">
+          <df name="bin">
+            <df name="Linux">
+              <df name="i686">
+              </df>
+            </df>
+          </df>
+          <df name="data">
+          </df>
+          <df name="obj">
+            <df name="Linux">
+              <df name="i686">
+                <df name="debug_shared">
+                </df>
+                <df name="debug_static">
+                </df>
+                <df name="release_shared">
+                </df>
+                <df name="release_static">
+                </df>
+              </df>
+            </df>
+          </df>
+          <df name="src">
+            <in>ActiveDispatcherTest.cpp</in>
+            <in>ActiveDispatcherTest.h</in>
+            <in>ActiveMethodTest.cpp</in>
+            <in>ActiveMethodTest.h</in>
+            <in>ActivityTest.cpp</in>
+            <in>ActivityTest.h</in>
+            <in>AnyTest.cpp</in>
+            <in>AnyTest.h</in>
+            <in>ArrayTest.cpp</in>
+            <in>ArrayTest.h</in>
+            <in>AutoPtrTest.cpp</in>
+            <in>AutoPtrTest.h</in>
+            <in>AutoReleasePoolTest.cpp</in>
+            <in>AutoReleasePoolTest.h</in>
+            <in>Base32Test.cpp</in>
+            <in>Base32Test.h</in>
+            <in>Base64Test.cpp</in>
+            <in>Base64Test.h</in>
+            <in>BasicEventTest.cpp</in>
+            <in>BasicEventTest.h</in>
+            <in>BinaryReaderWriterTest.cpp</in>
+            <in>BinaryReaderWriterTest.h</in>
+            <in>ByteOrderTest.cpp</in>
+            <in>ByteOrderTest.h</in>
+            <in>CacheTestSuite.cpp</in>
+            <in>CacheTestSuite.h</in>
+            <in>ChannelTest.cpp</in>
+            <in>ChannelTest.h</in>
+            <in>ClassLoaderTest.cpp</in>
+            <in>ClassLoaderTest.h</in>
+            <in>ClockTest.cpp</in>
+            <in>ClockTest.h</in>
+            <in>ConditionTest.cpp</in>
+            <in>ConditionTest.h</in>
+            <in>CoreTest.cpp</in>
+            <in>CoreTest.h</in>
+            <in>CoreTestSuite.cpp</in>
+            <in>CoreTestSuite.h</in>
+            <in>CountingStreamTest.cpp</in>
+            <in>CountingStreamTest.h</in>
+            <in>CryptTestSuite.cpp</in>
+            <in>CryptTestSuite.h</in>
+            <in>DateTimeFormatterTest.cpp</in>
+            <in>DateTimeFormatterTest.h</in>
+            <in>DateTimeParserTest.cpp</in>
+            <in>DateTimeParserTest.h</in>
+            <in>DateTimeTest.cpp</in>
+            <in>DateTimeTest.h</in>
+            <in>DateTimeTestSuite.cpp</in>
+            <in>DateTimeTestSuite.h</in>
+            <in>DigestStreamTest.cpp</in>
+            <in>DigestStreamTest.h</in>
+            <in>DirectoryIteratorsTest.cpp</in>
+            <in>DirectoryIteratorsTest.h</in>
+            <in>DirectoryWatcherTest.cpp</in>
+            <in>DirectoryWatcherTest.h</in>
+            <in>Driver.cpp</in>
+            <in>DummyDelegate.cpp</in>
+            <in>DummyDelegate.h</in>
+            <in>DynamicFactoryTest.cpp</in>
+            <in>DynamicFactoryTest.h</in>
+            <in>DynamicTestSuite.cpp</in>
+            <in>DynamicTestSuite.h</in>
+            <in>EventTestSuite.cpp</in>
+            <in>EventTestSuite.h</in>
+            <in>ExpireCacheTest.cpp</in>
+            <in>ExpireCacheTest.h</in>
+            <in>ExpireLRUCacheTest.cpp</in>
+            <in>ExpireLRUCacheTest.h</in>
+            <in>FIFOBufferStreamTest.cpp</in>
+            <in>FIFOBufferStreamTest.h</in>
+            <in>FIFOEventTest.cpp</in>
+            <in>FIFOEventTest.h</in>
+            <in>FPETest.cpp</in>
+            <in>FPETest.h</in>
+            <in>FileChannelTest.cpp</in>
+            <in>FileChannelTest.h</in>
+            <in>FileStreamTest.cpp</in>
+            <in>FileStreamTest.h</in>
+            <in>FileTest.cpp</in>
+            <in>FileTest.h</in>
+            <in>FilesystemTestSuite.cpp</in>
+            <in>FilesystemTestSuite.h</in>
+            <in>FormatTest.cpp</in>
+            <in>FormatTest.h</in>
+            <in>FoundationTestSuite.cpp</in>
+            <in>FoundationTestSuite.h</in>
+            <in>GlobTest.cpp</in>
+            <in>GlobTest.h</in>
+            <in>HMACEngineTest.cpp</in>
+            <in>HMACEngineTest.h</in>
+            <in>HashMapTest.cpp</in>
+            <in>HashMapTest.h</in>
+            <in>HashSetTest.cpp</in>
+            <in>HashSetTest.h</in>
+            <in>HashTableTest.cpp</in>
+            <in>HashTableTest.h</in>
+            <in>HashingTestSuite.cpp</in>
+            <in>HashingTestSuite.h</in>
+            <in>HexBinaryTest.cpp</in>
+            <in>HexBinaryTest.h</in>
+            <in>LRUCacheTest.cpp</in>
+            <in>LRUCacheTest.h</in>
+            <in>LineEndingConverterTest.cpp</in>
+            <in>LineEndingConverterTest.h</in>
+            <in>LinearHashTableTest.cpp</in>
+            <in>LinearHashTableTest.h</in>
+            <in>ListMapTest.cpp</in>
+            <in>ListMapTest.h</in>
+            <in>LocalDateTimeTest.cpp</in>
+            <in>LocalDateTimeTest.h</in>
+            <in>LogStreamTest.cpp</in>
+            <in>LogStreamTest.h</in>
+            <in>LoggerTest.cpp</in>
+            <in>LoggerTest.h</in>
+            <in>LoggingFactoryTest.cpp</in>
+            <in>LoggingFactoryTest.h</in>
+            <in>LoggingRegistryTest.cpp</in>
+            <in>LoggingRegistryTest.h</in>
+            <in>LoggingTestSuite.cpp</in>
+            <in>LoggingTestSuite.h</in>
+            <in>MD4EngineTest.cpp</in>
+            <in>MD4EngineTest.h</in>
+            <in>MD5EngineTest.cpp</in>
+            <in>MD5EngineTest.h</in>
+            <in>ManifestTest.cpp</in>
+            <in>ManifestTest.h</in>
+            <in>MemoryPoolTest.cpp</in>
+            <in>MemoryPoolTest.h</in>
+            <in>MemoryStreamTest.cpp</in>
+            <in>MemoryStreamTest.h</in>
+            <in>NDCTest.cpp</in>
+            <in>NDCTest.h</in>
+            <in>NamedEventTest.cpp</in>
+            <in>NamedEventTest.h</in>
+            <in>NamedMutexTest.cpp</in>
+            <in>NamedMutexTest.h</in>
+            <in>NamedTuplesTest.cpp</in>
+            <in>NamedTuplesTest.h</in>
+            <in>NotificationCenterTest.cpp</in>
+            <in>NotificationCenterTest.h</in>
+            <in>NotificationQueueTest.cpp</in>
+            <in>NotificationQueueTest.h</in>
+            <in>NotificationsTestSuite.cpp</in>
+            <in>NotificationsTestSuite.h</in>
+            <in>NullStreamTest.cpp</in>
+            <in>NullStreamTest.h</in>
+            <in>NumberFormatterTest.cpp</in>
+            <in>NumberFormatterTest.h</in>
+            <in>NumberParserTest.cpp</in>
+            <in>NumberParserTest.h</in>
+            <in>ObjectPoolTest.cpp</in>
+            <in>ObjectPoolTest.h</in>
+            <in>PBKDF2EngineTest.cpp</in>
+            <in>PBKDF2EngineTest.h</in>
+            <in>PathTest.cpp</in>
+            <in>PathTest.h</in>
+            <in>PatternFormatterTest.cpp</in>
+            <in>PatternFormatterTest.h</in>
+            <in>PriorityEventTest.cpp</in>
+            <in>PriorityEventTest.h</in>
+            <in>PriorityNotificationQueueTest.cpp</in>
+            <in>PriorityNotificationQueueTest.h</in>
+            <in>ProcessTest.cpp</in>
+            <in>ProcessTest.h</in>
+            <in>ProcessesTestSuite.cpp</in>
+            <in>ProcessesTestSuite.h</in>
+            <in>RWLockTest.cpp</in>
+            <in>RWLockTest.h</in>
+            <in>RandomStreamTest.cpp</in>
+            <in>RandomStreamTest.h</in>
+            <in>RandomTest.cpp</in>
+            <in>RandomTest.h</in>
+            <in>RegularExpressionTest.cpp</in>
+            <in>RegularExpressionTest.h</in>
+            <in>SHA1EngineTest.cpp</in>
+            <in>SHA1EngineTest.h</in>
+            <in>SemaphoreTest.cpp</in>
+            <in>SemaphoreTest.h</in>
+            <in>SharedLibraryTest.cpp</in>
+            <in>SharedLibraryTest.h</in>
+            <in>SharedLibraryTestSuite.cpp</in>
+            <in>SharedLibraryTestSuite.h</in>
+            <in>SharedMemoryTest.cpp</in>
+            <in>SharedMemoryTest.h</in>
+            <in>SharedPtrTest.cpp</in>
+            <in>SharedPtrTest.h</in>
+            <in>SimpleFileChannelTest.cpp</in>
+            <in>SimpleFileChannelTest.h</in>
+            <in>SimpleHashTableTest.cpp</in>
+            <in>SimpleHashTableTest.h</in>
+            <in>StopwatchTest.cpp</in>
+            <in>StopwatchTest.h</in>
+            <in>StreamConverterTest.cpp</in>
+            <in>StreamConverterTest.h</in>
+            <in>StreamCopierTest.cpp</in>
+            <in>StreamCopierTest.h</in>
+            <in>StreamTokenizerTest.cpp</in>
+            <in>StreamTokenizerTest.h</in>
+            <in>StreamsTestSuite.cpp</in>
+            <in>StreamsTestSuite.h</in>
+            <in>StringTest.cpp</in>
+            <in>StringTest.h</in>
+            <in>StringTokenizerTest.cpp</in>
+            <in>StringTokenizerTest.h</in>
+            <in>TaskManagerTest.cpp</in>
+            <in>TaskManagerTest.h</in>
+            <in>TaskTest.cpp</in>
+            <in>TaskTest.h</in>
+            <in>TaskTestSuite.cpp</in>
+            <in>TaskTestSuite.h</in>
+            <in>TeeStreamTest.cpp</in>
+            <in>TeeStreamTest.h</in>
+            <in>TestApp.cpp</in>
+            <in>TestApp_WINCE.cpp</in>
+            <in>TestChannel.cpp</in>
+            <in>TestChannel.h</in>
+            <in>TestLibrary.cpp</in>
+            <in>TestPlugin.cpp</in>
+            <in>TestPlugin.h</in>
+            <in>TextBufferIteratorTest.cpp</in>
+            <in>TextBufferIteratorTest.h</in>
+            <in>TextConverterTest.cpp</in>
+            <in>TextConverterTest.h</in>
+            <in>TextEncodingTest.cpp</in>
+            <in>TextEncodingTest.h</in>
+            <in>TextIteratorTest.cpp</in>
+            <in>TextIteratorTest.h</in>
+            <in>TextTestSuite.cpp</in>
+            <in>TextTestSuite.h</in>
+            <in>ThreadLocalTest.cpp</in>
+            <in>ThreadLocalTest.h</in>
+            <in>ThreadPoolTest.cpp</in>
+            <in>ThreadPoolTest.h</in>
+            <in>ThreadTest.cpp</in>
+            <in>ThreadTest.h</in>
+            <in>ThreadingTestSuite.cpp</in>
+            <in>ThreadingTestSuite.h</in>
+            <in>TimedNotificationQueueTest.cpp</in>
+            <in>TimedNotificationQueueTest.h</in>
+            <in>TimerTest.cpp</in>
+            <in>TimerTest.h</in>
+            <in>TimespanTest.cpp</in>
+            <in>TimespanTest.h</in>
+            <in>TimestampTest.cpp</in>
+            <in>TimestampTest.h</in>
+            <in>TimezoneTest.cpp</in>
+            <in>TimezoneTest.h</in>
+            <in>TuplesTest.cpp</in>
+            <in>TuplesTest.h</in>
+            <in>TypeListTest.cpp</in>
+            <in>TypeListTest.h</in>
+            <in>URIStreamOpenerTest.cpp</in>
+            <in>URIStreamOpenerTest.h</in>
+            <in>URITest.cpp</in>
+            <in>URITest.h</in>
+            <in>URITestSuite.cpp</in>
+            <in>URITestSuite.h</in>
+            <in>UTF8StringTest.cpp</in>
+            <in>UTF8StringTest.h</in>
+            <in>UUIDGeneratorTest.cpp</in>
+            <in>UUIDGeneratorTest.h</in>
+            <in>UUIDTest.cpp</in>
+            <in>UUIDTest.h</in>
+            <in>UUIDTestSuite.cpp</in>
+            <in>UUIDTestSuite.h</in>
+            <in>UnicodeConverterTest.cpp</in>
+            <in>UnicodeConverterTest.h</in>
+            <in>UniqueExpireCacheTest.cpp</in>
+            <in>UniqueExpireCacheTest.h</in>
+            <in>UniqueExpireLRUCacheTest.cpp</in>
+            <in>UniqueExpireLRUCacheTest.h</in>
+            <in>VarTest.cpp</in>
+            <in>VarTest.h</in>
+            <in>WinCEDriver.cpp</in>
+            <in>WinDriver.cpp</in>
+            <in>ZLibTest.cpp</in>
+            <in>ZLibTest.h</in>
+          </df>
+        </df>
+        <df name="wcelibcex-1.0">
+          <df name="msvc80">
+          </df>
+          <df name="src">
+            <in>errno.h</in>
+            <in>fcntl.h</in>
+            <in>wce_abort.c</in>
+            <in>wce_access.c</in>
+            <in>wce_asctime.c</in>
+            <in>wce_bsearch.c</in>
+            <in>wce_clock.c</in>
+            <in>wce_ctime.c</in>
+            <in>wce_direct.h</in>
+            <in>wce_directorymanagement.c</in>
+            <in>wce_errno.c</in>
+            <in>wce_errno.h</in>
+            <in>wce_fcntl.h</in>
+            <in>wce_findfile.c</in>
+            <in>wce_getenv.c</in>
+            <in>wce_getopt.c</in>
+            <in>wce_gettimeofday.c</in>
+            <in>wce_io.h</in>
+            <in>wce_lfind.c</in>
+            <in>wce_localtime.c</in>
+            <in>wce_mkdir.c</in>
+            <in>wce_mktime.c</in>
+            <in>wce_path.c</in>
+            <in>wce_rename.c</in>
+            <in>wce_rewind.c</in>
+            <in>wce_rmdir.c</in>
+            <in>wce_setlocale.c</in>
+            <in>wce_stat.c</in>
+            <in>wce_stat.h</in>
+            <in>wce_stdio.h</in>
+            <in>wce_stdlib.h</in>
+            <in>wce_strerror.c</in>
+            <in>wce_string.h</in>
+            <in>wce_time.c</in>
+            <in>wce_time.h</in>
+            <in>wce_timesys.c</in>
+            <in>wce_timesys.h</in>
+            <in>wce_types.h</in>
+            <in>wce_unistd.h</in>
+            <in>wce_unlink.c</in>
+            <in>wce_winbase.c</in>
+            <in>wce_winbase.h</in>
+          </df>
+        </df>
+      </df>
+      <df name="JSON">
+        <df name="cmake">
+        </df>
+        <df name="include">
+          <df name="Poco">
+            <df name="JSON">
+              <in>Array.h</in>
+              <in>Handler.h</in>
+              <in>JSON.h</in>
+              <in>JSONException.h</in>
+              <in>Object.h</in>
+              <in>ParseHandler.h</in>
+              <in>Parser.h</in>
+              <in>PrintHandler.h</in>
+              <in>Query.h</in>
+              <in>Stringifier.h</in>
+              <in>Template.h</in>
+              <in>TemplateCache.h</in>
+            </df>
+          </df>
+        </df>
+        <df name="obj">
+          <df name="Linux">
+            <df name="i686">
+              <df name="debug_shared">
+              </df>
+              <df name="debug_static">
+              </df>
+              <df name="release_shared">
+              </df>
+              <df name="release_static">
+              </df>
+            </df>
+          </df>
+        </df>
+        <df name="samples">
+          <df name="Benchmark">
+            <df name="bin">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="obj">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="debug_shared">
+                  </df>
+                  <df name="debug_static">
+                  </df>
+                  <df name="release_shared">
+                  </df>
+                  <df name="release_static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="src">
+              <in>Benchmark.cpp</in>
+            </df>
+          </df>
+        </df>
+        <df name="src">
+          <in>Array.cpp</in>
+          <in>Handler.cpp</in>
+          <in>JSONException.cpp</in>
+          <in>Object.cpp</in>
+          <in>ParseHandler.cpp</in>
+          <in>Parser.cpp</in>
+          <in>PrintHandler.cpp</in>
+          <in>Query.cpp</in>
+          <in>Stringifier.cpp</in>
+          <in>Template.cpp</in>
+          <in>TemplateCache.cpp</in>
+        </df>
+        <df name="testsuite">
+          <df name="bin">
+            <df name="Linux">
+              <df name="i686">
+              </df>
+            </df>
+          </df>
+          <df name="data">
+            <df name="invalid">
+              <df name="apostrophe">
+              </df>
+              <df name="ascii-unicode-identifier">
+              </df>
+              <df name="brace-comma">
+              </df>
+              <df name="bracket-comma">
+              </df>
+              <df name="bracket-one-comma">
+              </df>
+              <df name="double-closing-brace">
+              </df>
+              <df name="double-closing-bracket">
+              </df>
+              <df name="empty">
+              </df>
+              <df name="escaped-null-byte-in-string">
+              </df>
+              <df name="extra-comma-in-array">
+              </df>
+              <df name="extra-comma-in-multiline-array">
+              </df>
+              <df name="garbage-after-newline">
+              </df>
+              <df name="garbage-at-the-end">
+              </df>
+              <df name="integer-starting-with-zero">
+              </df>
+              <df name="invalid-escape">
+              </df>
+              <df name="invalid-identifier">
+              </df>
+              <df name="invalid-negative-integer">
+              </df>
+              <df name="invalid-negative-real">
+              </df>
+              <df name="invalid-second-surrogate">
+              </df>
+              <df name="lone-open-brace">
+              </df>
+              <df name="lone-open-bracket">
+              </df>
+              <df name="lone-second-surrogate">
+              </df>
+              <df name="minus-sign-without-number">
+              </df>
+              <df name="negative-integer-starting-with-zero">
+              </df>
+              <df name="null">
+              </df>
+              <df name="null-byte-in-string">
+              </df>
+              <df name="null-byte-outside-string">
+              </df>
+              <df name="object-apostrophes">
+              </df>
+              <df name="object-garbage-at-end">
+              </df>
+              <df name="object-in-unterminated-array">
+              </df>
+              <df name="object-no-colon">
+              </df>
+              <df name="object-no-value">
+              </df>
+              <df name="object-unterminated-value">
+              </df>
+              <df name="real-garbage-after-e">
+              </df>
+              <df name="real-negative-overflow">
+              </df>
+              <df name="real-positive-overflow">
+              </df>
+              <df name="real-truncated-at-e">
+              </df>
+              <df name="real-truncated-at-point">
+              </df>
+              <df name="tab-character-in-string">
+              </df>
+              <df name="too-big-negative-integer">
+              </df>
+              <df name="too-big-positive-integer">
+              </df>
+              <df name="truncated-unicode-surrogate">
+              </df>
+              <df name="unicode-identifier">
+              </df>
+              <df name="unterminated-array">
+              </df>
+              <df name="unterminated-array-and-object">
+              </df>
+              <df name="unterminated-empty-key">
+              </df>
+              <df name="unterminated-key">
+              </df>
+              <df name="unterminated-object-and-array">
+              </df>
+              <df name="unterminated-string">
+              </df>
+            </df>
+            <df name="invalid-unicode">
+              <df name="encoded-surrogate-half">
+              </df>
+              <df name="invalid-utf-8-after-backslash">
+              </df>
+              <df name="invalid-utf-8-in-array">
+              </df>
+              <df name="invalid-utf-8-in-bigger-int">
+              </df>
+              <df name="invalid-utf-8-in-escape">
+              </df>
+              <df name="invalid-utf-8-in-exponent">
+              </df>
+              <df name="invalid-utf-8-in-identifier">
+              </df>
+              <df name="invalid-utf-8-in-int">
+              </df>
+              <df name="invalid-utf-8-in-real-after-e">
+              </df>
+              <df name="invalid-utf-8-in-string">
+              </df>
+              <df name="lone-invalid-utf-8">
+              </df>
+              <df name="lone-utf-8-continuation-byte">
+              </df>
+              <df name="not-in-unicode-range">
+              </df>
+              <df name="overlong-3-byte-encoding">
+              </df>
+              <df name="overlong-4-byte-encoding">
+              </df>
+              <df name="overlong-ascii-encoding">
+              </df>
+              <df name="restricted-utf-8">
+              </df>
+              <df name="truncated-utf-8">
+              </df>
+            </df>
+            <df name="valid">
+              <df name="complex-array">
+              </df>
+              <df name="complex-object">
+              </df>
+              <df name="empty-array">
+              </df>
+              <df name="empty-object">
+              </df>
+              <df name="empty-object-in-array">
+              </df>
+              <df name="empty-string">
+              </df>
+              <df name="escaped-utf-control-char">
+              </df>
+              <df name="false">
+              </df>
+              <df name="negative-int">
+              </df>
+              <df name="negative-one">
+              </df>
+              <df name="negative-zero">
+              </df>
+              <df name="null">
+              </df>
+              <df name="one-byte-utf-8">
+              </df>
+              <df name="real-capital-e">
+              </df>
+              <df name="real-capital-e-negative-exponent">
+              </df>
+              <df name="real-capital-e-positive-exponent">
+              </df>
+              <df name="real-exponent">
+              </df>
+              <df name="real-fraction-exponent">
+              </df>
+              <df name="real-negative-exponent">
+              </df>
+              <df name="real-positive-exponent">
+              </df>
+              <df name="real-underflow">
+              </df>
+              <df name="short-string">
+              </df>
+              <df name="simple-ascii-string">
+              </df>
+              <df name="simple-int-0">
+              </df>
+              <df name="simple-int-1">
+              </df>
+              <df name="simple-int-123">
+              </df>
+              <df name="simple-object">
+              </df>
+              <df name="simple-real">
+              </df>
+              <df name="string-escapes">
+              </df>
+              <df name="three-byte-utf-8">
+              </df>
+              <df name="true">
+              </df>
+              <df name="two-byte-utf-8">
+              </df>
+              <df name="utf-8-string">
+              </df>
+              <df name="utf-surrogate-four-byte-encoding">
+              </df>
+            </df>
+          </df>
+          <df name="obj">
+            <df name="Linux">
+              <df name="i686">
+                <df name="debug_shared">
+                </df>
+                <df name="debug_static">
+                </df>
+                <df name="release_shared">
+                </df>
+                <df name="release_static">
+                </df>
+              </df>
+            </df>
+          </df>
+          <df name="src">
+            <in>Driver.cpp</in>
+            <in>JSONTest.cpp</in>
+            <in>JSONTest.h</in>
+            <in>JSONTestSuite.cpp</in>
+            <in>JSONTestSuite.h</in>
+            <in>WinCEDriver.cpp</in>
+            <in>WinDriver.cpp</in>
+          </df>
+        </df>
+      </df>
+      <df name="lib">
+        <df name="Linux">
+          <df name="i686">
+          </df>
+        </df>
+      </df>
+      <df name="Net">
+        <df name="cmake">
+        </df>
+        <df name="include">
+          <df name="Poco">
+            <df name="Net">
+              <in>AbstractHTTPRequestHandler.h</in>
+              <in>DNS.h</in>
+              <in>DatagramSocket.h</in>
+              <in>DatagramSocketImpl.h</in>
+              <in>DialogSocket.h</in>
+              <in>FTPClientSession.h</in>
+              <in>FTPStreamFactory.h</in>
+              <in>FilePartSource.h</in>
+              <in>HTMLForm.h</in>
+              <in>HTTPAuthenticationParams.h</in>
+              <in>HTTPBasicCredentials.h</in>
+              <in>HTTPBasicStreamBuf.h</in>
+              <in>HTTPBufferAllocator.h</in>
+              <in>HTTPChunkedStream.h</in>
+              <in>HTTPClientSession.h</in>
+              <in>HTTPCookie.h</in>
+              <in>HTTPCredentials.h</in>
+              <in>HTTPDigestCredentials.h</in>
+              <in>HTTPFixedLengthStream.h</in>
+              <in>HTTPHeaderStream.h</in>
+              <in>HTTPIOStream.h</in>
+              <in>HTTPMessage.h</in>
+              <in>HTTPRequest.h</in>
+              <in>HTTPRequestHandler.h</in>
+              <in>HTTPRequestHandlerFactory.h</in>
+              <in>HTTPResponse.h</in>
+              <in>HTTPServer.h</in>
+              <in>HTTPServerConnection.h</in>
+              <in>HTTPServerConnectionFactory.h</in>
+              <in>HTTPServerParams.h</in>
+              <in>HTTPServerRequest.h</in>
+              <in>HTTPServerRequestImpl.h</in>
+              <in>HTTPServerResponse.h</in>
+              <in>HTTPServerResponseImpl.h</in>
+              <in>HTTPServerSession.h</in>
+              <in>HTTPSession.h</in>
+              <in>HTTPSessionFactory.h</in>
+              <in>HTTPSessionInstantiator.h</in>
+              <in>HTTPStream.h</in>
+              <in>HTTPStreamFactory.h</in>
+              <in>HostEntry.h</in>
+              <in>ICMPClient.h</in>
+              <in>ICMPEventArgs.h</in>
+              <in>ICMPPacket.h</in>
+              <in>ICMPPacketImpl.h</in>
+              <in>ICMPSocket.h</in>
+              <in>ICMPSocketImpl.h</in>
+              <in>ICMPv4PacketImpl.h</in>
+              <in>IPAddress.h</in>
+              <in>IPAddressImpl.h</in>
+              <in>MailMessage.h</in>
+              <in>MailRecipient.h</in>
+              <in>MailStream.h</in>
+              <in>MediaType.h</in>
+              <in>MessageHeader.h</in>
+              <in>MulticastSocket.h</in>
+              <in>MultipartReader.h</in>
+              <in>MultipartWriter.h</in>
+              <in>NTPClient.h</in>
+              <in>NTPEventArgs.h</in>
+              <in>NTPPacket.h</in>
+              <in>NameValueCollection.h</in>
+              <in>Net.h</in>
+              <in>NetException.h</in>
+              <in>NetworkInterface.h</in>
+              <in>NullPartHandler.h</in>
+              <in>OAuth10Credentials.h</in>
+              <in>OAuth20Credentials.h</in>
+              <in>POP3ClientSession.h</in>
+              <in>ParallelSocketAcceptor.h</in>
+              <in>ParallelSocketReactor.h</in>
+              <in>PartHandler.h</in>
+              <in>PartSource.h</in>
+              <in>PartStore.h</in>
+              <in>QuotedPrintableDecoder.h</in>
+              <in>QuotedPrintableEncoder.h</in>
+              <in>RawSocket.h</in>
+              <in>RawSocketImpl.h</in>
+              <in>RemoteSyslogChannel.h</in>
+              <in>RemoteSyslogListener.h</in>
+              <in>SMTPChannel.h</in>
+              <in>SMTPClientSession.h</in>
+              <in>ServerSocket.h</in>
+              <in>ServerSocketImpl.h</in>
+              <in>Socket.h</in>
+              <in>SocketAcceptor.h</in>
+              <in>SocketAddress.h</in>
+              <in>SocketAddressImpl.h</in>
+              <in>SocketConnector.h</in>
+              <in>SocketDefs.h</in>
+              <in>SocketImpl.h</in>
+              <in>SocketNotification.h</in>
+              <in>SocketNotifier.h</in>
+              <in>SocketReactor.h</in>
+              <in>SocketStream.h</in>
+              <in>StreamSocket.h</in>
+              <in>StreamSocketImpl.h</in>
+              <in>StringPartSource.h</in>
+              <in>TCPServer.h</in>
+              <in>TCPServerConnection.h</in>
+              <in>TCPServerConnectionFactory.h</in>
+              <in>TCPServerDispatcher.h</in>
+              <in>TCPServerParams.h</in>
+              <in>WebSocket.h</in>
+              <in>WebSocketImpl.h</in>
+            </df>
+          </df>
+        </df>
+        <df name="obj">
+          <df name="Linux">
+            <df name="i686">
+              <df name="debug_shared">
+              </df>
+              <df name="debug_static">
+              </df>
+              <df name="release_shared">
+              </df>
+              <df name="release_static">
+              </df>
+            </df>
+          </df>
+        </df>
+        <df name="samples">
+          <df name="common">
+            <in>NeoProtocolBase.cpp</in>
+            <in>NeoProtocolBase.h</in>
+            <in>custlog.cpp</in>
+            <in>custlog.h</in>
+            <in>helpers.cpp</in>
+            <in>helpers.h</in>
+          </df>
+          <df name="dict">
+            <df name="bin">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="obj">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="debug_shared">
+                  </df>
+                  <df name="debug_static">
+                  </df>
+                  <df name="release_shared">
+                  </df>
+                  <df name="release_static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="src">
+              <in>dict.cpp</in>
+            </df>
+          </df>
+          <df name="download">
+            <df name="bin">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="obj">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="debug_shared">
+                  </df>
+                  <df name="debug_static">
+                  </df>
+                  <df name="release_shared">
+                  </df>
+                  <df name="release_static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="src">
+              <in>download.cpp</in>
+            </df>
+          </df>
+          <df name="EchoServer">
+            <df name="bin">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="obj">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="debug_shared">
+                  </df>
+                  <df name="debug_static">
+                  </df>
+                  <df name="release_shared">
+                  </df>
+                  <df name="release_static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="src">
+              <in>EchoServer.cpp</in>
+            </df>
+          </df>
+          <df name="HTTPFormServer">
+            <df name="bin">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="obj">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="debug_shared">
+                  </df>
+                  <df name="debug_static">
+                  </df>
+                  <df name="release_shared">
+                  </df>
+                  <df name="release_static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="src">
+              <in>HTTPFormServer.cpp</in>
+            </df>
+          </df>
+          <df name="httpget">
+            <df name="bin">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="obj">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="debug_shared">
+                  </df>
+                  <df name="debug_static">
+                  </df>
+                  <df name="release_shared">
+                  </df>
+                  <df name="release_static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="src">
+              <in>httpget.cpp</in>
+            </df>
+          </df>
+          <df name="HTTPLoadTest">
+            <df name="bin">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="obj">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="debug_shared">
+                  </df>
+                  <df name="debug_static">
+                  </df>
+                  <df name="release_shared">
+                  </df>
+                  <df name="release_static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="src">
+              <in>HTTPLoadTest.cpp</in>
+            </df>
+          </df>
+          <df name="HTTPTimeServer">
+            <df name="bin">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="obj">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="debug_shared">
+                  </df>
+                  <df name="debug_static">
+                  </df>
+                  <df name="release_shared">
+                  </df>
+                  <df name="release_static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="src">
+              <in>HTTPTimeServer.cpp</in>
+            </df>
+          </df>
+          <df name="ifconfig">
+            <df name="bin">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="obj">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="debug_shared">
+                  </df>
+                  <df name="debug_static">
+                  </df>
+                  <df name="release_shared">
+                  </df>
+                  <df name="release_static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="src">
+              <in>ifconfig.cpp</in>
+            </df>
+          </df>
+          <df name="Mail">
+            <df name="bin">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="obj">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="debug_shared">
+                  </df>
+                  <df name="debug_static">
+                  </df>
+                  <df name="release_shared">
+                  </df>
+                  <df name="release_static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="src">
+              <in>Mail.cpp</in>
+              <in>PocoLogo.hpp</in>
+            </df>
+          </df>
+          <df name="neotracsrvtcp">
+            <df name="bin">
+              <df name="Linux">
+                <df name="i686">
+                </df>
+              </df>
+            </df>
+            <df name="obj">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="debug_shared">
+                  </df>
+                  <df name="debug_static">
+                  </df>
+                  <df name="release_shared">
+                  </df>
+                  <df name="release_static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="src">
+              <in>neotracsrvtcp.cpp</in>
+            </df>
+          </df>
+          <df name="Ping">
+            <df name="bin">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="obj">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="debug_shared">
+                  </df>
+                  <df name="debug_static">
+                  </df>
+                  <df name="release_shared">
+                  </df>
+                  <df name="release_static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="src">
+              <in>Ping.cpp</in>
+            </df>
+          </df>
+          <df name="SMTPLogger">
+            <df name="bin">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="obj">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="debug_shared">
+                  </df>
+                  <df name="debug_static">
+                  </df>
+                  <df name="release_shared">
+                  </df>
+                  <df name="release_static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="res">
+            </df>
+            <df name="src">
+              <in>SMTPLogger.cpp</in>
+            </df>
+          </df>
+          <df name="TimeServer">
+            <df name="bin">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="obj">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="debug_shared">
+                  </df>
+                  <df name="debug_static">
+                  </df>
+                  <df name="release_shared">
+                  </df>
+                  <df name="release_static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="src">
+              <in>TimeServer.cpp</in>
+            </df>
+          </df>
+          <df name="WebSocketServer">
+            <df name="bin">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="obj">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="debug_shared">
+                  </df>
+                  <df name="debug_static">
+                  </df>
+                  <df name="release_shared">
+                  </df>
+                  <df name="release_static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="src">
+              <in>WebSocketServer.cpp</in>
+            </df>
+          </df>
+        </df>
+        <df name="src">
+          <in>AbstractHTTPRequestHandler.cpp</in>
+          <in>DNS.cpp</in>
+          <in>DatagramSocket.cpp</in>
+          <in>DatagramSocketImpl.cpp</in>
+          <in>DialogSocket.cpp</in>
+          <in>FTPClientSession.cpp</in>
+          <in>FTPStreamFactory.cpp</in>
+          <in>FilePartSource.cpp</in>
+          <in>HTMLForm.cpp</in>
+          <in>HTTPAuthenticationParams.cpp</in>
+          <in>HTTPBasicCredentials.cpp</in>
+          <in>HTTPBufferAllocator.cpp</in>
+          <in>HTTPChunkedStream.cpp</in>
+          <in>HTTPClientSession.cpp</in>
+          <in>HTTPCookie.cpp</in>
+          <in>HTTPCredentials.cpp</in>
+          <in>HTTPDigestCredentials.cpp</in>
+          <in>HTTPFixedLengthStream.cpp</in>
+          <in>HTTPHeaderStream.cpp</in>
+          <in>HTTPIOStream.cpp</in>
+          <in>HTTPMessage.cpp</in>
+          <in>HTTPRequest.cpp</in>
+          <in>HTTPRequestHandler.cpp</in>
+          <in>HTTPRequestHandlerFactory.cpp</in>
+          <in>HTTPResponse.cpp</in>
+          <in>HTTPServer.cpp</in>
+          <in>HTTPServerConnection.cpp</in>
+          <in>HTTPServerConnectionFactory.cpp</in>
+          <in>HTTPServerParams.cpp</in>
+          <in>HTTPServerRequest.cpp</in>
+          <in>HTTPServerRequestImpl.cpp</in>
+          <in>HTTPServerResponse.cpp</in>
+          <in>HTTPServerResponseImpl.cpp</in>
+          <in>HTTPServerSession.cpp</in>
+          <in>HTTPSession.cpp</in>
+          <in>HTTPSessionFactory.cpp</in>
+          <in>HTTPSessionInstantiator.cpp</in>
+          <in>HTTPStream.cpp</in>
+          <in>HTTPStreamFactory.cpp</in>
+          <in>HostEntry.cpp</in>
+          <in>ICMPClient.cpp</in>
+          <in>ICMPEventArgs.cpp</in>
+          <in>ICMPPacket.cpp</in>
+          <in>ICMPPacketImpl.cpp</in>
+          <in>ICMPSocket.cpp</in>
+          <in>ICMPSocketImpl.cpp</in>
+          <in>ICMPv4PacketImpl.cpp</in>
+          <in>IPAddress.cpp</in>
+          <in>IPAddressImpl.cpp</in>
+          <in>MailMessage.cpp</in>
+          <in>MailRecipient.cpp</in>
+          <in>MailStream.cpp</in>
+          <in>MediaType.cpp</in>
+          <in>MessageHeader.cpp</in>
+          <in>MulticastSocket.cpp</in>
+          <in>MultipartReader.cpp</in>
+          <in>MultipartWriter.cpp</in>
+          <in>NTPClient.cpp</in>
+          <in>NTPEventArgs.cpp</in>
+          <in>NTPPacket.cpp</in>
+          <in>NameValueCollection.cpp</in>
+          <in>Net.cpp</in>
+          <in>NetException.cpp</in>
+          <in>NetworkInterface.cpp</in>
+          <in>NullPartHandler.cpp</in>
+          <in>OAuth10Credentials.cpp</in>
+          <in>OAuth20Credentials.cpp</in>
+          <in>POP3ClientSession.cpp</in>
+          <in>PartHandler.cpp</in>
+          <in>PartSource.cpp</in>
+          <in>PartStore.cpp</in>
+          <in>QuotedPrintableDecoder.cpp</in>
+          <in>QuotedPrintableEncoder.cpp</in>
+          <in>RawSocket.cpp</in>
+          <in>RawSocketImpl.cpp</in>
+          <in>RemoteSyslogChannel.cpp</in>
+          <in>RemoteSyslogListener.cpp</in>
+          <in>SMTPChannel.cpp</in>
+          <in>SMTPClientSession.cpp</in>
+          <in>ServerSocket.cpp</in>
+          <in>ServerSocketImpl.cpp</in>
+          <in>Socket.cpp</in>
+          <in>SocketAddress.cpp</in>
+          <in>SocketAddressImpl.cpp</in>
+          <in>SocketImpl.cpp</in>
+          <in>SocketNotification.cpp</in>
+          <in>SocketNotifier.cpp</in>
+          <in>SocketReactor.cpp</in>
+          <in>SocketStream.cpp</in>
+          <in>StreamSocket.cpp</in>
+          <in>StreamSocketImpl.cpp</in>
+          <in>StringPartSource.cpp</in>
+          <in>TCPServer.cpp</in>
+          <in>TCPServerConnection.cpp</in>
+          <in>TCPServerConnectionFactory.cpp</in>
+          <in>TCPServerDispatcher.cpp</in>
+          <in>TCPServerParams.cpp</in>
+          <in>WebSocket.cpp</in>
+          <in>WebSocketImpl.cpp</in>
+        </df>
+        <df name="testsuite">
+          <df name="bin">
+            <df name="Linux">
+              <df name="i686">
+              </df>
+            </df>
+          </df>
+          <df name="obj">
+            <df name="Linux">
+              <df name="i686">
+                <df name="debug_shared">
+                </df>
+                <df name="debug_static">
+                </df>
+                <df name="release_shared">
+                </df>
+                <df name="release_static">
+                </df>
+              </df>
+            </df>
+          </df>
+          <df name="src">
+            <in>DNSTest.cpp</in>
+            <in>DNSTest.h</in>
+            <in>DatagramSocketTest.cpp</in>
+            <in>DatagramSocketTest.h</in>
+            <in>DialogServer.cpp</in>
+            <in>DialogServer.h</in>
+            <in>DialogSocketTest.cpp</in>
+            <in>DialogSocketTest.h</in>
+            <in>Driver.cpp</in>
+            <in>EchoServer.cpp</in>
+            <in>EchoServer.h</in>
+            <in>FTPClientSessionTest.cpp</in>
+            <in>FTPClientSessionTest.h</in>
+            <in>FTPClientTestSuite.cpp</in>
+            <in>FTPClientTestSuite.h</in>
+            <in>FTPStreamFactoryTest.cpp</in>
+            <in>FTPStreamFactoryTest.h</in>
+            <in>HTMLFormTest.cpp</in>
+            <in>HTMLFormTest.h</in>
+            <in>HTMLTestSuite.cpp</in>
+            <in>HTMLTestSuite.h</in>
+            <in>HTTPClientSessionTest.cpp</in>
+            <in>HTTPClientSessionTest.h</in>
+            <in>HTTPClientTestSuite.cpp</in>
+            <in>HTTPClientTestSuite.h</in>
+            <in>HTTPCookieTest.cpp</in>
+            <in>HTTPCookieTest.h</in>
+            <in>HTTPCredentialsTest.cpp</in>
+            <in>HTTPCredentialsTest.h</in>
+            <in>HTTPRequestTest.cpp</in>
+            <in>HTTPRequestTest.h</in>
+            <in>HTTPResponseTest.cpp</in>
+            <in>HTTPResponseTest.h</in>
+            <in>HTTPServerTest.cpp</in>
+            <in>HTTPServerTest.h</in>
+            <in>HTTPServerTestSuite.cpp</in>
+            <in>HTTPServerTestSuite.h</in>
+            <in>HTTPStreamFactoryTest.cpp</in>
+            <in>HTTPStreamFactoryTest.h</in>
+            <in>HTTPTestServer.cpp</in>
+            <in>HTTPTestServer.h</in>
+            <in>HTTPTestSuite.cpp</in>
+            <in>HTTPTestSuite.h</in>
+            <in>ICMPClientTest.cpp</in>
+            <in>ICMPClientTest.h</in>
+            <in>ICMPClientTestSuite.cpp</in>
+            <in>ICMPClientTestSuite.h</in>
+            <in>ICMPSocketTest.cpp</in>
+            <in>ICMPSocketTest.h</in>
+            <in>IPAddressTest.cpp</in>
+            <in>IPAddressTest.h</in>
+            <in>MailMessageTest.cpp</in>
+            <in>MailMessageTest.h</in>
+            <in>MailStreamTest.cpp</in>
+            <in>MailStreamTest.h</in>
+            <in>MailTestSuite.cpp</in>
+            <in>MailTestSuite.h</in>
+            <in>MediaTypeTest.cpp</in>
+            <in>MediaTypeTest.h</in>
+            <in>MessageHeaderTest.cpp</in>
+            <in>MessageHeaderTest.h</in>
+            <in>MessagesTestSuite.cpp</in>
+            <in>MessagesTestSuite.h</in>
+            <in>MulticastEchoServer.cpp</in>
+            <in>MulticastEchoServer.h</in>
+            <in>MulticastSocketTest.cpp</in>
+            <in>MulticastSocketTest.h</in>
+            <in>MultipartReaderTest.cpp</in>
+            <in>MultipartReaderTest.h</in>
+            <in>MultipartWriterTest.cpp</in>
+            <in>MultipartWriterTest.h</in>
+            <in>NTPClientTest.cpp</in>
+            <in>NTPClientTest.h</in>
+            <in>NTPClientTestSuite.cpp</in>
+            <in>NTPClientTestSuite.h</in>
+            <in>NameValueCollectionTest.cpp</in>
+            <in>NameValueCollectionTest.h</in>
+            <in>NetCoreTestSuite.cpp</in>
+            <in>NetCoreTestSuite.h</in>
+            <in>NetTestSuite.cpp</in>
+            <in>NetTestSuite.h</in>
+            <in>NetworkInterfaceTest.cpp</in>
+            <in>NetworkInterfaceTest.h</in>
+            <in>OAuth10CredentialsTest.cpp</in>
+            <in>OAuth10CredentialsTest.h</in>
+            <in>OAuth20CredentialsTest.cpp</in>
+            <in>OAuth20CredentialsTest.h</in>
+            <in>OAuthTestSuite.cpp</in>
+            <in>OAuthTestSuite.h</in>
+            <in>POP3ClientSessionTest.cpp</in>
+            <in>POP3ClientSessionTest.h</in>
+            <in>QuotedPrintableTest.cpp</in>
+            <in>QuotedPrintableTest.h</in>
+            <in>RawSocketTest.cpp</in>
+            <in>RawSocketTest.h</in>
+            <in>ReactorTestSuite.cpp</in>
+            <in>ReactorTestSuite.h</in>
+            <in>SMTPClientSessionTest.cpp</in>
+            <in>SMTPClientSessionTest.h</in>
+            <in>SocketAddressTest.cpp</in>
+            <in>SocketAddressTest.h</in>
+            <in>SocketReactorTest.cpp</in>
+            <in>SocketReactorTest.h</in>
+            <in>SocketStreamTest.cpp</in>
+            <in>SocketStreamTest.h</in>
+            <in>SocketTest.cpp</in>
+            <in>SocketTest.h</in>
+            <in>SocketsTestSuite.cpp</in>
+            <in>SocketsTestSuite.h</in>
+            <in>SyslogTest.cpp</in>
+            <in>SyslogTest.h</in>
+            <in>TCPServerTest.cpp</in>
+            <in>TCPServerTest.h</in>
+            <in>TCPServerTestSuite.cpp</in>
+            <in>TCPServerTestSuite.h</in>
+            <in>UDPEchoServer.cpp</in>
+            <in>UDPEchoServer.h</in>
+            <in>WebSocketTest.cpp</in>
+            <in>WebSocketTest.h</in>
+            <in>WebSocketTestSuite.cpp</in>
+            <in>WebSocketTestSuite.h</in>
+            <in>WinCEDriver.cpp</in>
+            <in>WinDriver.cpp</in>
+          </df>
+        </df>
+      </df>
+      <df name="patches">
+        <df name="AIX">
+        </df>
+      </df>
+      <df name="Util">
+        <df name="cmake">
+        </df>
+        <df name="include">
+          <df name="Poco">
+            <df name="Util">
+              <in>AbstractConfiguration.h</in>
+              <in>Application.h</in>
+              <in>ConfigurationMapper.h</in>
+              <in>ConfigurationView.h</in>
+              <in>FilesystemConfiguration.h</in>
+              <in>HelpFormatter.h</in>
+              <in>IniFileConfiguration.h</in>
+              <in>IntValidator.h</in>
+              <in>JSONConfiguration.h</in>
+              <in>LayeredConfiguration.h</in>
+              <in>LoggingConfigurator.h</in>
+              <in>LoggingSubsystem.h</in>
+              <in>MapConfiguration.h</in>
+              <in>Option.h</in>
+              <in>OptionCallback.h</in>
+              <in>OptionException.h</in>
+              <in>OptionProcessor.h</in>
+              <in>OptionSet.h</in>
+              <in>PropertyFileConfiguration.h</in>
+              <in>RegExpValidator.h</in>
+              <in>ServerApplication.h</in>
+              <in>Subsystem.h</in>
+              <in>SystemConfiguration.h</in>
+              <in>Timer.h</in>
+              <in>TimerTask.h</in>
+              <in>TimerTaskAdapter.h</in>
+              <in>Units.h</in>
+              <in>Util.h</in>
+              <in>Validator.h</in>
+              <in>WinRegistryConfiguration.h</in>
+              <in>WinRegistryKey.h</in>
+              <in>WinService.h</in>
+              <in>XMLConfiguration.h</in>
+            </df>
+          </df>
+        </df>
+        <df name="obj">
+          <df name="Linux">
+            <df name="i686">
+              <df name="debug_shared">
+              </df>
+              <df name="debug_static">
+              </df>
+              <df name="release_shared">
+              </df>
+              <df name="release_static">
+              </df>
+            </df>
+          </df>
+        </df>
+        <df name="samples">
+          <df name="pkill">
+            <df name="bin">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="obj">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="debug_shared">
+                  </df>
+                  <df name="debug_static">
+                  </df>
+                  <df name="release_shared">
+                  </df>
+                  <df name="release_static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="src">
+              <in>pkill.cpp</in>
+            </df>
+          </df>
+          <df name="SampleApp">
+            <df name="bin">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="obj">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="debug_shared">
+                  </df>
+                  <df name="debug_static">
+                  </df>
+                  <df name="release_shared">
+                  </df>
+                  <df name="release_static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="src">
+              <in>SampleApp.cpp</in>
+            </df>
+          </df>
+          <df name="SampleServer">
+            <df name="bin">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="obj">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="debug_shared">
+                  </df>
+                  <df name="debug_static">
+                  </df>
+                  <df name="release_shared">
+                  </df>
+                  <df name="release_static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="src">
+              <in>SampleServer.cpp</in>
+            </df>
+          </df>
+          <df name="Units">
+            <df name="src">
+              <in>Units.cpp</in>
+            </df>
+          </df>
+        </df>
+        <df name="src">
+          <in>AbstractConfiguration.cpp</in>
+          <in>Application.cpp</in>
+          <in>ConfigurationMapper.cpp</in>
+          <in>ConfigurationView.cpp</in>
+          <in>FilesystemConfiguration.cpp</in>
+          <in>HelpFormatter.cpp</in>
+          <in>IniFileConfiguration.cpp</in>
+          <in>IntValidator.cpp</in>
+          <in>JSONConfiguration.cpp</in>
+          <in>LayeredConfiguration.cpp</in>
+          <in>LoggingConfigurator.cpp</in>
+          <in>LoggingSubsystem.cpp</in>
+          <in>MapConfiguration.cpp</in>
+          <in>Option.cpp</in>
+          <in>OptionCallback.cpp</in>
+          <in>OptionException.cpp</in>
+          <in>OptionProcessor.cpp</in>
+          <in>OptionSet.cpp</in>
+          <in>PropertyFileConfiguration.cpp</in>
+          <in>RegExpValidator.cpp</in>
+          <in>ServerApplication.cpp</in>
+          <in>Subsystem.cpp</in>
+          <in>SystemConfiguration.cpp</in>
+          <in>Timer.cpp</in>
+          <in>TimerTask.cpp</in>
+          <in>Validator.cpp</in>
+          <in>WinRegistryConfiguration.cpp</in>
+          <in>WinRegistryKey.cpp</in>
+          <in>WinService.cpp</in>
+          <in>XMLConfiguration.cpp</in>
+        </df>
+        <df name="testsuite">
+          <df name="bin">
+            <df name="Linux">
+              <df name="i686">
+              </df>
+            </df>
+          </df>
+          <df name="obj">
+            <df name="Linux">
+              <df name="i686">
+                <df name="debug_shared">
+                </df>
+                <df name="debug_static">
+                </df>
+                <df name="release_shared">
+                </df>
+                <df name="release_static">
+                </df>
+              </df>
+            </df>
+          </df>
+          <df name="src">
+            <in>AbstractConfigurationTest.cpp</in>
+            <in>AbstractConfigurationTest.h</in>
+            <in>ConfigurationMapperTest.cpp</in>
+            <in>ConfigurationMapperTest.h</in>
+            <in>ConfigurationTestSuite.cpp</in>
+            <in>ConfigurationTestSuite.h</in>
+            <in>ConfigurationViewTest.cpp</in>
+            <in>ConfigurationViewTest.h</in>
+            <in>Driver.cpp</in>
+            <in>FilesystemConfigurationTest.cpp</in>
+            <in>FilesystemConfigurationTest.h</in>
+            <in>HelpFormatterTest.cpp</in>
+            <in>HelpFormatterTest.h</in>
+            <in>IniFileConfigurationTest.cpp</in>
+            <in>IniFileConfigurationTest.h</in>
+            <in>JSONConfigurationTest.cpp</in>
+            <in>JSONConfigurationTest.h</in>
+            <in>LayeredConfigurationTest.cpp</in>
+            <in>LayeredConfigurationTest.h</in>
+            <in>LoggingConfiguratorTest.cpp</in>
+            <in>LoggingConfiguratorTest.h</in>
+            <in>MapConfigurationTest.cpp</in>
+            <in>MapConfigurationTest.h</in>
+            <in>OptionProcessorTest.cpp</in>
+            <in>OptionProcessorTest.h</in>
+            <in>OptionSetTest.cpp</in>
+            <in>OptionSetTest.h</in>
+            <in>OptionTest.cpp</in>
+            <in>OptionTest.h</in>
+            <in>OptionsTestSuite.cpp</in>
+            <in>OptionsTestSuite.h</in>
+            <in>PropertyFileConfigurationTest.cpp</in>
+            <in>PropertyFileConfigurationTest.h</in>
+            <in>SystemConfigurationTest.cpp</in>
+            <in>SystemConfigurationTest.h</in>
+            <in>TimerTest.cpp</in>
+            <in>TimerTest.h</in>
+            <in>TimerTestSuite.cpp</in>
+            <in>TimerTestSuite.h</in>
+            <in>UtilTestSuite.cpp</in>
+            <in>UtilTestSuite.h</in>
+            <in>ValidatorTest.cpp</in>
+            <in>ValidatorTest.h</in>
+            <in>WinCEDriver.cpp</in>
+            <in>WinConfigurationTest.cpp</in>
+            <in>WinConfigurationTest.h</in>
+            <in>WinDriver.cpp</in>
+            <in>WinRegistryTest.cpp</in>
+            <in>WinRegistryTest.h</in>
+            <in>WindowsTestSuite.cpp</in>
+            <in>WindowsTestSuite.h</in>
+            <in>XMLConfigurationTest.cpp</in>
+            <in>XMLConfigurationTest.h</in>
+          </df>
+        </df>
+      </df>
+      <df name="XML">
+        <df name="cmake">
+        </df>
+        <df name="include">
+          <df name="Poco">
+            <df name="DOM">
+              <in>AbstractContainerNode.h</in>
+              <in>AbstractNode.h</in>
+              <in>Attr.h</in>
+              <in>AttrMap.h</in>
+              <in>AutoPtr.h</in>
+              <in>CDATASection.h</in>
+              <in>CharacterData.h</in>
+              <in>ChildNodesList.h</in>
+              <in>Comment.h</in>
+              <in>DOMBuilder.h</in>
+              <in>DOMException.h</in>
+              <in>DOMImplementation.h</in>
+              <in>DOMObject.h</in>
+              <in>DOMParser.h</in>
+              <in>DOMSerializer.h</in>
+              <in>DOMWriter.h</in>
+              <in>DTDMap.h</in>
+              <in>Document.h</in>
+              <in>DocumentEvent.h</in>
+              <in>DocumentFragment.h</in>
+              <in>DocumentType.h</in>
+              <in>Element.h</in>
+              <in>ElementsByTagNameList.h</in>
+              <in>Entity.h</in>
+              <in>EntityReference.h</in>
+              <in>Event.h</in>
+              <in>EventDispatcher.h</in>
+              <in>EventException.h</in>
+              <in>EventListener.h</in>
+              <in>EventTarget.h</in>
+              <in>MutationEvent.h</in>
+              <in>NamedNodeMap.h</in>
+              <in>Node.h</in>
+              <in>NodeAppender.h</in>
+              <in>NodeFilter.h</in>
+              <in>NodeIterator.h</in>
+              <in>NodeList.h</in>
+              <in>Notation.h</in>
+              <in>ProcessingInstruction.h</in>
+              <in>Text.h</in>
+              <in>TreeWalker.h</in>
+            </df>
+            <df name="SAX">
+              <in>Attributes.h</in>
+              <in>AttributesImpl.h</in>
+              <in>ContentHandler.h</in>
+              <in>DTDHandler.h</in>
+              <in>DeclHandler.h</in>
+              <in>DefaultHandler.h</in>
+              <in>EntityResolver.h</in>
+              <in>EntityResolverImpl.h</in>
+              <in>ErrorHandler.h</in>
+              <in>InputSource.h</in>
+              <in>LexicalHandler.h</in>
+              <in>Locator.h</in>
+              <in>LocatorImpl.h</in>
+              <in>NamespaceSupport.h</in>
+              <in>SAXException.h</in>
+              <in>SAXParser.h</in>
+              <in>WhitespaceFilter.h</in>
+              <in>XMLFilter.h</in>
+              <in>XMLFilterImpl.h</in>
+              <in>XMLReader.h</in>
+            </df>
+            <df name="XML">
+              <in>Name.h</in>
+              <in>NamePool.h</in>
+              <in>NamespaceStrategy.h</in>
+              <in>ParserEngine.h</in>
+              <in>XML.h</in>
+              <in>XMLException.h</in>
+              <in>XMLStream.h</in>
+              <in>XMLString.h</in>
+              <in>XMLWriter.h</in>
+              <in>expat.h</in>
+              <in>expat_external.h</in>
+            </df>
+          </df>
+        </df>
+        <df name="obj">
+          <df name="Linux">
+            <df name="i686">
+              <df name="debug_shared">
+              </df>
+              <df name="debug_static">
+              </df>
+              <df name="release_shared">
+              </df>
+              <df name="release_static">
+              </df>
+            </df>
+          </df>
+        </df>
+        <df name="samples">
+          <df name="data">
+          </df>
+          <df name="DOMParser">
+            <df name="bin">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="obj">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="debug_shared">
+                  </df>
+                  <df name="debug_static">
+                  </df>
+                  <df name="release_shared">
+                  </df>
+                  <df name="release_static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="src">
+              <in>DOMParser.cpp</in>
+            </df>
+          </df>
+          <df name="DOMWriter">
+            <df name="bin">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="obj">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="debug_shared">
+                  </df>
+                  <df name="debug_static">
+                  </df>
+                  <df name="release_shared">
+                  </df>
+                  <df name="release_static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="src">
+              <in>DOMWriter.cpp</in>
+            </df>
+          </df>
+          <df name="PrettyPrint">
+            <df name="bin">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="obj">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="debug_shared">
+                  </df>
+                  <df name="debug_static">
+                  </df>
+                  <df name="release_shared">
+                  </df>
+                  <df name="release_static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="src">
+              <in>PrettyPrint.cpp</in>
+            </df>
+          </df>
+          <df name="SAXParser">
+            <df name="bin">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="obj">
+              <df name="Linux">
+                <df name="i686">
+                  <df name="debug_shared">
+                  </df>
+                  <df name="debug_static">
+                  </df>
+                  <df name="release_shared">
+                  </df>
+                  <df name="release_static">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="src">
+              <in>SAXParser.cpp</in>
+            </df>
+          </df>
+        </df>
+        <df name="src">
+          <in>AbstractContainerNode.cpp</in>
+          <in>AbstractNode.cpp</in>
+          <in>Attr.cpp</in>
+          <in>AttrMap.cpp</in>
+          <in>Attributes.cpp</in>
+          <in>AttributesImpl.cpp</in>
+          <in>CDATASection.cpp</in>
+          <in>CharacterData.cpp</in>
+          <in>ChildNodesList.cpp</in>
+          <in>Comment.cpp</in>
+          <in>ContentHandler.cpp</in>
+          <in>DOMBuilder.cpp</in>
+          <in>DOMException.cpp</in>
+          <in>DOMImplementation.cpp</in>
+          <in>DOMObject.cpp</in>
+          <in>DOMParser.cpp</in>
+          <in>DOMSerializer.cpp</in>
+          <in>DOMWriter.cpp</in>
+          <in>DTDHandler.cpp</in>
+          <in>DTDMap.cpp</in>
+          <in>DeclHandler.cpp</in>
+          <in>DefaultHandler.cpp</in>
+          <in>Document.cpp</in>
+          <in>DocumentEvent.cpp</in>
+          <in>DocumentFragment.cpp</in>
+          <in>DocumentType.cpp</in>
+          <in>Element.cpp</in>
+          <in>ElementsByTagNameList.cpp</in>
+          <in>Entity.cpp</in>
+          <in>EntityReference.cpp</in>
+          <in>EntityResolver.cpp</in>
+          <in>EntityResolverImpl.cpp</in>
+          <in>ErrorHandler.cpp</in>
+          <in>Event.cpp</in>
+          <in>EventDispatcher.cpp</in>
+          <in>EventException.cpp</in>
+          <in>EventListener.cpp</in>
+          <in>EventTarget.cpp</in>
+          <in>InputSource.cpp</in>
+          <in>LexicalHandler.cpp</in>
+          <in>Locator.cpp</in>
+          <in>LocatorImpl.cpp</in>
+          <in>MutationEvent.cpp</in>
+          <in>Name.cpp</in>
+          <in>NamePool.cpp</in>
+          <in>NamedNodeMap.cpp</in>
+          <in>NamespaceStrategy.cpp</in>
+          <in>NamespaceSupport.cpp</in>
+          <in>Node.cpp</in>
+          <in>NodeAppender.cpp</in>
+          <in>NodeFilter.cpp</in>
+          <in>NodeIterator.cpp</in>
+          <in>NodeList.cpp</in>
+          <in>Notation.cpp</in>
+          <in>ParserEngine.cpp</in>
+          <in>ProcessingInstruction.cpp</in>
+          <in>SAXException.cpp</in>
+          <in>SAXParser.cpp</in>
+          <in>Text.cpp</in>
+          <in>TreeWalker.cpp</in>
+          <in>WhitespaceFilter.cpp</in>
+          <in>XMLException.cpp</in>
+          <in>XMLFilter.cpp</in>
+          <in>XMLFilterImpl.cpp</in>
+          <in>XMLReader.cpp</in>
+          <in>XMLString.cpp</in>
+          <in>XMLWriter.cpp</in>
+          <in>ascii.h</in>
+          <in>asciitab.h</in>
+          <in>expat_config.h</in>
+          <in>iasciitab.h</in>
+          <in>internal.h</in>
+          <in>latin1tab.h</in>
+          <in>nametab.h</in>
+          <in>utf8tab.h</in>
+          <in>xmlparse.cpp</in>
+          <in>xmlrole.c</in>
+          <in>xmlrole.h</in>
+          <in>xmltok.c</in>
+          <in>xmltok.h</in>
+          <in>xmltok_impl.c</in>
+          <in>xmltok_impl.h</in>
+          <in>xmltok_ns.c</in>
+        </df>
+        <df name="testsuite">
+          <df name="bin">
+            <df name="Linux">
+              <df name="i686">
+              </df>
+            </df>
+          </df>
+          <df name="obj">
+            <df name="Linux">
+              <df name="i686">
+                <df name="debug_shared">
+                </df>
+                <df name="debug_static">
+                </df>
+                <df name="release_shared">
+                </df>
+                <df name="release_static">
+                </df>
+              </df>
+            </df>
+          </df>
+          <df name="src">
+            <in>AttributesImplTest.cpp</in>
+            <in>AttributesImplTest.h</in>
+            <in>ChildNodesTest.cpp</in>
+            <in>ChildNodesTest.h</in>
+            <in>DOMTestSuite.cpp</in>
+            <in>DOMTestSuite.h</in>
+            <in>DocumentTest.cpp</in>
+            <in>DocumentTest.h</in>
+            <in>DocumentTypeTest.cpp</in>
+            <in>DocumentTypeTest.h</in>
+            <in>Driver.cpp</in>
+            <in>ElementTest.cpp</in>
+            <in>ElementTest.h</in>
+            <in>EventTest.cpp</in>
+            <in>EventTest.h</in>
+            <in>NamePoolTest.cpp</in>
+            <in>NamePoolTest.h</in>
+            <in>NameTest.cpp</in>
+            <in>NameTest.h</in>
+            <in>NamespaceSupportTest.cpp</in>
+            <in>NamespaceSupportTest.h</in>
+            <in>NodeAppenderTest.cpp</in>
+            <in>NodeAppenderTest.h</in>
+            <in>NodeIteratorTest.cpp</in>
+            <in>NodeIteratorTest.h</in>
+            <in>NodeTest.cpp</in>
+            <in>NodeTest.h</in>
+            <in>ParserWriterTest.cpp</in>
+            <in>ParserWriterTest.h</in>
+            <in>SAXParserTest.cpp</in>
+            <in>SAXParserTest.h</in>
+            <in>SAXTestSuite.cpp</in>
+            <in>SAXTestSuite.h</in>
+            <in>TextTest.cpp</in>
+            <in>TextTest.h</in>
+            <in>TreeWalkerTest.cpp</in>
+            <in>TreeWalkerTest.h</in>
+            <in>WinCEDriver.cpp</in>
+            <in>WinDriver.cpp</in>
+            <in>XMLTestSuite.cpp</in>
+            <in>XMLTestSuite.h</in>
+            <in>XMLWriterTest.cpp</in>
+            <in>XMLWriterTest.h</in>
+          </df>
+        </df>
+      </df>
+    </df>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>
