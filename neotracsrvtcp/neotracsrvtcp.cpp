@@ -32,6 +32,7 @@
 #include <stdint.h>
 #include "../common/custlog.h"
 #include "../common/helpers.h"
+#include "../common/neoprotocol.h"
 
 using Poco::Net::SocketReactor;
 using Poco::Net::SocketAcceptor;
@@ -56,6 +57,7 @@ using Poco::Util::HelpFormatter;
 using namespace std;
 using namespace Neo::neotrac::Log;
 using namespace Neo::neotrac::Helpers;
+using namespace Neo::neotrac::Protocol;
         
 #define netlog_information(x) log_information(std::string(" [Addr]: ") + _socket.peerAddress().toString() + std::string(" : ")+x)
 #define netlog_debug(x)       log_debug(      std::string(" [Addr]: ") + _socket.peerAddress().toString() + std::string(" : ")+x)
@@ -188,6 +190,17 @@ public:
 		}        
     }
     
+    /**
+     * @void ProcessSMSGatewayMessage(void)
+     * process a message from the SMS gateway
+     */
+    void ProcessSMSGatewayMessage(void)
+    {
+        std::string s(_message);
+        
+        
+    }
+    
     /*
      * @method: void ProcessIncomingMessage(void)
      * 
@@ -227,6 +240,12 @@ public:
                 }
                 break;
                 
+            case '*': // SMS gateway message
+                {
+                    netlog_trace("Processing message from SMS gateway");
+                    ProcessSMSGatewayMessage();
+                }
+                break;
             default: // not understood - no response
                 {
                     netlog_trace("Incoming message header unknown - ignored");
@@ -374,6 +393,8 @@ private:
 
 	int MsgIdx;
 	char _message[BUFFER_SIZE];
+    
+    NEOPROTOCOL_ST_SHORT_PACKET ShortPacket;
 };
 
 

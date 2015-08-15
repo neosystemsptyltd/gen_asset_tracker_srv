@@ -5,8 +5,10 @@
                    displayName="Header Files"
                    projectFiles="true">
       <itemPath>../common/NeoProtocolBase.h</itemPath>
+      <itemPath>../common/cassert.h</itemPath>
       <itemPath>../common/custlog.h</itemPath>
       <itemPath>../common/helpers.h</itemPath>
+      <itemPath>../common/neoprotocol.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -74,6 +76,8 @@
       </item>
       <item path="../common/NeoProtocolBase.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="../common/cassert.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="../common/custlog.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="../common/custlog.h" ex="false" tool="3" flavor2="0">
@@ -81,6 +85,8 @@
       <item path="../common/helpers.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="../common/helpers.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../common/neoprotocol.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="neotracsrvtcp.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -109,6 +115,8 @@
       </item>
       <item path="../common/NeoProtocolBase.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="../common/cassert.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="../common/custlog.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="../common/custlog.h" ex="false" tool="3" flavor2="0">
@@ -116,6 +124,8 @@
       <item path="../common/helpers.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="../common/helpers.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../common/neoprotocol.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="neotracsrvtcp.cpp" ex="false" tool="1" flavor2="0">
       </item>

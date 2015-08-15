@@ -442,3 +442,8 @@
 2015-08-15 05:33:49,912 [1] (T)  [Addr]: 127.0.0.1:33183 : Processing CLOSE command - neotracsrvtcp.cpp, 171
 2015-08-15 05:33:49,912 [1] (I)  [Addr]: 127.0.0.1:33183 : Remote requested close - neotracsrvtcp.cpp, 286
 2015-08-15 05:33:49,912 [1] (I)  [Addr]: 127.0.0.1:33183 : Disconnecting - neotracsrvtcp.cpp, 106
+2015-08-15 07:30:05,240 [0] (I) Termination requested. - neotracsrvtcp.cpp, 474
+2015-08-15 07:30:05,256 [0] (I) Reactor stopped. - neotracsrvtcp.cpp, 478
+2015-08-15 07:30:05,412 [0] (I) Thread joined. - neotracsrvtcp.cpp, 481
+2015-08-15 07:30:05,412 [0] (I) Server stopped. - neotracsrvtcp.cpp, 483
+2015-08-15 07:30:05,412 [0] (D) Uninitializing subsystem: Logging Subsystem - , 0

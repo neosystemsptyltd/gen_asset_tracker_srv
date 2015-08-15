@@ -5,10 +5,8 @@ POCO_BUILD = /home/armand/ownCloud/Projects/NeoSystems/MulticommsTracker/Design/
 POCO_PREFIX = /usr/local
 POCO_FLAGS = 
 OMIT = 
-LINKMODE = STATIC
 export POCO_CONFIG
 export POCO_BASE
 export POCO_BUILD
 export POCO_PREFIX
 export POCO_FLAGS
-export LINKMODE
