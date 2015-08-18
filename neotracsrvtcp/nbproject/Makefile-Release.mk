@@ -36,7 +36,9 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 # Object Files
 OBJECTFILES= \
 	${OBJECTDIR}/_ext/1270477542/NeoProtocolBase.o \
+	${OBJECTDIR}/_ext/1270477542/base91.o \
 	${OBJECTDIR}/_ext/1270477542/custlog.o \
+	${OBJECTDIR}/_ext/1270477542/database.o \
 	${OBJECTDIR}/_ext/1270477542/helpers.o \
 	${OBJECTDIR}/neotracsrvtcp.o
 
@@ -68,22 +70,32 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/neotracsrvtcp: ${OBJECTFILES}
 ${OBJECTDIR}/_ext/1270477542/NeoProtocolBase.o: ../common/NeoProtocolBase.cpp 
 	${MKDIR} -p ${OBJECTDIR}/_ext/1270477542
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/1270477542/NeoProtocolBase.o ../common/NeoProtocolBase.cpp
+	$(COMPILE.cc) -O2 -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/1270477542/NeoProtocolBase.o ../common/NeoProtocolBase.cpp
+
+${OBJECTDIR}/_ext/1270477542/base91.o: ../common/base91.c 
+	${MKDIR} -p ${OBJECTDIR}/_ext/1270477542
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/1270477542/base91.o ../common/base91.c
 
 ${OBJECTDIR}/_ext/1270477542/custlog.o: ../common/custlog.cpp 
 	${MKDIR} -p ${OBJECTDIR}/_ext/1270477542
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/1270477542/custlog.o ../common/custlog.cpp
+	$(COMPILE.cc) -O2 -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/1270477542/custlog.o ../common/custlog.cpp
+
+${OBJECTDIR}/_ext/1270477542/database.o: ../common/database.cpp 
+	${MKDIR} -p ${OBJECTDIR}/_ext/1270477542
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/1270477542/database.o ../common/database.cpp
 
 ${OBJECTDIR}/_ext/1270477542/helpers.o: ../common/helpers.cpp 
 	${MKDIR} -p ${OBJECTDIR}/_ext/1270477542
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/1270477542/helpers.o ../common/helpers.cpp
+	$(COMPILE.cc) -O2 -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/1270477542/helpers.o ../common/helpers.cpp
 
 ${OBJECTDIR}/neotracsrvtcp.o: neotracsrvtcp.cpp 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/neotracsrvtcp.o neotracsrvtcp.cpp
+	$(COMPILE.cc) -O2 -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/neotracsrvtcp.o neotracsrvtcp.cpp
 
 # Subprojects
 .build-subprojects:

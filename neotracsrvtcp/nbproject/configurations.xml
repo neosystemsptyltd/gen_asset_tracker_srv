@@ -5,9 +5,12 @@
                    displayName="Header Files"
                    projectFiles="true">
       <itemPath>../common/NeoProtocolBase.h</itemPath>
+      <itemPath>../common/base91.h</itemPath>
       <itemPath>../common/cassert.h</itemPath>
       <itemPath>../common/custlog.h</itemPath>
+      <itemPath>../common/database.h</itemPath>
       <itemPath>../common/helpers.h</itemPath>
+      <itemPath>../common/isaac64.hpp</itemPath>
       <itemPath>../common/neoprotocol.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
@@ -18,7 +21,9 @@
                    displayName="Source Files"
                    projectFiles="true">
       <itemPath>../common/NeoProtocolBase.cpp</itemPath>
+      <itemPath>../common/base91.c</itemPath>
       <itemPath>../common/custlog.cpp</itemPath>
+      <itemPath>../common/database.cpp</itemPath>
       <itemPath>../common/helpers.cpp</itemPath>
       <itemPath>neotracsrvtcp.cpp</itemPath>
     </logicalFolder>
@@ -49,7 +54,9 @@
             <pElem>../poco-1.6.1/Net/include</pElem>
             <pElem>../poco-1.6.1/Foundation/include</pElem>
             <pElem>../common</pElem>
+            <pElem>../boost</pElem>
           </incDir>
+          <commandLine>-Wall -Wextra -std=gnu++11</commandLine>
           <preprocessorList>
             <Elem>_DEBUG</Elem>
           </preprocessorList>
@@ -76,15 +83,25 @@
       </item>
       <item path="../common/NeoProtocolBase.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="../common/base91.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../common/base91.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="../common/cassert.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../common/custlog.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="../common/custlog.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="../common/database.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../common/database.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="../common/helpers.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="../common/helpers.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../common/isaac64.hpp" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../common/neoprotocol.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -103,6 +120,7 @@
         </cTool>
         <ccTool>
           <developmentMode>5</developmentMode>
+          <standard>8</standard>
         </ccTool>
         <fortranCompilerTool>
           <developmentMode>5</developmentMode>
@@ -115,15 +133,25 @@
       </item>
       <item path="../common/NeoProtocolBase.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="../common/base91.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../common/base91.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="../common/cassert.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../common/custlog.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="../common/custlog.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="../common/database.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../common/database.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="../common/helpers.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="../common/helpers.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../common/isaac64.hpp" ex="false" tool="3" flavor2="0">
       </item>
       <item path="../common/neoprotocol.h" ex="false" tool="3" flavor2="0">
       </item>

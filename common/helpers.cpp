@@ -18,9 +18,10 @@ bool HelperClass::CheckPrintableChars(const char * str, size_t maxlen)
     bool result = true;
     size_t i = 0;
     
-    while((i<0) && (str[i] != 0))
+    while((i<maxlen) && (str[i] != 0))
     {
-        if ((str[i] < 32) || (str[i] > 127)) result = false;
+        if ((str[i] < 32) || ((uint8_t)str[i] > 127)) result = false;
+        i++;
     }
     
     return result;

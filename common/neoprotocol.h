@@ -2,6 +2,7 @@
 #define NEOPROTOCOL_H
 
 #include "cassert.h"
+#include <stdint.h>
 
 #ifdef __cplusplus
 namespace Neo {
@@ -15,6 +16,7 @@ using namespace std;
 
 typedef enum {
     NEOPROTOCOL_MESSAGE_TYPE_E_REGISTRATION,
+    NEOPROTOCOL_MESSAGE_TYPE_E_REPORT_EVENT,
         
     NEOPROTOCOL_MESSAGE_TYPE_E_LAST        
 } NEOPROTOCOL_MESSAGE_TYPE_E;

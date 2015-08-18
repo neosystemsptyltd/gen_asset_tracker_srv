@@ -158,7 +158,7 @@ public:
 	}
 	
 protected:
-	virtual ServiceHandler* createServiceHandler(StreamSocket& socket)
+	ServiceHandler* createServiceHandler(StreamSocket& socket)
 		/// Create and initialize a new ServiceHandler instance.
 		///
 		/// Subclasses can override this method.

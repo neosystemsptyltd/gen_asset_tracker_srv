@@ -447,3 +447,260 @@
 2015-08-15 07:30:05,412 [0] (I) Thread joined. - neotracsrvtcp.cpp, 481
 2015-08-15 07:30:05,412 [0] (I) Server stopped. - neotracsrvtcp.cpp, 483
 2015-08-15 07:30:05,412 [0] (D) Uninitializing subsystem: Logging Subsystem - , 0
+2015-08-16 05:19:20,410 [0] (T) Create a database class ref - ../common/database.cpp, 17
+2015-08-16 05:19:20,435 [0] (I) Compiler version: 4 - neotracsrvtcp.cpp, 601
+2015-08-16 05:19:20,435 [0] (I) Build date & Time: Aug 16 2015, 07:18:08 - neotracsrvtcp.cpp, 602
+2015-08-16 05:19:20,435 [0] (I) Server started - neotracsrvtcp.cpp, 603
+2015-08-16 05:19:55,826 [0] (I) Termination requested. - neotracsrvtcp.cpp, 607
+2015-08-16 05:19:55,826 [0] (I) Reactor stopped. - neotracsrvtcp.cpp, 611
+2015-08-16 05:19:55,986 [0] (I) Thread joined. - neotracsrvtcp.cpp, 614
+2015-08-16 05:19:55,987 [0] (I) Server stopped. - neotracsrvtcp.cpp, 616
+2015-08-16 05:19:55,987 [0] (D) Uninitializing subsystem: Logging Subsystem - , 0
+2015-08-16 05:21:06,324 [0] (T) Create a database class ref - ../common/database.cpp, 17
+2015-08-16 05:21:06,348 [0] (I) Compiler version: 4 - neotracsrvtcp.cpp, 601
+2015-08-16 05:21:06,348 [0] (I) C++ version: 201103 - neotracsrvtcp.cpp, 602
+2015-08-16 05:21:06,348 [0] (I) Build date & Time: Aug 16 2015, 07:20:52 - neotracsrvtcp.cpp, 603
+2015-08-16 05:21:06,348 [0] (I) Server started - neotracsrvtcp.cpp, 604
+2015-08-16 05:21:14,477 [0] (I) Termination requested. - neotracsrvtcp.cpp, 608
+2015-08-16 05:21:14,477 [0] (I) Reactor stopped. - neotracsrvtcp.cpp, 612
+2015-08-16 05:21:14,609 [0] (I) Thread joined. - neotracsrvtcp.cpp, 615
+2015-08-16 05:21:14,609 [0] (I) Server stopped. - neotracsrvtcp.cpp, 617
+2015-08-16 05:21:14,610 [0] (D) Uninitializing subsystem: Logging Subsystem - , 0
+2015-08-16 08:12:45,647 [0] (I) Compiler version: 4 - neotracsrvtcp.cpp, 636
+2015-08-16 08:12:45,677 [0] (I) C++ version: 201103 - neotracsrvtcp.cpp, 637
+2015-08-16 08:12:45,677 [0] (I) Build date & Time: Aug 16 2015, 10:12:11 - neotracsrvtcp.cpp, 638
+2015-08-16 08:12:45,677 [0] (I) Server started - neotracsrvtcp.cpp, 639
+2015-08-16 08:12:52,818 [0] (I) Termination requested. - neotracsrvtcp.cpp, 643
+2015-08-16 08:12:52,818 [0] (I) Reactor stopped. - neotracsrvtcp.cpp, 647
+2015-08-16 08:12:52,907 [0] (I) Thread joined. - neotracsrvtcp.cpp, 650
+2015-08-16 08:12:52,907 [0] (I) Server stopped. - neotracsrvtcp.cpp, 652
+2015-08-16 08:12:52,908 [0] (D) Uninitializing subsystem: Logging Subsystem - , 0
+2015-08-16 08:41:14,817 [0] (T) Server context created - neotracsrvtcp.cpp, 88
+2015-08-16 08:41:14,837 [0] (T) Instantiate the database class: U:postgres p: - ../common/database.cpp, 17
+2015-08-16 08:41:14,838 [0] (T) Neo Socket reactor created - neotracsrvtcp.cpp, 115
+2015-08-16 08:41:14,840 [0] (I) Compiler version: 4 - neotracsrvtcp.cpp, 649
+2015-08-16 08:41:14,840 [0] (I) C++ version: 201103 - neotracsrvtcp.cpp, 650
+2015-08-16 08:41:14,840 [0] (I) Build date & Time: Aug 16 2015, 10:41:05 - neotracsrvtcp.cpp, 651
+2015-08-16 08:41:14,840 [0] (I) Server started - neotracsrvtcp.cpp, 652
+2015-08-16 08:41:30,122 [0] (I) Termination requested. - neotracsrvtcp.cpp, 656
+2015-08-16 08:41:30,122 [0] (I) Reactor stopped. - neotracsrvtcp.cpp, 660
+2015-08-16 08:41:30,363 [0] (I) Thread joined. - neotracsrvtcp.cpp, 663
+2015-08-16 08:41:30,363 [0] (I) Server stopped. - neotracsrvtcp.cpp, 665
+2015-08-16 08:41:30,363 [0] (T) Destroy the database class - ../common/database.cpp, 23
+2015-08-16 08:41:30,363 [0] (D) Uninitializing subsystem: Logging Subsystem - , 0
+2015-08-16 08:44:44,464 [0] (T) Server context created - neotracsrvtcp.cpp, 88
+2015-08-16 08:44:44,464 [0] (T) Instantiate the database class: U:postgres p: - ../common/database.cpp, 17
+2015-08-16 08:44:44,465 [0] (T) Neo Socket reactor created - neotracsrvtcp.cpp, 115
+2015-08-16 08:44:44,465 [0] (I) Compiler version: 4 - neotracsrvtcp.cpp, 649
+2015-08-16 08:44:44,465 [0] (I) C++ version: 201103 - neotracsrvtcp.cpp, 650
+2015-08-16 08:44:44,465 [0] (I) Build date & Time: Aug 16 2015, 10:41:05 - neotracsrvtcp.cpp, 651
+2015-08-16 08:44:44,466 [0] (I) Server started - neotracsrvtcp.cpp, 652
+2015-08-16 08:44:46,555 [0] (I) Termination requested. - neotracsrvtcp.cpp, 656
+2015-08-16 08:44:46,555 [0] (I) Reactor stopped. - neotracsrvtcp.cpp, 660
+2015-08-16 08:44:46,718 [0] (I) Thread joined. - neotracsrvtcp.cpp, 663
+2015-08-16 08:44:46,719 [0] (I) Server stopped. - neotracsrvtcp.cpp, 665
+2015-08-16 08:44:46,719 [0] (T) Destroy the database class - ../common/database.cpp, 23
+2015-08-16 08:44:46,719 [0] (D) Uninitializing subsystem: Logging Subsystem - , 0
+2015-08-16 09:02:31,279 [0] (T) Server context created - neotracsrvtcp.cpp, 88
+2015-08-16 09:02:31,292 [0] (T) Instantiate the database class: U:postgres p: - ../common/database.cpp, 17
+2015-08-16 09:02:31,293 [0] (T) Neo Socket reactor created - neotracsrvtcp.cpp, 115
+2015-08-16 09:02:31,294 [0] (I) Compiler version: 4 - neotracsrvtcp.cpp, 651
+2015-08-16 09:02:31,294 [0] (I) C++ version: 201103 - neotracsrvtcp.cpp, 652
+2015-08-16 09:02:31,294 [0] (I) Build date & Time: Aug 16 2015, 11:02:21 - neotracsrvtcp.cpp, 653
+2015-08-16 09:02:31,294 [0] (I) Server started - neotracsrvtcp.cpp, 654
+2015-08-16 09:03:18,276 [1] (I)  [Addr]: 127.0.0.1:45235 : Connection from - neotracsrvtcp.cpp, 148
+2015-08-16 09:03:18,277 [1] (T)  [Addr]: 127.0.0.1:45235 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 162
+2015-08-16 09:03:20,780 [1] (D)  [Addr]: 127.0.0.1:45235 : Timeout 90 on - neotracsrvtcp.cpp, 509
+2015-08-16 09:03:23,284 [1] (D)  [Addr]: 127.0.0.1:45235 : Timeout 80 on - neotracsrvtcp.cpp, 509
+2015-08-16 09:03:25,788 [1] (D)  [Addr]: 127.0.0.1:45235 : Timeout 70 on - neotracsrvtcp.cpp, 509
+2015-08-16 09:03:26,720 [1] (T)  [Addr]: 127.0.0.1:45235 : Processing text command - neotracsrvtcp.cpp, 368
+2015-08-16 09:03:26,721 [1] (I)  [Addr]: 127.0.0.1:45235 : Incoming message: $TIME - neotracsrvtcp.cpp, 212
+2015-08-16 09:03:26,721 [1] (T)  [Addr]: 127.0.0.1:45235 : unknown text command - neotracsrvtcp.cpp, 237
+2015-08-16 09:03:26,721 [1] (T)  [Addr]: 127.0.0.1:45235 : Transmit response: Error: unknown command
+ - neotracsrvtcp.cpp, 246
+2015-08-16 09:03:29,226 [1] (D)  [Addr]: 127.0.0.1:45235 : Timeout 90 on - neotracsrvtcp.cpp, 509
+2015-08-16 09:03:30,869 [1] (T)  [Addr]: 127.0.0.1:45235 : Processing text command - neotracsrvtcp.cpp, 368
+2015-08-16 09:03:30,870 [1] (I)  [Addr]: 127.0.0.1:45235 : Incoming message: $HELP - neotracsrvtcp.cpp, 212
+2015-08-16 09:03:30,888 [1] (T)  [Addr]: 127.0.0.1:45235 : Processing HELP command - neotracsrvtcp.cpp, 217
+2015-08-16 09:03:30,889 [1] (T)  [Addr]: 127.0.0.1:45235 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 246
+2015-08-16 09:03:33,393 [1] (D)  [Addr]: 127.0.0.1:45235 : Timeout 90 on - neotracsrvtcp.cpp, 509
+2015-08-16 09:03:35,691 [1] (T)  [Addr]: 127.0.0.1:45235 : Processing text command - neotracsrvtcp.cpp, 368
+2015-08-16 09:03:35,691 [1] (I)  [Addr]: 127.0.0.1:45235 : Incoming message: $CLOSE - neotracsrvtcp.cpp, 212
+2015-08-16 09:03:35,691 [1] (T)  [Addr]: 127.0.0.1:45235 : Processing CLOSE command - neotracsrvtcp.cpp, 232
+2015-08-16 09:03:35,691 [1] (I)  [Addr]: 127.0.0.1:45235 : Remote requested close - neotracsrvtcp.cpp, 456
+2015-08-16 09:03:35,691 [1] (I)  [Addr]: 127.0.0.1:45235 : Disconnecting - neotracsrvtcp.cpp, 167
+2015-08-16 09:03:39,663 [1] (I)  [Addr]: 127.0.0.1:45237 : Connection from - neotracsrvtcp.cpp, 148
+2015-08-16 09:03:39,663 [1] (T)  [Addr]: 127.0.0.1:45237 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 162
+2015-08-16 09:03:42,167 [1] (D)  [Addr]: 127.0.0.1:45237 : Timeout 90 on - neotracsrvtcp.cpp, 509
+2015-08-16 09:03:44,671 [1] (D)  [Addr]: 127.0.0.1:45237 : Timeout 80 on - neotracsrvtcp.cpp, 509
+2015-08-16 09:03:47,175 [1] (D)  [Addr]: 127.0.0.1:45237 : Timeout 70 on - neotracsrvtcp.cpp, 509
+2015-08-16 09:03:49,679 [1] (D)  [Addr]: 127.0.0.1:45237 : Timeout 60 on - neotracsrvtcp.cpp, 509
+2015-08-16 09:03:52,829 [1] (T)  [Addr]: 127.0.0.1:45237 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 402
+2015-08-16 09:03:55,333 [1] (D)  [Addr]: 127.0.0.1:45237 : Timeout 90 on - neotracsrvtcp.cpp, 509
+2015-08-16 09:03:57,837 [1] (D)  [Addr]: 127.0.0.1:45237 : Timeout 80 on - neotracsrvtcp.cpp, 509
+2015-08-16 09:03:58,113 [1] (I)  [Addr]: 127.0.0.1:45237 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 462
+2015-08-16 09:03:58,113 [1] (I)  [Addr]: 127.0.0.1:45237 : Disconnecting - neotracsrvtcp.cpp, 167
+2015-08-16 09:04:10,815 [0] (I) Termination requested. - neotracsrvtcp.cpp, 658
+2015-08-16 09:04:10,815 [0] (I) Reactor stopped. - neotracsrvtcp.cpp, 662
+2015-08-16 09:04:10,881 [0] (I) Thread joined. - neotracsrvtcp.cpp, 665
+2015-08-16 09:04:10,881 [0] (I) Server stopped. - neotracsrvtcp.cpp, 667
+2015-08-16 09:04:10,881 [0] (T) Destroy the database class - ../common/database.cpp, 25
+2015-08-16 09:04:10,882 [0] (D) Uninitializing subsystem: Logging Subsystem - , 0
+2015-08-16 09:11:08,425 [0] (T) Server context created - neotracsrvtcp.cpp, 88
+2015-08-16 09:11:08,425 [0] (T) Neo Socket reactor created - neotracsrvtcp.cpp, 125
+2015-08-16 09:11:08,426 [0] (I) Compiler version: 4 - neotracsrvtcp.cpp, 660
+2015-08-16 09:11:08,426 [0] (I) C++ version: 201103 - neotracsrvtcp.cpp, 661
+2015-08-16 09:11:08,426 [0] (I) Build date & Time: Aug 16 2015, 11:10:54 - neotracsrvtcp.cpp, 662
+2015-08-16 09:11:08,426 [0] (I) Server started - neotracsrvtcp.cpp, 663
+2015-08-16 09:11:33,059 [1] (I)  [Addr]: 127.0.0.1:45281 : Connection from - neotracsrvtcp.cpp, 158
+2015-08-16 09:11:33,060 [1] (T) Instantiate the database class: U:postgres p: - ../common/database.cpp, 17
+2015-08-16 09:11:33,060 [1] (T)  [Addr]: 127.0.0.1:45281 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 172
+2015-08-16 09:11:35,564 [1] (D)  [Addr]: 127.0.0.1:45281 : Timeout 90 on - neotracsrvtcp.cpp, 519
+2015-08-16 09:11:38,068 [1] (D)  [Addr]: 127.0.0.1:45281 : Timeout 80 on - neotracsrvtcp.cpp, 519
+2015-08-16 09:11:40,572 [1] (D)  [Addr]: 127.0.0.1:45281 : Timeout 70 on - neotracsrvtcp.cpp, 519
+2015-08-16 09:11:43,076 [1] (D)  [Addr]: 127.0.0.1:45281 : Timeout 60 on - neotracsrvtcp.cpp, 519
+2015-08-16 09:11:45,580 [1] (D)  [Addr]: 127.0.0.1:45281 : Timeout 50 on - neotracsrvtcp.cpp, 519
+2015-08-16 09:11:45,624 [1] (T)  [Addr]: 127.0.0.1:45281 : Processing text command - neotracsrvtcp.cpp, 378
+2015-08-16 09:11:45,624 [1] (I)  [Addr]: 127.0.0.1:45281 : Incoming message: $CLOSE - neotracsrvtcp.cpp, 222
+2015-08-16 09:11:45,624 [1] (T)  [Addr]: 127.0.0.1:45281 : Processing CLOSE command - neotracsrvtcp.cpp, 242
+2015-08-16 09:11:45,624 [1] (I)  [Addr]: 127.0.0.1:45281 : Remote requested close - neotracsrvtcp.cpp, 466
+2015-08-16 09:11:45,624 [1] (I)  [Addr]: 127.0.0.1:45281 : Disconnecting - neotracsrvtcp.cpp, 177
+2015-08-16 09:11:47,685 [1] (I)  [Addr]: 127.0.0.1:45282 : Connection from - neotracsrvtcp.cpp, 158
+2015-08-16 09:11:47,685 [1] (T)  [Addr]: 127.0.0.1:45282 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 172
+2015-08-16 09:11:50,189 [1] (D)  [Addr]: 127.0.0.1:45282 : Timeout 90 on - neotracsrvtcp.cpp, 519
+2015-08-16 09:11:52,128 [1] (T)  [Addr]: 127.0.0.1:45282 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 412
+2015-08-16 09:11:54,632 [1] (D)  [Addr]: 127.0.0.1:45282 : Timeout 90 on - neotracsrvtcp.cpp, 519
+2015-08-16 09:11:55,199 [1] (T)  [Addr]: 127.0.0.1:45282 : Processing text command - neotracsrvtcp.cpp, 378
+2015-08-16 09:11:55,199 [1] (I)  [Addr]: 127.0.0.1:45282 : Incoming message: $CLOSE - neotracsrvtcp.cpp, 222
+2015-08-16 09:11:55,199 [1] (T)  [Addr]: 127.0.0.1:45282 : Processing CLOSE command - neotracsrvtcp.cpp, 242
+2015-08-16 09:11:55,199 [1] (I)  [Addr]: 127.0.0.1:45282 : Remote requested close - neotracsrvtcp.cpp, 466
+2015-08-16 09:11:55,199 [1] (I)  [Addr]: 127.0.0.1:45282 : Disconnecting - neotracsrvtcp.cpp, 177
+2015-08-16 09:13:49,386 [1] (I)  [Addr]: 127.0.0.1:45289 : Connection from - neotracsrvtcp.cpp, 158
+2015-08-16 09:13:49,386 [1] (T)  [Addr]: 127.0.0.1:45289 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 172
+2015-08-16 09:13:51,890 [1] (D)  [Addr]: 127.0.0.1:45289 : Timeout 90 on - neotracsrvtcp.cpp, 519
+2015-08-16 09:13:52,372 [1] (T)  [Addr]: 127.0.0.1:45289 : Processing text command - neotracsrvtcp.cpp, 378
+2015-08-16 09:13:52,372 [1] (I)  [Addr]: 127.0.0.1:45289 : Incoming message: $HELP - neotracsrvtcp.cpp, 222
+2015-08-16 09:13:52,372 [1] (T)  [Addr]: 127.0.0.1:45289 : Processing HELP command - neotracsrvtcp.cpp, 227
+2015-08-16 09:13:52,372 [1] (T)  [Addr]: 127.0.0.1:45289 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 256
+2015-08-16 09:13:54,876 [1] (D)  [Addr]: 127.0.0.1:45289 : Timeout 90 on - neotracsrvtcp.cpp, 519
+2015-08-16 09:13:57,380 [1] (D)  [Addr]: 127.0.0.1:45289 : Timeout 80 on - neotracsrvtcp.cpp, 519
+2015-08-16 09:13:59,884 [1] (D)  [Addr]: 127.0.0.1:45289 : Timeout 70 on - neotracsrvtcp.cpp, 519
+2015-08-16 09:14:00,240 [1] (T)  [Addr]: 127.0.0.1:45289 : Processing text command - neotracsrvtcp.cpp, 378
+2015-08-16 09:14:00,240 [1] (I)  [Addr]: 127.0.0.1:45289 : Incoming message: $L - neotracsrvtcp.cpp, 222
+2015-08-16 09:14:00,240 [1] (T)  [Addr]: 127.0.0.1:45289 : unknown text command - neotracsrvtcp.cpp, 247
+2015-08-16 09:14:00,240 [1] (T)  [Addr]: 127.0.0.1:45289 : Transmit response: Error: unknown command
+ - neotracsrvtcp.cpp, 256
+2015-08-16 09:14:02,744 [1] (D)  [Addr]: 127.0.0.1:45289 : Timeout 90 on - neotracsrvtcp.cpp, 519
+2015-08-16 09:14:02,889 [1] (T)  [Addr]: 127.0.0.1:45289 : Processing text command - neotracsrvtcp.cpp, 378
+2015-08-16 09:14:02,890 [1] (I)  [Addr]: 127.0.0.1:45289 : Incoming message: $CLOSE - neotracsrvtcp.cpp, 222
+2015-08-16 09:14:02,890 [1] (T)  [Addr]: 127.0.0.1:45289 : Processing CLOSE command - neotracsrvtcp.cpp, 242
+2015-08-16 09:14:02,890 [1] (I)  [Addr]: 127.0.0.1:45289 : Remote requested close - neotracsrvtcp.cpp, 466
+2015-08-16 09:14:02,890 [1] (I)  [Addr]: 127.0.0.1:45289 : Disconnecting - neotracsrvtcp.cpp, 177
+2015-08-16 09:14:07,762 [0] (I) Termination requested. - neotracsrvtcp.cpp, 667
+2015-08-16 09:14:07,762 [0] (I) Reactor stopped. - neotracsrvtcp.cpp, 671
+2015-08-16 09:14:07,897 [0] (I) Thread joined. - neotracsrvtcp.cpp, 674
+2015-08-16 09:14:07,897 [0] (I) Server stopped. - neotracsrvtcp.cpp, 676
+2015-08-16 09:14:07,897 [0] (T) Destroy the database class - ../common/database.cpp, 25
+2015-08-16 09:14:07,897 [0] (D) Uninitializing subsystem: Logging Subsystem - , 0
+2015-08-16 09:16:10,696 [0] (T) Server context created - neotracsrvtcp.cpp, 88
+2015-08-16 09:16:10,710 [0] (T) Neo Socket reactor created - neotracsrvtcp.cpp, 125
+2015-08-16 09:16:10,711 [0] (I) Compiler version: 4 - neotracsrvtcp.cpp, 660
+2015-08-16 09:16:10,711 [0] (I) C++ version: 201103 - neotracsrvtcp.cpp, 661
+2015-08-16 09:16:10,711 [0] (I) Build date & Time: Aug 16 2015, 11:15:31 - neotracsrvtcp.cpp, 662
+2015-08-16 09:16:10,711 [0] (I) Server started - neotracsrvtcp.cpp, 663
+2015-08-16 09:16:16,130 [1] (I)  [Addr]: 127.0.0.1:45305 : New Connection - neotracsrvtcp.cpp, 158
+2015-08-16 09:16:16,130 [1] (T) Instantiate the database class: U:postgres p: - ../common/database.cpp, 17
+2015-08-16 09:16:16,130 [1] (T)  [Addr]: 127.0.0.1:45305 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 172
+2015-08-16 09:16:18,634 [1] (D)  [Addr]: 127.0.0.1:45305 : Timeout 90 on - neotracsrvtcp.cpp, 519
+2015-08-16 09:16:19,644 [1] (T)  [Addr]: 127.0.0.1:45305 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 412
+2015-08-16 09:16:22,148 [1] (D)  [Addr]: 127.0.0.1:45305 : Timeout 90 on - neotracsrvtcp.cpp, 519
+2015-08-16 09:16:23,569 [1] (T)  [Addr]: 127.0.0.1:45305 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 412
+2015-08-16 09:16:26,073 [1] (D)  [Addr]: 127.0.0.1:45305 : Timeout 90 on - neotracsrvtcp.cpp, 519
+2015-08-16 09:16:26,743 [1] (T)  [Addr]: 127.0.0.1:45305 : Processing text command - neotracsrvtcp.cpp, 378
+2015-08-16 09:16:26,743 [1] (I)  [Addr]: 127.0.0.1:45305 : Incoming message: $HELP - neotracsrvtcp.cpp, 222
+2015-08-16 09:16:26,744 [1] (T)  [Addr]: 127.0.0.1:45305 : Processing HELP command - neotracsrvtcp.cpp, 227
+2015-08-16 09:16:26,744 [1] (T)  [Addr]: 127.0.0.1:45305 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 256
+2015-08-16 09:16:29,248 [1] (D)  [Addr]: 127.0.0.1:45305 : Timeout 90 on - neotracsrvtcp.cpp, 519
+2015-08-16 09:16:31,752 [1] (D)  [Addr]: 127.0.0.1:45305 : Timeout 80 on - neotracsrvtcp.cpp, 519
+2015-08-16 09:16:34,256 [1] (D)  [Addr]: 127.0.0.1:45305 : Timeout 70 on - neotracsrvtcp.cpp, 519
+2015-08-16 09:16:34,598 [1] (T)  [Addr]: 127.0.0.1:45305 : Processing text command - neotracsrvtcp.cpp, 378
+2015-08-16 09:16:34,598 [1] (I)  [Addr]: 127.0.0.1:45305 : Incoming message: $CLOSE - neotracsrvtcp.cpp, 222
+2015-08-16 09:16:34,598 [1] (T)  [Addr]: 127.0.0.1:45305 : Processing CLOSE command - neotracsrvtcp.cpp, 242
+2015-08-16 09:16:34,598 [1] (I)  [Addr]: 127.0.0.1:45305 : Remote requested close - neotracsrvtcp.cpp, 466
+2015-08-16 09:16:34,598 [1] (I)  [Addr]: 127.0.0.1:45305 : Disconnecting - neotracsrvtcp.cpp, 177
+2015-08-16 09:16:35,619 [1] (I)  [Addr]: 127.0.0.1:45307 : New Connection - neotracsrvtcp.cpp, 158
+2015-08-16 09:16:35,619 [1] (T)  [Addr]: 127.0.0.1:45307 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 172
+2015-08-16 09:16:37,973 [1] (T)  [Addr]: 127.0.0.1:45307 : Processing text command - neotracsrvtcp.cpp, 378
+2015-08-16 09:16:37,973 [1] (I)  [Addr]: 127.0.0.1:45307 : Incoming message: $CLOSE - neotracsrvtcp.cpp, 222
+2015-08-16 09:16:37,973 [1] (T)  [Addr]: 127.0.0.1:45307 : Processing CLOSE command - neotracsrvtcp.cpp, 242
+2015-08-16 09:16:37,973 [1] (I)  [Addr]: 127.0.0.1:45307 : Remote requested close - neotracsrvtcp.cpp, 466
+2015-08-16 09:16:37,973 [1] (I)  [Addr]: 127.0.0.1:45307 : Disconnecting - neotracsrvtcp.cpp, 177
+2015-08-16 09:17:02,594 [0] (I) Termination requested. - neotracsrvtcp.cpp, 667
+2015-08-16 09:17:02,594 [0] (I) Reactor stopped. - neotracsrvtcp.cpp, 671
+2015-08-16 09:17:02,758 [0] (I) Thread joined. - neotracsrvtcp.cpp, 674
+2015-08-16 09:17:02,759 [0] (I) Server stopped. - neotracsrvtcp.cpp, 676
+2015-08-16 09:17:02,759 [0] (T) Destroy the database class - ../common/database.cpp, 25
+2015-08-16 09:17:02,759 [0] (D) Uninitializing subsystem: Logging Subsystem - , 0
+2015-08-16 09:20:22,788 [0] (T) Server context created - neotracsrvtcp.cpp, 88
+2015-08-16 09:20:22,788 [0] (T) Neo Socket reactor created - neotracsrvtcp.cpp, 126
+2015-08-16 09:20:22,789 [0] (I) Compiler version: 4 - neotracsrvtcp.cpp, 661
+2015-08-16 09:20:22,789 [0] (I) C++ version: 201103 - neotracsrvtcp.cpp, 662
+2015-08-16 09:20:22,789 [0] (I) Build date & Time: Aug 16 2015, 11:19:37 - neotracsrvtcp.cpp, 663
+2015-08-16 09:20:22,789 [0] (I) Server started - neotracsrvtcp.cpp, 664
+2015-08-16 09:20:26,405 [1] (I)  [Addr]: 127.0.0.1:45326 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-16 09:20:26,405 [1] (T) Database not opened before - neotracsrvtcp.cpp, 114
+2015-08-16 09:20:26,405 [1] (T) Instantiate the database class: U:postgres p: - ../common/database.cpp, 17
+2015-08-16 09:20:26,405 [1] (T)  [Addr]: 127.0.0.1:45326 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-16 09:20:28,909 [1] (D)  [Addr]: 127.0.0.1:45326 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-16 09:20:29,909 [1] (T)  [Addr]: 127.0.0.1:45326 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-16 09:20:29,909 [1] (I)  [Addr]: 127.0.0.1:45326 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-16 09:20:29,909 [1] (T)  [Addr]: 127.0.0.1:45326 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-16 09:20:29,909 [1] (T)  [Addr]: 127.0.0.1:45326 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-16 09:20:32,008 [1] (T)  [Addr]: 127.0.0.1:45326 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-16 09:20:32,008 [1] (I)  [Addr]: 127.0.0.1:45326 : Incoming message: $CLOSE - neotracsrvtcp.cpp, 223
+2015-08-16 09:20:32,008 [1] (T)  [Addr]: 127.0.0.1:45326 : Processing CLOSE command - neotracsrvtcp.cpp, 243
+2015-08-16 09:20:32,008 [1] (I)  [Addr]: 127.0.0.1:45326 : Remote requested close - neotracsrvtcp.cpp, 467
+2015-08-16 09:20:32,008 [1] (I)  [Addr]: 127.0.0.1:45326 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-16 09:20:38,667 [0] (I) Termination requested. - neotracsrvtcp.cpp, 668
+2015-08-16 09:20:38,667 [0] (I) Reactor stopped. - neotracsrvtcp.cpp, 672
+2015-08-16 09:20:38,767 [0] (I) Thread joined. - neotracsrvtcp.cpp, 675
+2015-08-16 09:20:38,767 [0] (I) Server stopped. - neotracsrvtcp.cpp, 677
+2015-08-16 09:20:38,767 [0] (T) Destroy the database class - ../common/database.cpp, 25
+2015-08-16 09:20:38,767 [0] (D) Uninitializing subsystem: Logging Subsystem - , 0
+2015-08-16 09:54:51,303 [0] (T) Server context created - neotracsrvtcp.cpp, 88
+2015-08-16 09:54:51,304 [0] (T) Neo Socket reactor created - neotracsrvtcp.cpp, 126
+2015-08-16 09:54:51,304 [0] (I) Compiler version: 4 - neotracsrvtcp.cpp, 661
+2015-08-16 09:54:51,304 [0] (I) C++ version: 201103 - neotracsrvtcp.cpp, 662
+2015-08-16 09:54:51,304 [0] (I) Build date & Time: Aug 16 2015, 11:19:37 - neotracsrvtcp.cpp, 663
+2015-08-16 09:54:51,304 [0] (I) Server started - neotracsrvtcp.cpp, 664
+2015-08-16 09:54:55,053 [0] (I) Termination requested. - neotracsrvtcp.cpp, 668
+2015-08-16 09:54:55,053 [0] (I) Reactor stopped. - neotracsrvtcp.cpp, 672
+2015-08-16 09:54:55,060 [0] (I) Thread joined. - neotracsrvtcp.cpp, 675
+2015-08-16 09:54:55,060 [0] (I) Server stopped. - neotracsrvtcp.cpp, 677
+2015-08-16 09:54:55,060 [0] (D) Uninitializing subsystem: Logging Subsystem - , 0
+2015-08-16 09:54:57,541 [0] (T) Server context created - neotracsrvtcp.cpp, 88
+2015-08-16 09:54:57,542 [0] (T) Neo Socket reactor created - neotracsrvtcp.cpp, 126
+2015-08-16 09:54:57,543 [0] (I) Compiler version: 4 - neotracsrvtcp.cpp, 661
+2015-08-16 09:54:57,544 [0] (I) C++ version: 201103 - neotracsrvtcp.cpp, 662
+2015-08-16 09:54:57,544 [0] (I) Build date & Time: Aug 16 2015, 11:19:37 - neotracsrvtcp.cpp, 663
+2015-08-16 09:54:57,544 [0] (I) Server started - neotracsrvtcp.cpp, 664
+2015-08-16 09:55:03,345 [1] (I)  [Addr]: 127.0.0.1:45466 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-16 09:55:03,345 [1] (T) Database not opened before - neotracsrvtcp.cpp, 114
+2015-08-16 09:55:03,345 [1] (T) Instantiate the database class: U:postgres p: - ../common/database.cpp, 17
+2015-08-16 09:55:03,345 [1] (T)  [Addr]: 127.0.0.1:45466 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-16 09:55:05,849 [1] (D)  [Addr]: 127.0.0.1:45466 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-16 09:55:08,353 [1] (D)  [Addr]: 127.0.0.1:45466 : Timeout 80 on - neotracsrvtcp.cpp, 520
+2015-08-16 09:55:10,857 [1] (D)  [Addr]: 127.0.0.1:45466 : Timeout 70 on - neotracsrvtcp.cpp, 520
+2015-08-16 09:55:13,361 [1] (D)  [Addr]: 127.0.0.1:45466 : Timeout 60 on - neotracsrvtcp.cpp, 520
+2015-08-16 09:55:13,751 [0] (I) Termination requested. - neotracsrvtcp.cpp, 668
+2015-08-16 09:55:13,751 [0] (I) Reactor stopped. - neotracsrvtcp.cpp, 672
+2015-08-16 09:55:13,861 [1] (I)  [Addr]: 127.0.0.1:45466 : Shutdown - conn close - neotracsrvtcp.cpp, 492
+2015-08-16 09:55:13,861 [1] (I)  [Addr]: 127.0.0.1:45466 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-16 09:55:13,862 [0] (I) Thread joined. - neotracsrvtcp.cpp, 675
+2015-08-16 09:55:13,862 [0] (I) Server stopped. - neotracsrvtcp.cpp, 677
+2015-08-16 09:55:13,862 [0] (T) Destroy the database class - ../common/database.cpp, 25
+2015-08-16 09:55:13,862 [0] (D) Uninitializing subsystem: Logging Subsystem - , 0

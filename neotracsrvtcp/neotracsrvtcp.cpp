@@ -27,12 +27,20 @@
 #include "Poco/Util/Option.h"
 #include "Poco/Util/OptionSet.h"
 #include "Poco/Util/HelpFormatter.h"
+#include "Poco/Base64Decoder.h"
+#include "Poco/StreamCopier.h"
+
+#include <boost/tokenizer.hpp>
+
 #include <iostream>
+#include <string>
 #include <stdio.h>
 #include <stdint.h>
 #include "../common/custlog.h"
 #include "../common/helpers.h"
 #include "../common/neoprotocol.h"
+#include "../common/database.h"
+
 
 using Poco::Net::SocketReactor;
 using Poco::Net::SocketAcceptor;
@@ -54,10 +62,13 @@ using Poco::Util::Application;
 using Poco::Util::Option;
 using Poco::Util::OptionSet;
 using Poco::Util::HelpFormatter;
+using Poco::Base64Decoder;
+using Poco::StreamCopier;
 using namespace std;
 using namespace Neo::neotrac::Log;
 using namespace Neo::neotrac::Helpers;
 using namespace Neo::neotrac::Protocol;
+using namespace Neo::neotrac::Database;
         
 #define netlog_information(x) log_information(std::string(" [Addr]: ") + _socket.peerAddress().toString() + std::string(" : ")+x)
 #define netlog_debug(x)       log_debug(      std::string(" [Addr]: ") + _socket.peerAddress().toString() + std::string(" : ")+x)
@@ -67,6 +78,62 @@ using namespace Neo::neotrac::Protocol;
 #define netlog_fatal(x)       log_fatal(      std::string(" [Addr]: ") + _socket.peerAddress().toString() + std::string(" : ")+x)
 #define netlog_notice(x)      log_notice(     std::string(" [Addr]: ") + _socket.peerAddress().toString() + std::string(" : ")+x)
 #define netlog_trace(x)       log_trace(      std::string(" [Addr]: ") + _socket.peerAddress().toString() + std::string(" : ")+x)
+
+class ServerContext 
+{
+public:
+    
+    ServerContext()
+    {
+        log_trace("Server context created");   
+        
+        db_user = "postgres";
+        db_passwd = "";  
+        DatabaseConnected = false;
+    }
+    
+    NeotracDataBase* getDatabase()
+    {
+        if (!DatabaseConnected)
+        {
+            CreateDatabaseConn();
+            DatabaseConnected = true;
+        }
+        return _db.get();
+    }
+    
+private:
+    string db_user;
+    string db_passwd;
+    bool   DatabaseConnected;
+    
+    unique_ptr<NeotracDataBase> _db;    
+    
+    void CreateDatabaseConn()
+    {
+        log_trace("Database not opened before");
+        unique_ptr<NeotracDataBase> tempdb(new NeotracDataBase(db_user,db_passwd));
+        _db = std::move(tempdb);        
+    }
+};
+
+class NeoSocketReactor  : public SocketReactor {
+    
+public:
+    NeoSocketReactor(ServerContext& srv) : SocketReactor(),
+        _srv(srv)
+    {
+        log_trace("Neo Socket reactor created");
+    }
+    
+    ServerContext& GetServer()
+    {
+        return _srv;
+    }
+    
+private:
+    ServerContext& _srv;    
+};
 
 class neotracsrvServiceHandler
 	/// I/O handler class. This class (un)registers handlers for I/O based on
@@ -86,9 +153,10 @@ public:
 		_fifoOut(BUFFER_SIZE, true),
 		_app(Application::instance()),
 		mybuffer(BUFFER_SIZE),
-		outbuffer(BUFFER_SIZE)
+		outbuffer(BUFFER_SIZE),
+        _neoSocketReactor(dynamic_cast<NeoSocketReactor&>(reactor))
 	{
-		netlog_information("Connection from");
+		netlog_information("New Connection");
 
 		_reactor.addEventHandler(_socket, NObserver<neotracsrvServiceHandler, ReadableNotification>(*this, &neotracsrvServiceHandler::onSocketReadable));
 		_reactor.addEventHandler(_socket, NObserver<neotracsrvServiceHandler, ShutdownNotification>(*this, &neotracsrvServiceHandler::onSocketShutdown));
@@ -100,7 +168,9 @@ public:
                 
 		MsgIdx = 0;
 		u32Timeout = CONNECTION_TIMEOUT;
-        _Closerequested = false;
+        _Closerequested = false;        
+        
+        netlog_trace("Database information: " + _neoSocketReactor.GetServer().getDatabase()->getDescr());
 	}
 	
 	~neotracsrvServiceHandler()
@@ -189,6 +259,49 @@ public:
 			_fifoOut.write(outbuffer);
 		}        
     }
+
+    /*
+     * @method: void ProcessRegistration(void)
+     * @descr: Process a registration message
+     */
+    void ProcessRegistration(void)
+    {
+        netlog_trace("Process registration message");
+    }
+    
+    /*
+     * @method: void ProcessEventReport(void)
+     * @descr: Process and event report
+     */
+    void ProcessEventReport(void)
+    {
+        netlog_trace("Process event report");
+    }
+    
+    /*
+     * @method: void ProcessDecodedMessge(void)
+     * @desr: This is where the decoded messages are processed
+     * 
+     * @note: short messages are message that will also fit into an SMS if needed
+     */
+    void ProcessShortDecodedMessage(void)
+    {
+        netlog_trace("Process short decoded message");
+        switch(ShortPacket.MessageTypeE)
+        {
+            case NEOPROTOCOL_MESSAGE_TYPE_E_REGISTRATION:
+                ProcessRegistration();
+                break;
+                
+            case NEOPROTOCOL_MESSAGE_TYPE_E_REPORT_EVENT:
+                ProcessEventReport();
+                break;
+                
+            default:
+                netlog_trace("message type not recognisede");
+                break;
+        }
+    }
     
     /**
      * @void ProcessSMSGatewayMessage(void)
@@ -196,9 +309,58 @@ public:
      */
     void ProcessSMSGatewayMessage(void)
     {
-        std::string s(_message);
         
+        // str = from the second character in _message
+        std::string str(_message+1);
         
+        netlog_trace("Processing SMS gateway message");
+        
+        // declare the tokenizer type
+        typedef boost::tokenizer<boost::char_separator<char> > tokenizer;
+        
+        // specify the separator characters
+        boost::char_separator<char> sep(", ");
+        
+        SMSSource = "";
+        SMSTime = "";
+        SMSDecoded = "";
+        SMSEncoded = "";
+        
+        tokenizer tokens(str, sep);
+        int state = 0;
+        
+        for (tokenizer::iterator tok_iter = tokens.begin(); (tok_iter != tokens.end()) && (state <= 2); ++tok_iter)
+        {
+            if (state == 0)
+            {
+                // this is the SMS number
+                netlog_trace("Received from SMS Number: " + *tok_iter);
+                SMSSource = *tok_iter;
+                state = 1;
+            }
+            else if (state == 1)
+            {
+                // this is the time
+                netlog_trace("Received time: " + *tok_iter);
+                SMSTime = *tok_iter;
+                state = 2;
+            }
+            else if (state == 2)
+            {
+                // this is the message
+                netlog_trace("Message: " + *tok_iter);
+                SMSEncoded = *tok_iter;
+                state = 3;
+            }
+        }        
+        if (state == 3)
+        {            
+            netlog_trace("Decode the message");
+            
+            logbuf_trace(&ShortPacket,sizeof(ShortPacket));
+            
+            ProcessShortDecodedMessage();
+        }
     }
     
     /*
@@ -260,7 +422,7 @@ public:
      * 
      * @note gets called when data is ready to be read
      */
-	void onSocketReadable(const AutoPtr<ReadableNotification>& pNf)
+	void onSocketReadable(const AutoPtr<ReadableNotification> __attribute__((unused)) & pNf)
 	{		
 		try
 		{
@@ -320,12 +482,12 @@ public:
 			
 	}
 	
-	void onSocketWritable(const AutoPtr<WritableNotification>& pNf)
+	void onSocketWritable(const AutoPtr<WritableNotification> __attribute__((unused)) & pNf)
 	{
 		_socket.sendBytes(_fifoOut);
 	}
 
-	void onSocketShutdown(const AutoPtr<ShutdownNotification>& pNf)
+	void onSocketShutdown(const AutoPtr<ShutdownNotification> __attribute__((unused)) & pNf)
 	{
 		netlog_information("Shutdown - conn close");		
 		
@@ -335,7 +497,7 @@ public:
 	/**
 	* @Brief Event Handler when Socket throws an error
 	*/
-	void onSocketError(const AutoPtr<ErrorNotification>& pNf)
+	void onSocketError(const AutoPtr<ErrorNotification> __attribute__((unused)) & pNf)
 	{
 		netlog_information("Error occurred");		
 	}
@@ -343,7 +505,7 @@ public:
 	/**
 	* @Brief Event Handler when Socket times-out
 	*/
-	void onSocketTimeout(const AutoPtr<TimeoutNotification>& pNf)
+	void onSocketTimeout(const AutoPtr<TimeoutNotification> __attribute__((unused)) & pNf)
 	{
 		char intstr[40];
 		try
@@ -391,12 +553,18 @@ private:
 	Poco::Buffer<char>  mybuffer;
 	Poco::Buffer<char>  outbuffer;
 
+    NeoSocketReactor& _neoSocketReactor;
+
 	int MsgIdx;
 	char _message[BUFFER_SIZE];
     
     NEOPROTOCOL_ST_SHORT_PACKET ShortPacket;
+    
+    std::string SMSSource;
+    std::string SMSTime;
+    std::string SMSEncoded;
+    std::string SMSDecoded;       
 };
-
 
 class neotracsrv: public Poco::Util::ServerApplication
 	/// The main application class.
@@ -465,7 +633,7 @@ protected:
 		helpFormatter.format(std::cout);
 	}
 
-	int main(const std::vector<std::string>& args)
+	int main(const std::vector<std::string> __attribute__((unused)) & args)
 	{
 		if (_helpRequested)
 		{
@@ -473,21 +641,26 @@ protected:
 		}
 		else
 		{
+            ServerContext srv;
+                        
 			// get parameters from configuration file
 			unsigned short port = (unsigned short) config().getInt("neotracsrv.port", 9977);
 			
 			// set-up a server socket
 			ServerSocket svs(port);
 			// set-up a SocketReactor...
-			SocketReactor reactor;
+			NeoSocketReactor reactor(srv);
 			// ... and a SocketAcceptor
-			SocketAcceptor<neotracsrvServiceHandler> acceptor(svs, reactor);
+			SocketAcceptor<neotracsrvServiceHandler> acceptor(svs,reactor);
 			// run the reactor in its own thread so that we can wait for 
 			// a termination request
 			Thread thread;
 			thread.start(reactor);
 			
 			Application& app = Application::instance();
+			poco_information(app.logger(),string("Compiler version: ") + to_string(__GNUC__));
+			poco_information(app.logger(),string("C++ version: ") + to_string(__cplusplus));
+			poco_information(app.logger(),string("Build date & Time: ") + __DATE__ + ", " + __TIME__);
 			poco_information(app.logger(),"Server started");
 			
 			// wait for CTRL-C or kill
@@ -516,3 +689,35 @@ int main(int argc, char** argv)
 	neotracsrv app;
 	return app.run(argc, argv);
 }
+
+
+/*
+ * 
+ * 
+ * 
+ * template <class ServiceHandler> class NeoSocketAcceptor : SocketAcceptor<ServiceHandler>
+{
+public:
+    NeoSocketAcceptor(ServerSocket& socket, SocketReactor& reactor, ServerContext& srv):
+        SocketAcceptor<ServiceHandler>(socket,reactor),
+            _reactor(reactor),
+            _srv(srv)
+        {
+            
+        }
+        
+protected:
+	virtual ServiceHandler* createServiceHandler(StreamSocket& socket)
+		/// Create and initialize a new ServiceHandler instance.
+		///
+		/// Subclasses can override this method.
+	{
+		return new ServiceHandler(socket,_reactor,_srv);
+	}
+    
+    
+    SocketReactor& _reactor;
+    ServerContext& _srv;
+};
+
+ */
