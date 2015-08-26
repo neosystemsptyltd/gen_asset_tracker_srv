@@ -704,3 +704,1674 @@
 2015-08-16 09:55:13,862 [0] (I) Server stopped. - neotracsrvtcp.cpp, 677
 2015-08-16 09:55:13,862 [0] (T) Destroy the database class - ../common/database.cpp, 25
 2015-08-16 09:55:13,862 [0] (D) Uninitializing subsystem: Logging Subsystem - , 0
+2015-08-19 18:53:40,196 [0] (T) Server context created - neotracsrvtcp.cpp, 88
+2015-08-19 18:53:40,216 [0] (T) Neo Socket reactor created - neotracsrvtcp.cpp, 126
+2015-08-19 18:53:40,217 [0] (I) Compiler version: 4 - neotracsrvtcp.cpp, 661
+2015-08-19 18:53:40,217 [0] (I) C++ version: 201103 - neotracsrvtcp.cpp, 662
+2015-08-19 18:53:40,217 [0] (I) Build date & Time: Aug 16 2015, 11:19:37 - neotracsrvtcp.cpp, 663
+2015-08-19 18:53:40,217 [0] (I) Server started - neotracsrvtcp.cpp, 664
+2015-08-19 18:53:50,287 [1] (I)  [Addr]: 127.0.0.1:51944 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 18:53:50,287 [1] (T) Database not opened before - neotracsrvtcp.cpp, 114
+2015-08-19 18:53:50,287 [1] (T) Instantiate the database class: U:postgres p: - ../common/database.cpp, 17
+2015-08-19 18:53:50,287 [1] (T)  [Addr]: 127.0.0.1:51944 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 18:53:50,287 [1] (T)  [Addr]: 127.0.0.1:51944 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 18:53:50,288 [1] (I)  [Addr]: 127.0.0.1:51944 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 18:53:50,288 [1] (T)  [Addr]: 127.0.0.1:51944 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 18:53:50,288 [1] (T)  [Addr]: 127.0.0.1:51944 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 18:53:52,791 [1] (D)  [Addr]: 127.0.0.1:51944 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-19 18:53:55,295 [1] (D)  [Addr]: 127.0.0.1:51944 : Timeout 80 on - neotracsrvtcp.cpp, 520
+2015-08-19 18:53:57,799 [1] (D)  [Addr]: 127.0.0.1:51944 : Timeout 70 on - neotracsrvtcp.cpp, 520
+2015-08-19 18:54:00,303 [1] (D)  [Addr]: 127.0.0.1:51944 : Timeout 60 on - neotracsrvtcp.cpp, 520
+2015-08-19 18:54:02,807 [1] (D)  [Addr]: 127.0.0.1:51944 : Timeout 50 on - neotracsrvtcp.cpp, 520
+2015-08-19 18:54:05,311 [1] (D)  [Addr]: 127.0.0.1:51944 : Timeout 40 on - neotracsrvtcp.cpp, 520
+2015-08-19 18:54:07,815 [1] (D)  [Addr]: 127.0.0.1:51944 : Timeout 30 on - neotracsrvtcp.cpp, 520
+2015-08-19 18:54:10,319 [1] (D)  [Addr]: 127.0.0.1:51944 : Timeout 20 on - neotracsrvtcp.cpp, 520
+2015-08-19 18:54:12,823 [1] (D)  [Addr]: 127.0.0.1:51944 : Timeout 10 on - neotracsrvtcp.cpp, 520
+2015-08-19 18:54:15,327 [1] (D)  [Addr]: 127.0.0.1:51944 : Timeout 0 on - neotracsrvtcp.cpp, 520
+2015-08-19 18:54:15,327 [1] (I)  [Addr]: 127.0.0.1:51944 : Connection Timeout - neotracsrvtcp.cpp, 524
+2015-08-19 18:54:15,327 [1] (I)  [Addr]: 127.0.0.1:51944 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 18:54:50,426 [0] (I) Termination requested. - neotracsrvtcp.cpp, 668
+2015-08-19 18:54:50,426 [0] (I) Reactor stopped. - neotracsrvtcp.cpp, 672
+2015-08-19 18:54:50,629 [0] (I) Thread joined. - neotracsrvtcp.cpp, 675
+2015-08-19 18:54:50,630 [0] (I) Server stopped. - neotracsrvtcp.cpp, 677
+2015-08-19 18:54:50,630 [0] (T) Destroy the database class - ../common/database.cpp, 25
+2015-08-19 18:54:50,630 [0] (D) Uninitializing subsystem: Logging Subsystem - , 0
+2015-08-19 18:56:04,128 [0] (T) Server context created - neotracsrvtcp.cpp, 88
+2015-08-19 18:56:04,128 [0] (T) Neo Socket reactor created - neotracsrvtcp.cpp, 126
+2015-08-19 18:56:04,129 [0] (I) Compiler version: 4 - neotracsrvtcp.cpp, 661
+2015-08-19 18:56:04,129 [0] (I) C++ version: 201103 - neotracsrvtcp.cpp, 662
+2015-08-19 18:56:04,129 [0] (I) Build date & Time: Aug 16 2015, 11:19:37 - neotracsrvtcp.cpp, 663
+2015-08-19 18:56:04,129 [0] (I) Server started - neotracsrvtcp.cpp, 664
+2015-08-19 18:56:08,807 [1] (I)  [Addr]: 127.0.0.1:51945 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 18:56:08,808 [1] (T) Database not opened before - neotracsrvtcp.cpp, 114
+2015-08-19 18:56:08,808 [1] (T) Instantiate the database class: U:postgres p: - ../common/database.cpp, 17
+2015-08-19 18:56:08,808 [1] (T)  [Addr]: 127.0.0.1:51945 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 18:56:08,808 [1] (T)  [Addr]: 127.0.0.1:51945 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 18:56:08,808 [1] (I)  [Addr]: 127.0.0.1:51945 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 18:56:08,808 [1] (T)  [Addr]: 127.0.0.1:51945 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 18:56:08,808 [1] (T)  [Addr]: 127.0.0.1:51945 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 18:56:11,312 [1] (D)  [Addr]: 127.0.0.1:51945 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-19 18:56:13,816 [1] (D)  [Addr]: 127.0.0.1:51945 : Timeout 80 on - neotracsrvtcp.cpp, 520
+2015-08-19 18:56:16,320 [1] (D)  [Addr]: 127.0.0.1:51945 : Timeout 70 on - neotracsrvtcp.cpp, 520
+2015-08-19 18:56:18,824 [1] (D)  [Addr]: 127.0.0.1:51945 : Timeout 60 on - neotracsrvtcp.cpp, 520
+2015-08-19 18:56:21,328 [1] (D)  [Addr]: 127.0.0.1:51945 : Timeout 50 on - neotracsrvtcp.cpp, 520
+2015-08-19 18:56:23,832 [1] (D)  [Addr]: 127.0.0.1:51945 : Timeout 40 on - neotracsrvtcp.cpp, 520
+2015-08-19 18:56:26,336 [1] (D)  [Addr]: 127.0.0.1:51945 : Timeout 30 on - neotracsrvtcp.cpp, 520
+2015-08-19 18:56:28,840 [1] (D)  [Addr]: 127.0.0.1:51945 : Timeout 20 on - neotracsrvtcp.cpp, 520
+2015-08-19 18:56:31,343 [1] (D)  [Addr]: 127.0.0.1:51945 : Timeout 10 on - neotracsrvtcp.cpp, 520
+2015-08-19 18:56:33,847 [1] (D)  [Addr]: 127.0.0.1:51945 : Timeout 0 on - neotracsrvtcp.cpp, 520
+2015-08-19 18:56:33,847 [1] (I)  [Addr]: 127.0.0.1:51945 : Connection Timeout - neotracsrvtcp.cpp, 524
+2015-08-19 18:56:33,848 [1] (I)  [Addr]: 127.0.0.1:51945 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 19:21:32,923 [0] (T) Server context created - neotracsrvtcp.cpp, 88
+2015-08-19 19:21:32,924 [0] (T) Neo Socket reactor created - neotracsrvtcp.cpp, 126
+2015-08-19 19:21:32,924 [0] (I) Compiler version: 4 - neotracsrvtcp.cpp, 661
+2015-08-19 19:21:32,924 [0] (I) C++ version: 201103 - neotracsrvtcp.cpp, 662
+2015-08-19 19:21:32,924 [0] (I) Build date & Time: Aug 16 2015, 11:19:37 - neotracsrvtcp.cpp, 663
+2015-08-19 19:21:32,924 [0] (I) Server started - neotracsrvtcp.cpp, 664
+2015-08-19 19:21:36,519 [0] (I) Termination requested. - neotracsrvtcp.cpp, 668
+2015-08-19 19:21:36,519 [0] (I) Reactor stopped. - neotracsrvtcp.cpp, 672
+2015-08-19 19:21:36,680 [0] (I) Thread joined. - neotracsrvtcp.cpp, 675
+2015-08-19 19:21:36,680 [0] (I) Server stopped. - neotracsrvtcp.cpp, 677
+2015-08-19 19:21:36,680 [0] (D) Uninitializing subsystem: Logging Subsystem - , 0
+2015-08-19 19:21:39,324 [0] (T) Server context created - neotracsrvtcp.cpp, 88
+2015-08-19 19:21:39,324 [0] (T) Neo Socket reactor created - neotracsrvtcp.cpp, 126
+2015-08-19 19:21:39,325 [0] (I) Compiler version: 4 - neotracsrvtcp.cpp, 661
+2015-08-19 19:21:39,325 [0] (I) C++ version: 201103 - neotracsrvtcp.cpp, 662
+2015-08-19 19:21:39,325 [0] (I) Build date & Time: Aug 16 2015, 11:19:37 - neotracsrvtcp.cpp, 663
+2015-08-19 19:21:39,325 [0] (I) Server started - neotracsrvtcp.cpp, 664
+2015-08-19 19:21:46,040 [1] (I)  [Addr]: 127.0.0.1:52046 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 19:21:46,040 [1] (T) Database not opened before - neotracsrvtcp.cpp, 114
+2015-08-19 19:21:46,040 [1] (T) Instantiate the database class: U:postgres p: - ../common/database.cpp, 17
+2015-08-19 19:21:46,040 [1] (T)  [Addr]: 127.0.0.1:52046 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 19:21:48,040 [1] (I)  [Addr]: 127.0.0.1:52046 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 19:21:48,040 [1] (I)  [Addr]: 127.0.0.1:52046 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 19:22:06,957 [1] (I)  [Addr]: 127.0.0.1:52047 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 19:22:06,957 [1] (T)  [Addr]: 127.0.0.1:52047 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 19:22:08,956 [1] (I)  [Addr]: 127.0.0.1:52047 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 19:22:08,956 [1] (I)  [Addr]: 127.0.0.1:52047 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 19:22:12,104 [1] (I)  [Addr]: 127.0.0.1:52048 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 19:22:12,104 [1] (T)  [Addr]: 127.0.0.1:52048 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 19:22:14,104 [1] (I)  [Addr]: 127.0.0.1:52048 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 19:22:14,104 [1] (I)  [Addr]: 127.0.0.1:52048 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 19:22:18,718 [1] (I)  [Addr]: 127.0.0.1:52049 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 19:22:18,719 [1] (T)  [Addr]: 127.0.0.1:52049 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 19:22:20,716 [1] (I)  [Addr]: 127.0.0.1:52049 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 19:22:20,716 [1] (I)  [Addr]: 127.0.0.1:52049 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 19:23:05,514 [0] (T) Server context created - neotracsrvtcp.cpp, 88
+2015-08-19 19:23:05,514 [0] (T) Neo Socket reactor created - neotracsrvtcp.cpp, 126
+2015-08-19 19:23:05,515 [0] (I) Compiler version: 4 - neotracsrvtcp.cpp, 661
+2015-08-19 19:23:05,515 [0] (I) C++ version: 201103 - neotracsrvtcp.cpp, 662
+2015-08-19 19:23:05,515 [0] (I) Build date & Time: Aug 16 2015, 11:19:37 - neotracsrvtcp.cpp, 663
+2015-08-19 19:23:05,515 [0] (I) Server started - neotracsrvtcp.cpp, 664
+2015-08-19 19:23:10,208 [1] (I)  [Addr]: 127.0.0.1:52051 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 19:23:10,208 [1] (T) Database not opened before - neotracsrvtcp.cpp, 114
+2015-08-19 19:23:10,208 [1] (T) Instantiate the database class: U:postgres p: - ../common/database.cpp, 17
+2015-08-19 19:23:10,208 [1] (T)  [Addr]: 127.0.0.1:52051 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 19:23:12,712 [1] (D)  [Addr]: 127.0.0.1:52051 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-19 19:23:15,216 [1] (D)  [Addr]: 127.0.0.1:52051 : Timeout 80 on - neotracsrvtcp.cpp, 520
+2015-08-19 19:23:17,719 [1] (D)  [Addr]: 127.0.0.1:52051 : Timeout 70 on - neotracsrvtcp.cpp, 520
+2015-08-19 19:23:20,208 [1] (I)  [Addr]: 127.0.0.1:52051 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 19:23:20,208 [1] (I)  [Addr]: 127.0.0.1:52051 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 19:23:26,250 [1] (I)  [Addr]: 127.0.0.1:52052 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 19:23:26,250 [1] (T)  [Addr]: 127.0.0.1:52052 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 19:23:28,754 [1] (D)  [Addr]: 127.0.0.1:52052 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-19 19:23:31,258 [1] (D)  [Addr]: 127.0.0.1:52052 : Timeout 80 on - neotracsrvtcp.cpp, 520
+2015-08-19 19:23:33,762 [1] (D)  [Addr]: 127.0.0.1:52052 : Timeout 70 on - neotracsrvtcp.cpp, 520
+2015-08-19 19:23:36,248 [1] (I)  [Addr]: 127.0.0.1:52052 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 19:23:36,248 [1] (I)  [Addr]: 127.0.0.1:52052 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 19:23:58,355 [1] (I)  [Addr]: 127.0.0.1:52053 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 19:23:58,355 [1] (T)  [Addr]: 127.0.0.1:52053 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 19:24:00,858 [1] (D)  [Addr]: 127.0.0.1:52053 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-19 19:24:03,362 [1] (D)  [Addr]: 127.0.0.1:52053 : Timeout 80 on - neotracsrvtcp.cpp, 520
+2015-08-19 19:24:05,842 [1] (I)  [Addr]: 127.0.0.1:52053 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 19:24:05,843 [1] (I)  [Addr]: 127.0.0.1:52053 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 19:24:07,427 [1] (I)  [Addr]: 127.0.0.1:52054 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 19:24:07,427 [1] (T)  [Addr]: 127.0.0.1:52054 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 19:24:09,931 [1] (D)  [Addr]: 127.0.0.1:52054 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-19 19:24:12,435 [1] (D)  [Addr]: 127.0.0.1:52054 : Timeout 80 on - neotracsrvtcp.cpp, 520
+2015-08-19 19:24:14,939 [1] (D)  [Addr]: 127.0.0.1:52054 : Timeout 70 on - neotracsrvtcp.cpp, 520
+2015-08-19 19:24:17,424 [1] (I)  [Addr]: 127.0.0.1:52054 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 19:24:17,424 [1] (I)  [Addr]: 127.0.0.1:52054 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 19:24:38,174 [0] (T) Server context created - neotracsrvtcp.cpp, 88
+2015-08-19 19:24:38,175 [0] (T) Neo Socket reactor created - neotracsrvtcp.cpp, 126
+2015-08-19 19:24:38,175 [0] (I) Compiler version: 4 - neotracsrvtcp.cpp, 661
+2015-08-19 19:24:38,175 [0] (I) C++ version: 201103 - neotracsrvtcp.cpp, 662
+2015-08-19 19:24:38,175 [0] (I) Build date & Time: Aug 16 2015, 11:19:37 - neotracsrvtcp.cpp, 663
+2015-08-19 19:24:38,175 [0] (I) Server started - neotracsrvtcp.cpp, 664
+2015-08-19 19:24:41,236 [1] (I)  [Addr]: 127.0.0.1:52056 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 19:24:41,236 [1] (T) Database not opened before - neotracsrvtcp.cpp, 114
+2015-08-19 19:24:41,236 [1] (T) Instantiate the database class: U:postgres p: - ../common/database.cpp, 17
+2015-08-19 19:24:41,236 [1] (T)  [Addr]: 127.0.0.1:52056 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 19:24:41,236 [1] (T)  [Addr]: 127.0.0.1:52056 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 19:24:41,236 [1] (I)  [Addr]: 127.0.0.1:52056 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 19:24:41,236 [1] (T)  [Addr]: 127.0.0.1:52056 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 19:24:41,236 [1] (T)  [Addr]: 127.0.0.1:52056 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 19:24:41,236 [1] (I)  [Addr]: 127.0.0.1:52056 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 19:24:41,237 [1] (I)  [Addr]: 127.0.0.1:52056 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 19:24:46,628 [1] (I)  [Addr]: 127.0.0.1:52057 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 19:24:46,628 [1] (T)  [Addr]: 127.0.0.1:52057 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 19:24:46,628 [1] (T)  [Addr]: 127.0.0.1:52057 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 19:24:46,628 [1] (I)  [Addr]: 127.0.0.1:52057 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 19:24:46,628 [1] (T)  [Addr]: 127.0.0.1:52057 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 19:24:46,628 [1] (T)  [Addr]: 127.0.0.1:52057 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 19:24:46,629 [1] (I)  [Addr]: 127.0.0.1:52057 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 19:24:46,629 [1] (I)  [Addr]: 127.0.0.1:52057 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 19:24:52,929 [1] (I)  [Addr]: 127.0.0.1:52058 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 19:24:52,929 [1] (T)  [Addr]: 127.0.0.1:52058 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 19:24:52,929 [1] (T)  [Addr]: 127.0.0.1:52058 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 19:24:52,929 [1] (I)  [Addr]: 127.0.0.1:52058 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 19:24:52,929 [1] (T)  [Addr]: 127.0.0.1:52058 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 19:24:52,929 [1] (T)  [Addr]: 127.0.0.1:52058 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 19:24:52,930 [1] (I)  [Addr]: 127.0.0.1:52058 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 19:24:52,930 [1] (I)  [Addr]: 127.0.0.1:52058 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 19:24:54,047 [1] (I)  [Addr]: 127.0.0.1:52059 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 19:24:54,048 [1] (T)  [Addr]: 127.0.0.1:52059 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 19:24:54,048 [1] (T)  [Addr]: 127.0.0.1:52059 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 19:24:54,048 [1] (I)  [Addr]: 127.0.0.1:52059 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 19:24:54,048 [1] (T)  [Addr]: 127.0.0.1:52059 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 19:24:54,048 [1] (T)  [Addr]: 127.0.0.1:52059 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 19:24:54,048 [1] (I)  [Addr]: 127.0.0.1:52059 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 19:24:54,048 [1] (I)  [Addr]: 127.0.0.1:52059 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 19:24:54,914 [1] (I)  [Addr]: 127.0.0.1:52060 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 19:24:54,914 [1] (T)  [Addr]: 127.0.0.1:52060 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 19:24:54,914 [1] (T)  [Addr]: 127.0.0.1:52060 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 19:24:54,914 [1] (I)  [Addr]: 127.0.0.1:52060 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 19:24:54,914 [1] (T)  [Addr]: 127.0.0.1:52060 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 19:24:54,914 [1] (T)  [Addr]: 127.0.0.1:52060 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 19:24:54,915 [1] (I)  [Addr]: 127.0.0.1:52060 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 19:24:54,915 [1] (I)  [Addr]: 127.0.0.1:52060 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 19:24:55,653 [1] (I)  [Addr]: 127.0.0.1:52061 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 19:24:55,653 [1] (T)  [Addr]: 127.0.0.1:52061 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 19:24:55,653 [1] (T)  [Addr]: 127.0.0.1:52061 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 19:24:55,653 [1] (I)  [Addr]: 127.0.0.1:52061 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 19:24:55,653 [1] (T)  [Addr]: 127.0.0.1:52061 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 19:24:55,653 [1] (T)  [Addr]: 127.0.0.1:52061 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 19:24:55,654 [1] (I)  [Addr]: 127.0.0.1:52061 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 19:24:55,654 [1] (I)  [Addr]: 127.0.0.1:52061 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 19:24:56,469 [1] (I)  [Addr]: 127.0.0.1:52062 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 19:24:56,469 [1] (T)  [Addr]: 127.0.0.1:52062 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 19:24:56,469 [1] (T)  [Addr]: 127.0.0.1:52062 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 19:24:56,469 [1] (I)  [Addr]: 127.0.0.1:52062 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 19:24:56,469 [1] (T)  [Addr]: 127.0.0.1:52062 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 19:24:56,469 [1] (T)  [Addr]: 127.0.0.1:52062 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 19:24:56,469 [1] (I)  [Addr]: 127.0.0.1:52062 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 19:24:56,470 [1] (I)  [Addr]: 127.0.0.1:52062 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 19:24:57,085 [1] (I)  [Addr]: 127.0.0.1:52063 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 19:24:57,086 [1] (T)  [Addr]: 127.0.0.1:52063 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 19:24:57,086 [1] (T)  [Addr]: 127.0.0.1:52063 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 19:24:57,086 [1] (I)  [Addr]: 127.0.0.1:52063 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 19:24:57,086 [1] (T)  [Addr]: 127.0.0.1:52063 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 19:24:57,086 [1] (T)  [Addr]: 127.0.0.1:52063 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 19:24:57,086 [1] (I)  [Addr]: 127.0.0.1:52063 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 19:24:57,086 [1] (I)  [Addr]: 127.0.0.1:52063 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 19:25:00,296 [1] (I)  [Addr]: 127.0.0.1:52064 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 19:25:00,296 [1] (T)  [Addr]: 127.0.0.1:52064 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 19:25:00,296 [1] (T)  [Addr]: 127.0.0.1:52064 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 19:25:00,296 [1] (I)  [Addr]: 127.0.0.1:52064 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 19:25:00,296 [1] (T)  [Addr]: 127.0.0.1:52064 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 19:25:00,296 [1] (T)  [Addr]: 127.0.0.1:52064 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 19:25:00,297 [1] (I)  [Addr]: 127.0.0.1:52064 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 19:25:00,297 [1] (I)  [Addr]: 127.0.0.1:52064 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 19:25:01,129 [1] (I)  [Addr]: 127.0.0.1:52065 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 19:25:01,129 [1] (T)  [Addr]: 127.0.0.1:52065 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 19:25:01,129 [1] (T)  [Addr]: 127.0.0.1:52065 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 19:25:01,129 [1] (I)  [Addr]: 127.0.0.1:52065 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 19:25:01,129 [1] (T)  [Addr]: 127.0.0.1:52065 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 19:25:01,129 [1] (T)  [Addr]: 127.0.0.1:52065 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 19:25:01,130 [1] (I)  [Addr]: 127.0.0.1:52065 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 19:25:01,130 [1] (I)  [Addr]: 127.0.0.1:52065 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 19:25:01,910 [1] (I)  [Addr]: 127.0.0.1:52066 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 19:25:01,910 [1] (T)  [Addr]: 127.0.0.1:52066 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 19:25:01,910 [1] (T)  [Addr]: 127.0.0.1:52066 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 19:25:01,910 [1] (I)  [Addr]: 127.0.0.1:52066 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 19:25:01,910 [1] (T)  [Addr]: 127.0.0.1:52066 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 19:25:01,910 [1] (T)  [Addr]: 127.0.0.1:52066 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 19:25:01,911 [1] (I)  [Addr]: 127.0.0.1:52066 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 19:25:01,911 [1] (I)  [Addr]: 127.0.0.1:52066 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 19:25:02,696 [1] (I)  [Addr]: 127.0.0.1:52067 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 19:25:02,696 [1] (T)  [Addr]: 127.0.0.1:52067 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 19:25:02,696 [1] (T)  [Addr]: 127.0.0.1:52067 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 19:25:02,696 [1] (I)  [Addr]: 127.0.0.1:52067 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 19:25:02,696 [1] (T)  [Addr]: 127.0.0.1:52067 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 19:25:02,696 [1] (T)  [Addr]: 127.0.0.1:52067 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 19:25:02,697 [1] (I)  [Addr]: 127.0.0.1:52067 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 19:25:02,697 [1] (I)  [Addr]: 127.0.0.1:52067 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 19:25:03,491 [1] (I)  [Addr]: 127.0.0.1:52068 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 19:25:03,491 [1] (T)  [Addr]: 127.0.0.1:52068 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 19:25:03,491 [1] (T)  [Addr]: 127.0.0.1:52068 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 19:25:03,491 [1] (I)  [Addr]: 127.0.0.1:52068 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 19:25:03,491 [1] (T)  [Addr]: 127.0.0.1:52068 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 19:25:03,491 [1] (T)  [Addr]: 127.0.0.1:52068 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 19:25:03,492 [1] (I)  [Addr]: 127.0.0.1:52068 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 19:25:03,492 [1] (I)  [Addr]: 127.0.0.1:52068 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 19:25:04,189 [1] (I)  [Addr]: 127.0.0.1:52069 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 19:25:04,189 [1] (T)  [Addr]: 127.0.0.1:52069 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 19:25:04,189 [1] (T)  [Addr]: 127.0.0.1:52069 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 19:25:04,189 [1] (I)  [Addr]: 127.0.0.1:52069 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 19:25:04,190 [1] (T)  [Addr]: 127.0.0.1:52069 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 19:25:04,190 [1] (T)  [Addr]: 127.0.0.1:52069 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 19:25:04,190 [1] (I)  [Addr]: 127.0.0.1:52069 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 19:25:04,190 [1] (I)  [Addr]: 127.0.0.1:52069 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 19:25:04,893 [1] (I)  [Addr]: 127.0.0.1:52070 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 19:25:04,893 [1] (T)  [Addr]: 127.0.0.1:52070 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 19:25:04,893 [1] (T)  [Addr]: 127.0.0.1:52070 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 19:25:04,893 [1] (I)  [Addr]: 127.0.0.1:52070 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 19:25:04,893 [1] (T)  [Addr]: 127.0.0.1:52070 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 19:25:04,893 [1] (T)  [Addr]: 127.0.0.1:52070 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 19:25:04,893 [1] (I)  [Addr]: 127.0.0.1:52070 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 19:25:04,893 [1] (I)  [Addr]: 127.0.0.1:52070 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 19:25:05,563 [1] (I)  [Addr]: 127.0.0.1:52071 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 19:25:05,563 [1] (T)  [Addr]: 127.0.0.1:52071 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 19:25:05,564 [1] (T)  [Addr]: 127.0.0.1:52071 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 19:25:05,564 [1] (I)  [Addr]: 127.0.0.1:52071 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 19:25:05,564 [1] (T)  [Addr]: 127.0.0.1:52071 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 19:25:05,564 [1] (T)  [Addr]: 127.0.0.1:52071 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 19:25:05,564 [1] (I)  [Addr]: 127.0.0.1:52071 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 19:25:05,564 [1] (I)  [Addr]: 127.0.0.1:52071 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 19:25:06,199 [1] (I)  [Addr]: 127.0.0.1:52072 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 19:25:06,199 [1] (T)  [Addr]: 127.0.0.1:52072 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 19:25:06,199 [1] (T)  [Addr]: 127.0.0.1:52072 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 19:25:06,199 [1] (I)  [Addr]: 127.0.0.1:52072 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 19:25:06,199 [1] (T)  [Addr]: 127.0.0.1:52072 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 19:25:06,199 [1] (T)  [Addr]: 127.0.0.1:52072 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 19:25:06,200 [1] (I)  [Addr]: 127.0.0.1:52072 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 19:25:06,200 [1] (I)  [Addr]: 127.0.0.1:52072 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 19:25:06,807 [1] (I)  [Addr]: 127.0.0.1:52073 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 19:25:06,808 [1] (T)  [Addr]: 127.0.0.1:52073 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 19:25:06,808 [1] (T)  [Addr]: 127.0.0.1:52073 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 19:25:06,808 [1] (I)  [Addr]: 127.0.0.1:52073 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 19:25:06,808 [1] (T)  [Addr]: 127.0.0.1:52073 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 19:25:06,808 [1] (T)  [Addr]: 127.0.0.1:52073 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 19:25:06,808 [1] (I)  [Addr]: 127.0.0.1:52073 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 19:25:06,808 [1] (I)  [Addr]: 127.0.0.1:52073 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 19:25:07,366 [1] (I)  [Addr]: 127.0.0.1:52074 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 19:25:07,366 [1] (T)  [Addr]: 127.0.0.1:52074 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 19:25:07,367 [1] (T)  [Addr]: 127.0.0.1:52074 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 19:25:07,367 [1] (I)  [Addr]: 127.0.0.1:52074 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 19:25:07,367 [1] (T)  [Addr]: 127.0.0.1:52074 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 19:25:07,367 [1] (T)  [Addr]: 127.0.0.1:52074 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 19:25:07,367 [1] (I)  [Addr]: 127.0.0.1:52074 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 19:25:07,367 [1] (I)  [Addr]: 127.0.0.1:52074 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 19:25:07,970 [1] (I)  [Addr]: 127.0.0.1:52075 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 19:25:07,970 [1] (T)  [Addr]: 127.0.0.1:52075 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 19:25:07,971 [1] (T)  [Addr]: 127.0.0.1:52075 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 19:25:07,971 [1] (I)  [Addr]: 127.0.0.1:52075 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 19:25:07,971 [1] (T)  [Addr]: 127.0.0.1:52075 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 19:25:07,971 [1] (T)  [Addr]: 127.0.0.1:52075 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 19:25:07,972 [1] (I)  [Addr]: 127.0.0.1:52075 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 19:25:07,972 [1] (I)  [Addr]: 127.0.0.1:52075 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 19:25:08,549 [1] (I)  [Addr]: 127.0.0.1:52076 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 19:25:08,549 [1] (T)  [Addr]: 127.0.0.1:52076 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 19:25:08,550 [1] (T)  [Addr]: 127.0.0.1:52076 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 19:25:08,550 [1] (I)  [Addr]: 127.0.0.1:52076 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 19:25:08,550 [1] (T)  [Addr]: 127.0.0.1:52076 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 19:25:08,550 [1] (T)  [Addr]: 127.0.0.1:52076 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 19:25:08,552 [1] (I)  [Addr]: 127.0.0.1:52076 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 19:25:08,555 [1] (I)  [Addr]: 127.0.0.1:52076 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 19:25:09,204 [1] (I)  [Addr]: 127.0.0.1:52077 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 19:25:09,204 [1] (T)  [Addr]: 127.0.0.1:52077 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 19:25:09,204 [1] (T)  [Addr]: 127.0.0.1:52077 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 19:25:09,205 [1] (I)  [Addr]: 127.0.0.1:52077 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 19:25:09,205 [1] (T)  [Addr]: 127.0.0.1:52077 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 19:25:09,205 [1] (T)  [Addr]: 127.0.0.1:52077 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 19:25:09,205 [1] (I)  [Addr]: 127.0.0.1:52077 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 19:25:09,205 [1] (I)  [Addr]: 127.0.0.1:52077 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 19:25:09,902 [1] (I)  [Addr]: 127.0.0.1:52078 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 19:25:09,903 [1] (T)  [Addr]: 127.0.0.1:52078 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 19:25:09,903 [1] (T)  [Addr]: 127.0.0.1:52078 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 19:25:09,903 [1] (I)  [Addr]: 127.0.0.1:52078 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 19:25:09,903 [1] (T)  [Addr]: 127.0.0.1:52078 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 19:25:09,903 [1] (T)  [Addr]: 127.0.0.1:52078 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 19:25:09,903 [1] (I)  [Addr]: 127.0.0.1:52078 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 19:25:09,903 [1] (I)  [Addr]: 127.0.0.1:52078 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 19:25:10,621 [1] (I)  [Addr]: 127.0.0.1:52079 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 19:25:10,621 [1] (T)  [Addr]: 127.0.0.1:52079 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 19:25:10,622 [1] (T)  [Addr]: 127.0.0.1:52079 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 19:25:10,622 [1] (I)  [Addr]: 127.0.0.1:52079 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 19:25:10,622 [1] (T)  [Addr]: 127.0.0.1:52079 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 19:25:10,622 [1] (T)  [Addr]: 127.0.0.1:52079 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 19:25:10,622 [1] (I)  [Addr]: 127.0.0.1:52079 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 19:25:10,622 [1] (I)  [Addr]: 127.0.0.1:52079 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 19:25:11,220 [1] (I)  [Addr]: 127.0.0.1:52080 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 19:25:11,221 [1] (T)  [Addr]: 127.0.0.1:52080 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 19:25:11,221 [1] (T)  [Addr]: 127.0.0.1:52080 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 19:25:11,221 [1] (I)  [Addr]: 127.0.0.1:52080 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 19:25:11,221 [1] (T)  [Addr]: 127.0.0.1:52080 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 19:25:11,221 [1] (T)  [Addr]: 127.0.0.1:52080 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 19:25:11,221 [1] (I)  [Addr]: 127.0.0.1:52080 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 19:25:11,221 [1] (I)  [Addr]: 127.0.0.1:52080 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 19:25:11,830 [1] (I)  [Addr]: 127.0.0.1:52081 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 19:25:11,830 [1] (T)  [Addr]: 127.0.0.1:52081 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 19:25:11,830 [1] (T)  [Addr]: 127.0.0.1:52081 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 19:25:11,831 [1] (I)  [Addr]: 127.0.0.1:52081 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 19:25:11,831 [1] (T)  [Addr]: 127.0.0.1:52081 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 19:25:11,831 [1] (T)  [Addr]: 127.0.0.1:52081 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 19:25:11,831 [1] (I)  [Addr]: 127.0.0.1:52081 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 19:25:11,831 [1] (I)  [Addr]: 127.0.0.1:52081 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 19:25:12,551 [1] (I)  [Addr]: 127.0.0.1:52082 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 19:25:12,551 [1] (T)  [Addr]: 127.0.0.1:52082 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 19:25:12,551 [1] (T)  [Addr]: 127.0.0.1:52082 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 19:25:12,551 [1] (I)  [Addr]: 127.0.0.1:52082 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 19:25:12,551 [1] (T)  [Addr]: 127.0.0.1:52082 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 19:25:12,551 [1] (T)  [Addr]: 127.0.0.1:52082 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 19:25:12,552 [1] (I)  [Addr]: 127.0.0.1:52082 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 19:25:12,552 [1] (I)  [Addr]: 127.0.0.1:52082 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 19:25:13,308 [1] (I)  [Addr]: 127.0.0.1:52083 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 19:25:13,308 [1] (T)  [Addr]: 127.0.0.1:52083 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 19:25:13,308 [1] (T)  [Addr]: 127.0.0.1:52083 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 19:25:13,308 [1] (I)  [Addr]: 127.0.0.1:52083 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 19:25:13,308 [1] (T)  [Addr]: 127.0.0.1:52083 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 19:25:13,308 [1] (T)  [Addr]: 127.0.0.1:52083 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 19:25:13,308 [1] (I)  [Addr]: 127.0.0.1:52083 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 19:25:13,308 [1] (I)  [Addr]: 127.0.0.1:52083 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:32:50,073 [1] (I)  [Addr]: 127.0.0.1:52101 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:32:50,091 [1] (T)  [Addr]: 127.0.0.1:52101 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:32:50,091 [1] (T)  [Addr]: 127.0.0.1:52101 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:32:50,091 [1] (I)  [Addr]: 127.0.0.1:52101 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:32:50,091 [1] (T)  [Addr]: 127.0.0.1:52101 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:32:50,091 [1] (T)  [Addr]: 127.0.0.1:52101 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:32:50,092 [1] (I)  [Addr]: 127.0.0.1:52101 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:32:50,092 [1] (I)  [Addr]: 127.0.0.1:52101 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:32:52,810 [1] (I)  [Addr]: 127.0.0.1:52102 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:32:52,810 [1] (T)  [Addr]: 127.0.0.1:52102 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:32:52,810 [1] (T)  [Addr]: 127.0.0.1:52102 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:32:52,810 [1] (I)  [Addr]: 127.0.0.1:52102 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:32:52,810 [1] (T)  [Addr]: 127.0.0.1:52102 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:32:52,810 [1] (T)  [Addr]: 127.0.0.1:52102 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:32:52,810 [1] (I)  [Addr]: 127.0.0.1:52102 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:32:52,810 [1] (I)  [Addr]: 127.0.0.1:52102 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:32:54,444 [1] (I)  [Addr]: 127.0.0.1:52103 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:32:54,444 [1] (T)  [Addr]: 127.0.0.1:52103 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:32:54,444 [1] (T)  [Addr]: 127.0.0.1:52103 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:32:54,444 [1] (I)  [Addr]: 127.0.0.1:52103 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:32:54,444 [1] (T)  [Addr]: 127.0.0.1:52103 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:32:54,444 [1] (T)  [Addr]: 127.0.0.1:52103 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:32:54,445 [1] (I)  [Addr]: 127.0.0.1:52103 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:32:54,445 [1] (I)  [Addr]: 127.0.0.1:52103 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:32:55,533 [1] (I)  [Addr]: 127.0.0.1:52104 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:32:55,533 [1] (T)  [Addr]: 127.0.0.1:52104 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:32:55,533 [1] (T)  [Addr]: 127.0.0.1:52104 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:32:55,533 [1] (I)  [Addr]: 127.0.0.1:52104 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:32:55,533 [1] (T)  [Addr]: 127.0.0.1:52104 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:32:55,533 [1] (T)  [Addr]: 127.0.0.1:52104 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:32:55,534 [1] (I)  [Addr]: 127.0.0.1:52104 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:32:55,534 [1] (I)  [Addr]: 127.0.0.1:52104 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:32:57,302 [1] (I)  [Addr]: 127.0.0.1:52105 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:32:57,303 [1] (T)  [Addr]: 127.0.0.1:52105 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:32:57,303 [1] (T)  [Addr]: 127.0.0.1:52105 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:32:57,303 [1] (I)  [Addr]: 127.0.0.1:52105 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:32:57,303 [1] (T)  [Addr]: 127.0.0.1:52105 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:32:57,303 [1] (T)  [Addr]: 127.0.0.1:52105 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:32:57,303 [1] (I)  [Addr]: 127.0.0.1:52105 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:32:57,303 [1] (I)  [Addr]: 127.0.0.1:52105 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:32:59,095 [1] (I)  [Addr]: 127.0.0.1:52106 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:32:59,096 [1] (T)  [Addr]: 127.0.0.1:52106 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:32:59,096 [1] (T)  [Addr]: 127.0.0.1:52106 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:32:59,096 [1] (I)  [Addr]: 127.0.0.1:52106 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:32:59,096 [1] (T)  [Addr]: 127.0.0.1:52106 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:32:59,096 [1] (T)  [Addr]: 127.0.0.1:52106 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:32:59,096 [1] (I)  [Addr]: 127.0.0.1:52106 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:32:59,096 [1] (I)  [Addr]: 127.0.0.1:52106 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:00,935 [1] (I)  [Addr]: 127.0.0.1:52107 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:00,935 [1] (T)  [Addr]: 127.0.0.1:52107 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:00,935 [1] (T)  [Addr]: 127.0.0.1:52107 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:00,935 [1] (I)  [Addr]: 127.0.0.1:52107 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:00,936 [1] (T)  [Addr]: 127.0.0.1:52107 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:00,936 [1] (T)  [Addr]: 127.0.0.1:52107 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:00,936 [1] (I)  [Addr]: 127.0.0.1:52107 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:00,936 [1] (I)  [Addr]: 127.0.0.1:52107 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:02,958 [1] (I)  [Addr]: 127.0.0.1:52108 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:02,958 [1] (T)  [Addr]: 127.0.0.1:52108 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:02,958 [1] (T)  [Addr]: 127.0.0.1:52108 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:02,958 [1] (I)  [Addr]: 127.0.0.1:52108 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:02,958 [1] (T)  [Addr]: 127.0.0.1:52108 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:02,958 [1] (T)  [Addr]: 127.0.0.1:52108 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:02,959 [1] (I)  [Addr]: 127.0.0.1:52108 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:02,959 [1] (I)  [Addr]: 127.0.0.1:52108 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:03,750 [1] (I)  [Addr]: 127.0.0.1:52109 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:03,750 [1] (T)  [Addr]: 127.0.0.1:52109 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:03,750 [1] (T)  [Addr]: 127.0.0.1:52109 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:03,750 [1] (I)  [Addr]: 127.0.0.1:52109 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:03,750 [1] (T)  [Addr]: 127.0.0.1:52109 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:03,750 [1] (T)  [Addr]: 127.0.0.1:52109 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:03,751 [1] (I)  [Addr]: 127.0.0.1:52109 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:03,751 [1] (I)  [Addr]: 127.0.0.1:52109 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:04,269 [1] (I)  [Addr]: 127.0.0.1:52110 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:04,270 [1] (T)  [Addr]: 127.0.0.1:52110 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:04,270 [1] (T)  [Addr]: 127.0.0.1:52110 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:04,270 [1] (I)  [Addr]: 127.0.0.1:52110 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:04,270 [1] (T)  [Addr]: 127.0.0.1:52110 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:04,270 [1] (T)  [Addr]: 127.0.0.1:52110 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:04,270 [1] (I)  [Addr]: 127.0.0.1:52110 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:04,271 [1] (I)  [Addr]: 127.0.0.1:52110 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:04,738 [1] (I)  [Addr]: 127.0.0.1:52111 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:04,739 [1] (T)  [Addr]: 127.0.0.1:52111 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:04,739 [1] (T)  [Addr]: 127.0.0.1:52111 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:04,739 [1] (I)  [Addr]: 127.0.0.1:52111 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:04,739 [1] (T)  [Addr]: 127.0.0.1:52111 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:04,739 [1] (T)  [Addr]: 127.0.0.1:52111 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:04,739 [1] (I)  [Addr]: 127.0.0.1:52111 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:04,739 [1] (I)  [Addr]: 127.0.0.1:52111 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:05,251 [1] (I)  [Addr]: 127.0.0.1:52112 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:05,251 [1] (T)  [Addr]: 127.0.0.1:52112 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:05,251 [1] (T)  [Addr]: 127.0.0.1:52112 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:05,251 [1] (I)  [Addr]: 127.0.0.1:52112 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:05,251 [1] (T)  [Addr]: 127.0.0.1:52112 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:05,252 [1] (T)  [Addr]: 127.0.0.1:52112 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:05,252 [1] (I)  [Addr]: 127.0.0.1:52112 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:05,252 [1] (I)  [Addr]: 127.0.0.1:52112 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:05,770 [1] (I)  [Addr]: 127.0.0.1:52113 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:05,770 [1] (T)  [Addr]: 127.0.0.1:52113 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:05,770 [1] (T)  [Addr]: 127.0.0.1:52113 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:05,770 [1] (I)  [Addr]: 127.0.0.1:52113 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:05,770 [1] (T)  [Addr]: 127.0.0.1:52113 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:05,770 [1] (T)  [Addr]: 127.0.0.1:52113 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:05,771 [1] (I)  [Addr]: 127.0.0.1:52113 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:05,771 [1] (I)  [Addr]: 127.0.0.1:52113 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:06,330 [1] (I)  [Addr]: 127.0.0.1:52114 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:06,330 [1] (T)  [Addr]: 127.0.0.1:52114 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:06,331 [1] (T)  [Addr]: 127.0.0.1:52114 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:06,331 [1] (I)  [Addr]: 127.0.0.1:52114 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:06,331 [1] (T)  [Addr]: 127.0.0.1:52114 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:06,331 [1] (T)  [Addr]: 127.0.0.1:52114 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:06,332 [1] (I)  [Addr]: 127.0.0.1:52114 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:06,332 [1] (I)  [Addr]: 127.0.0.1:52114 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:06,945 [1] (I)  [Addr]: 127.0.0.1:52115 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:06,945 [1] (T)  [Addr]: 127.0.0.1:52115 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:06,945 [1] (T)  [Addr]: 127.0.0.1:52115 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:06,945 [1] (I)  [Addr]: 127.0.0.1:52115 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:06,945 [1] (T)  [Addr]: 127.0.0.1:52115 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:06,945 [1] (T)  [Addr]: 127.0.0.1:52115 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:06,946 [1] (I)  [Addr]: 127.0.0.1:52115 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:06,946 [1] (I)  [Addr]: 127.0.0.1:52115 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:07,657 [1] (I)  [Addr]: 127.0.0.1:52116 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:07,657 [1] (T)  [Addr]: 127.0.0.1:52116 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:07,657 [1] (T)  [Addr]: 127.0.0.1:52116 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:07,657 [1] (I)  [Addr]: 127.0.0.1:52116 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:07,657 [1] (T)  [Addr]: 127.0.0.1:52116 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:07,658 [1] (T)  [Addr]: 127.0.0.1:52116 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:07,658 [1] (I)  [Addr]: 127.0.0.1:52116 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:07,658 [1] (I)  [Addr]: 127.0.0.1:52116 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:08,339 [1] (I)  [Addr]: 127.0.0.1:52117 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:08,339 [1] (T)  [Addr]: 127.0.0.1:52117 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:08,339 [1] (T)  [Addr]: 127.0.0.1:52117 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:08,339 [1] (I)  [Addr]: 127.0.0.1:52117 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:08,339 [1] (T)  [Addr]: 127.0.0.1:52117 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:08,339 [1] (T)  [Addr]: 127.0.0.1:52117 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:08,339 [1] (I)  [Addr]: 127.0.0.1:52117 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:08,339 [1] (I)  [Addr]: 127.0.0.1:52117 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:09,010 [1] (I)  [Addr]: 127.0.0.1:52118 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:09,010 [1] (T)  [Addr]: 127.0.0.1:52118 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:09,010 [1] (T)  [Addr]: 127.0.0.1:52118 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:09,010 [1] (I)  [Addr]: 127.0.0.1:52118 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:09,010 [1] (T)  [Addr]: 127.0.0.1:52118 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:09,010 [1] (T)  [Addr]: 127.0.0.1:52118 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:09,011 [1] (I)  [Addr]: 127.0.0.1:52118 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:09,011 [1] (I)  [Addr]: 127.0.0.1:52118 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:09,561 [1] (I)  [Addr]: 127.0.0.1:52119 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:09,561 [1] (T)  [Addr]: 127.0.0.1:52119 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:09,562 [1] (T)  [Addr]: 127.0.0.1:52119 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:09,562 [1] (I)  [Addr]: 127.0.0.1:52119 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:09,562 [1] (T)  [Addr]: 127.0.0.1:52119 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:09,562 [1] (T)  [Addr]: 127.0.0.1:52119 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:09,562 [1] (I)  [Addr]: 127.0.0.1:52119 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:09,562 [1] (I)  [Addr]: 127.0.0.1:52119 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:10,196 [1] (I)  [Addr]: 127.0.0.1:52120 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:10,196 [1] (T)  [Addr]: 127.0.0.1:52120 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:10,196 [1] (T)  [Addr]: 127.0.0.1:52120 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:10,196 [1] (I)  [Addr]: 127.0.0.1:52120 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:10,196 [1] (T)  [Addr]: 127.0.0.1:52120 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:10,196 [1] (T)  [Addr]: 127.0.0.1:52120 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:10,197 [1] (I)  [Addr]: 127.0.0.1:52120 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:10,197 [1] (I)  [Addr]: 127.0.0.1:52120 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:10,843 [1] (I)  [Addr]: 127.0.0.1:52121 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:10,843 [1] (T)  [Addr]: 127.0.0.1:52121 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:10,843 [1] (T)  [Addr]: 127.0.0.1:52121 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:10,843 [1] (I)  [Addr]: 127.0.0.1:52121 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:10,843 [1] (T)  [Addr]: 127.0.0.1:52121 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:10,843 [1] (T)  [Addr]: 127.0.0.1:52121 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:10,844 [1] (I)  [Addr]: 127.0.0.1:52121 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:10,845 [1] (I)  [Addr]: 127.0.0.1:52121 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:11,567 [1] (I)  [Addr]: 127.0.0.1:52122 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:11,568 [1] (T)  [Addr]: 127.0.0.1:52122 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:11,568 [1] (T)  [Addr]: 127.0.0.1:52122 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:11,568 [1] (I)  [Addr]: 127.0.0.1:52122 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:11,568 [1] (T)  [Addr]: 127.0.0.1:52122 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:11,568 [1] (T)  [Addr]: 127.0.0.1:52122 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:11,568 [1] (I)  [Addr]: 127.0.0.1:52122 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:11,569 [1] (I)  [Addr]: 127.0.0.1:52122 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:12,250 [1] (I)  [Addr]: 127.0.0.1:52123 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:12,250 [1] (T)  [Addr]: 127.0.0.1:52123 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:12,250 [1] (T)  [Addr]: 127.0.0.1:52123 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:12,250 [1] (I)  [Addr]: 127.0.0.1:52123 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:12,250 [1] (T)  [Addr]: 127.0.0.1:52123 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:12,250 [1] (T)  [Addr]: 127.0.0.1:52123 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:12,250 [1] (I)  [Addr]: 127.0.0.1:52123 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:12,251 [1] (I)  [Addr]: 127.0.0.1:52123 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:12,897 [1] (I)  [Addr]: 127.0.0.1:52124 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:12,897 [1] (T)  [Addr]: 127.0.0.1:52124 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:12,897 [1] (T)  [Addr]: 127.0.0.1:52124 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:12,897 [1] (I)  [Addr]: 127.0.0.1:52124 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:12,897 [1] (T)  [Addr]: 127.0.0.1:52124 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:12,897 [1] (T)  [Addr]: 127.0.0.1:52124 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:12,897 [1] (I)  [Addr]: 127.0.0.1:52124 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:12,898 [1] (I)  [Addr]: 127.0.0.1:52124 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:13,465 [1] (I)  [Addr]: 127.0.0.1:52125 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:13,465 [1] (T)  [Addr]: 127.0.0.1:52125 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:13,465 [1] (T)  [Addr]: 127.0.0.1:52125 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:13,465 [1] (I)  [Addr]: 127.0.0.1:52125 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:13,465 [1] (T)  [Addr]: 127.0.0.1:52125 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:13,465 [1] (T)  [Addr]: 127.0.0.1:52125 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:13,466 [1] (I)  [Addr]: 127.0.0.1:52125 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:13,466 [1] (I)  [Addr]: 127.0.0.1:52125 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:14,123 [1] (I)  [Addr]: 127.0.0.1:52126 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:14,123 [1] (T)  [Addr]: 127.0.0.1:52126 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:14,123 [1] (T)  [Addr]: 127.0.0.1:52126 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:14,123 [1] (I)  [Addr]: 127.0.0.1:52126 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:14,123 [1] (T)  [Addr]: 127.0.0.1:52126 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:14,123 [1] (T)  [Addr]: 127.0.0.1:52126 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:14,124 [1] (I)  [Addr]: 127.0.0.1:52126 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:14,124 [1] (I)  [Addr]: 127.0.0.1:52126 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:14,662 [1] (I)  [Addr]: 127.0.0.1:52127 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:14,662 [1] (T)  [Addr]: 127.0.0.1:52127 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:14,662 [1] (T)  [Addr]: 127.0.0.1:52127 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:14,662 [1] (I)  [Addr]: 127.0.0.1:52127 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:14,662 [1] (T)  [Addr]: 127.0.0.1:52127 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:14,662 [1] (T)  [Addr]: 127.0.0.1:52127 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:14,663 [1] (I)  [Addr]: 127.0.0.1:52127 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:14,663 [1] (I)  [Addr]: 127.0.0.1:52127 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:15,071 [1] (I)  [Addr]: 127.0.0.1:52128 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:15,072 [1] (T)  [Addr]: 127.0.0.1:52128 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:15,072 [1] (T)  [Addr]: 127.0.0.1:52128 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:15,072 [1] (I)  [Addr]: 127.0.0.1:52128 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:15,072 [1] (T)  [Addr]: 127.0.0.1:52128 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:15,072 [1] (T)  [Addr]: 127.0.0.1:52128 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:15,072 [1] (I)  [Addr]: 127.0.0.1:52128 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:15,072 [1] (I)  [Addr]: 127.0.0.1:52128 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:15,543 [1] (I)  [Addr]: 127.0.0.1:52129 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:15,544 [1] (T)  [Addr]: 127.0.0.1:52129 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:15,544 [1] (T)  [Addr]: 127.0.0.1:52129 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:15,544 [1] (I)  [Addr]: 127.0.0.1:52129 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:15,544 [1] (T)  [Addr]: 127.0.0.1:52129 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:15,544 [1] (T)  [Addr]: 127.0.0.1:52129 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:15,544 [1] (I)  [Addr]: 127.0.0.1:52129 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:15,545 [1] (I)  [Addr]: 127.0.0.1:52129 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:15,958 [1] (I)  [Addr]: 127.0.0.1:52130 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:15,958 [1] (T)  [Addr]: 127.0.0.1:52130 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:15,958 [1] (T)  [Addr]: 127.0.0.1:52130 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:15,958 [1] (I)  [Addr]: 127.0.0.1:52130 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:15,958 [1] (T)  [Addr]: 127.0.0.1:52130 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:15,958 [1] (T)  [Addr]: 127.0.0.1:52130 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:15,959 [1] (I)  [Addr]: 127.0.0.1:52130 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:15,959 [1] (I)  [Addr]: 127.0.0.1:52130 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:16,407 [1] (I)  [Addr]: 127.0.0.1:52131 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:16,408 [1] (T)  [Addr]: 127.0.0.1:52131 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:16,408 [1] (T)  [Addr]: 127.0.0.1:52131 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:16,408 [1] (I)  [Addr]: 127.0.0.1:52131 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:16,408 [1] (T)  [Addr]: 127.0.0.1:52131 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:16,408 [1] (T)  [Addr]: 127.0.0.1:52131 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:16,408 [1] (I)  [Addr]: 127.0.0.1:52131 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:16,408 [1] (I)  [Addr]: 127.0.0.1:52131 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:16,803 [1] (I)  [Addr]: 127.0.0.1:52132 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:16,803 [1] (T)  [Addr]: 127.0.0.1:52132 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:16,803 [1] (T)  [Addr]: 127.0.0.1:52132 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:16,803 [1] (I)  [Addr]: 127.0.0.1:52132 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:16,803 [1] (T)  [Addr]: 127.0.0.1:52132 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:16,803 [1] (T)  [Addr]: 127.0.0.1:52132 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:16,804 [1] (I)  [Addr]: 127.0.0.1:52132 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:16,804 [1] (I)  [Addr]: 127.0.0.1:52132 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:17,190 [1] (I)  [Addr]: 127.0.0.1:52133 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:17,190 [1] (T)  [Addr]: 127.0.0.1:52133 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:17,191 [1] (T)  [Addr]: 127.0.0.1:52133 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:17,191 [1] (I)  [Addr]: 127.0.0.1:52133 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:17,191 [1] (T)  [Addr]: 127.0.0.1:52133 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:17,191 [1] (T)  [Addr]: 127.0.0.1:52133 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:17,191 [1] (I)  [Addr]: 127.0.0.1:52133 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:17,191 [1] (I)  [Addr]: 127.0.0.1:52133 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:17,583 [1] (I)  [Addr]: 127.0.0.1:52134 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:17,583 [1] (T)  [Addr]: 127.0.0.1:52134 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:17,584 [1] (T)  [Addr]: 127.0.0.1:52134 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:17,584 [1] (I)  [Addr]: 127.0.0.1:52134 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:17,584 [1] (T)  [Addr]: 127.0.0.1:52134 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:17,584 [1] (T)  [Addr]: 127.0.0.1:52134 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:17,585 [1] (I)  [Addr]: 127.0.0.1:52134 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:17,585 [1] (I)  [Addr]: 127.0.0.1:52134 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:17,926 [1] (I)  [Addr]: 127.0.0.1:52135 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:17,926 [1] (T)  [Addr]: 127.0.0.1:52135 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:17,926 [1] (T)  [Addr]: 127.0.0.1:52135 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:17,926 [1] (I)  [Addr]: 127.0.0.1:52135 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:17,926 [1] (T)  [Addr]: 127.0.0.1:52135 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:17,926 [1] (T)  [Addr]: 127.0.0.1:52135 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:17,927 [1] (I)  [Addr]: 127.0.0.1:52135 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:17,927 [1] (I)  [Addr]: 127.0.0.1:52135 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:18,311 [1] (I)  [Addr]: 127.0.0.1:52136 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:18,311 [1] (T)  [Addr]: 127.0.0.1:52136 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:18,311 [1] (T)  [Addr]: 127.0.0.1:52136 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:18,311 [1] (I)  [Addr]: 127.0.0.1:52136 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:18,311 [1] (T)  [Addr]: 127.0.0.1:52136 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:18,312 [1] (T)  [Addr]: 127.0.0.1:52136 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:18,312 [1] (I)  [Addr]: 127.0.0.1:52136 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:18,312 [1] (I)  [Addr]: 127.0.0.1:52136 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:18,658 [1] (I)  [Addr]: 127.0.0.1:52137 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:18,658 [1] (T)  [Addr]: 127.0.0.1:52137 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:18,658 [1] (T)  [Addr]: 127.0.0.1:52137 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:18,658 [1] (I)  [Addr]: 127.0.0.1:52137 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:18,658 [1] (T)  [Addr]: 127.0.0.1:52137 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:18,658 [1] (T)  [Addr]: 127.0.0.1:52137 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:18,658 [1] (I)  [Addr]: 127.0.0.1:52137 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:18,658 [1] (I)  [Addr]: 127.0.0.1:52137 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:19,041 [1] (I)  [Addr]: 127.0.0.1:52138 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:19,042 [1] (T)  [Addr]: 127.0.0.1:52138 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:19,042 [1] (T)  [Addr]: 127.0.0.1:52138 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:19,042 [1] (I)  [Addr]: 127.0.0.1:52138 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:19,042 [1] (T)  [Addr]: 127.0.0.1:52138 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:19,042 [1] (T)  [Addr]: 127.0.0.1:52138 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:19,042 [1] (I)  [Addr]: 127.0.0.1:52138 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:19,042 [1] (I)  [Addr]: 127.0.0.1:52138 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:19,412 [1] (I)  [Addr]: 127.0.0.1:52139 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:19,412 [1] (T)  [Addr]: 127.0.0.1:52139 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:19,412 [1] (T)  [Addr]: 127.0.0.1:52139 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:19,412 [1] (I)  [Addr]: 127.0.0.1:52139 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:19,412 [1] (T)  [Addr]: 127.0.0.1:52139 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:19,412 [1] (T)  [Addr]: 127.0.0.1:52139 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:19,412 [1] (I)  [Addr]: 127.0.0.1:52139 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:19,413 [1] (I)  [Addr]: 127.0.0.1:52139 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:19,762 [1] (I)  [Addr]: 127.0.0.1:52140 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:19,762 [1] (T)  [Addr]: 127.0.0.1:52140 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:19,762 [1] (T)  [Addr]: 127.0.0.1:52140 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:19,762 [1] (I)  [Addr]: 127.0.0.1:52140 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:19,762 [1] (T)  [Addr]: 127.0.0.1:52140 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:19,762 [1] (T)  [Addr]: 127.0.0.1:52140 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:19,763 [1] (I)  [Addr]: 127.0.0.1:52140 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:19,763 [1] (I)  [Addr]: 127.0.0.1:52140 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:20,148 [1] (I)  [Addr]: 127.0.0.1:52141 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:20,148 [1] (T)  [Addr]: 127.0.0.1:52141 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:20,148 [1] (T)  [Addr]: 127.0.0.1:52141 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:20,148 [1] (I)  [Addr]: 127.0.0.1:52141 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:20,148 [1] (T)  [Addr]: 127.0.0.1:52141 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:20,148 [1] (T)  [Addr]: 127.0.0.1:52141 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:20,148 [1] (I)  [Addr]: 127.0.0.1:52141 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:20,148 [1] (I)  [Addr]: 127.0.0.1:52141 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:20,527 [1] (I)  [Addr]: 127.0.0.1:52142 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:20,527 [1] (T)  [Addr]: 127.0.0.1:52142 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:20,527 [1] (T)  [Addr]: 127.0.0.1:52142 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:20,527 [1] (I)  [Addr]: 127.0.0.1:52142 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:20,527 [1] (T)  [Addr]: 127.0.0.1:52142 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:20,527 [1] (T)  [Addr]: 127.0.0.1:52142 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:20,528 [1] (I)  [Addr]: 127.0.0.1:52142 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:20,528 [1] (I)  [Addr]: 127.0.0.1:52142 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:20,950 [1] (I)  [Addr]: 127.0.0.1:52143 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:20,950 [1] (T)  [Addr]: 127.0.0.1:52143 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:20,950 [1] (T)  [Addr]: 127.0.0.1:52143 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:20,950 [1] (I)  [Addr]: 127.0.0.1:52143 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:20,950 [1] (T)  [Addr]: 127.0.0.1:52143 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:20,950 [1] (T)  [Addr]: 127.0.0.1:52143 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:20,950 [1] (I)  [Addr]: 127.0.0.1:52143 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:20,950 [1] (I)  [Addr]: 127.0.0.1:52143 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:21,290 [1] (I)  [Addr]: 127.0.0.1:52144 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:21,290 [1] (T)  [Addr]: 127.0.0.1:52144 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:21,290 [1] (T)  [Addr]: 127.0.0.1:52144 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:21,290 [1] (I)  [Addr]: 127.0.0.1:52144 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:21,290 [1] (T)  [Addr]: 127.0.0.1:52144 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:21,290 [1] (T)  [Addr]: 127.0.0.1:52144 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:21,291 [1] (I)  [Addr]: 127.0.0.1:52144 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:21,291 [1] (I)  [Addr]: 127.0.0.1:52144 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:21,652 [1] (I)  [Addr]: 127.0.0.1:52145 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:21,652 [1] (T)  [Addr]: 127.0.0.1:52145 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:21,652 [1] (T)  [Addr]: 127.0.0.1:52145 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:21,652 [1] (I)  [Addr]: 127.0.0.1:52145 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:21,652 [1] (T)  [Addr]: 127.0.0.1:52145 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:21,652 [1] (T)  [Addr]: 127.0.0.1:52145 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:21,652 [1] (I)  [Addr]: 127.0.0.1:52145 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:21,652 [1] (I)  [Addr]: 127.0.0.1:52145 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:21,980 [1] (I)  [Addr]: 127.0.0.1:52146 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:21,980 [1] (T)  [Addr]: 127.0.0.1:52146 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:21,980 [1] (T)  [Addr]: 127.0.0.1:52146 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:21,980 [1] (I)  [Addr]: 127.0.0.1:52146 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:21,980 [1] (T)  [Addr]: 127.0.0.1:52146 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:21,980 [1] (T)  [Addr]: 127.0.0.1:52146 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:21,982 [1] (I)  [Addr]: 127.0.0.1:52146 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:21,982 [1] (I)  [Addr]: 127.0.0.1:52146 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:22,325 [1] (I)  [Addr]: 127.0.0.1:52147 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:22,325 [1] (T)  [Addr]: 127.0.0.1:52147 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:22,325 [1] (T)  [Addr]: 127.0.0.1:52147 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:22,325 [1] (I)  [Addr]: 127.0.0.1:52147 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:22,325 [1] (T)  [Addr]: 127.0.0.1:52147 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:22,326 [1] (T)  [Addr]: 127.0.0.1:52147 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:22,326 [1] (I)  [Addr]: 127.0.0.1:52147 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:22,326 [1] (I)  [Addr]: 127.0.0.1:52147 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:22,679 [1] (I)  [Addr]: 127.0.0.1:52148 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:22,680 [1] (T)  [Addr]: 127.0.0.1:52148 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:22,680 [1] (T)  [Addr]: 127.0.0.1:52148 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:22,680 [1] (I)  [Addr]: 127.0.0.1:52148 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:22,680 [1] (T)  [Addr]: 127.0.0.1:52148 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:22,680 [1] (T)  [Addr]: 127.0.0.1:52148 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:22,680 [1] (I)  [Addr]: 127.0.0.1:52148 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:22,680 [1] (I)  [Addr]: 127.0.0.1:52148 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:23,049 [1] (I)  [Addr]: 127.0.0.1:52149 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:23,049 [1] (T)  [Addr]: 127.0.0.1:52149 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:23,049 [1] (T)  [Addr]: 127.0.0.1:52149 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:23,049 [1] (I)  [Addr]: 127.0.0.1:52149 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:23,050 [1] (T)  [Addr]: 127.0.0.1:52149 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:23,050 [1] (T)  [Addr]: 127.0.0.1:52149 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:23,050 [1] (I)  [Addr]: 127.0.0.1:52149 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:23,050 [1] (I)  [Addr]: 127.0.0.1:52149 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:23,374 [1] (I)  [Addr]: 127.0.0.1:52150 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:23,374 [1] (T)  [Addr]: 127.0.0.1:52150 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:23,374 [1] (T)  [Addr]: 127.0.0.1:52150 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:23,374 [1] (I)  [Addr]: 127.0.0.1:52150 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:23,374 [1] (T)  [Addr]: 127.0.0.1:52150 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:23,374 [1] (T)  [Addr]: 127.0.0.1:52150 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:23,374 [1] (I)  [Addr]: 127.0.0.1:52150 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:23,374 [1] (I)  [Addr]: 127.0.0.1:52150 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:23,696 [1] (I)  [Addr]: 127.0.0.1:52151 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:23,696 [1] (T)  [Addr]: 127.0.0.1:52151 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:23,696 [1] (T)  [Addr]: 127.0.0.1:52151 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:23,696 [1] (I)  [Addr]: 127.0.0.1:52151 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:23,697 [1] (T)  [Addr]: 127.0.0.1:52151 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:23,697 [1] (T)  [Addr]: 127.0.0.1:52151 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:23,697 [1] (I)  [Addr]: 127.0.0.1:52151 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:23,697 [1] (I)  [Addr]: 127.0.0.1:52151 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:24,037 [1] (I)  [Addr]: 127.0.0.1:52152 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:24,037 [1] (T)  [Addr]: 127.0.0.1:52152 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:24,037 [1] (T)  [Addr]: 127.0.0.1:52152 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:24,037 [1] (I)  [Addr]: 127.0.0.1:52152 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:24,037 [1] (T)  [Addr]: 127.0.0.1:52152 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:24,037 [1] (T)  [Addr]: 127.0.0.1:52152 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:24,037 [1] (I)  [Addr]: 127.0.0.1:52152 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:24,037 [1] (I)  [Addr]: 127.0.0.1:52152 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:24,388 [1] (I)  [Addr]: 127.0.0.1:52153 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:24,388 [1] (T)  [Addr]: 127.0.0.1:52153 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:24,388 [1] (T)  [Addr]: 127.0.0.1:52153 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:24,388 [1] (I)  [Addr]: 127.0.0.1:52153 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:24,388 [1] (T)  [Addr]: 127.0.0.1:52153 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:24,388 [1] (T)  [Addr]: 127.0.0.1:52153 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:24,388 [1] (I)  [Addr]: 127.0.0.1:52153 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:24,388 [1] (I)  [Addr]: 127.0.0.1:52153 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:24,711 [1] (I)  [Addr]: 127.0.0.1:52154 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:24,711 [1] (T)  [Addr]: 127.0.0.1:52154 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:24,711 [1] (T)  [Addr]: 127.0.0.1:52154 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:24,711 [1] (I)  [Addr]: 127.0.0.1:52154 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:24,711 [1] (T)  [Addr]: 127.0.0.1:52154 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:24,711 [1] (T)  [Addr]: 127.0.0.1:52154 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:24,712 [1] (I)  [Addr]: 127.0.0.1:52154 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:24,712 [1] (I)  [Addr]: 127.0.0.1:52154 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:25,069 [1] (I)  [Addr]: 127.0.0.1:52155 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:25,069 [1] (T)  [Addr]: 127.0.0.1:52155 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:25,069 [1] (T)  [Addr]: 127.0.0.1:52155 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:25,069 [1] (I)  [Addr]: 127.0.0.1:52155 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:25,069 [1] (T)  [Addr]: 127.0.0.1:52155 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:25,069 [1] (T)  [Addr]: 127.0.0.1:52155 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:25,070 [1] (I)  [Addr]: 127.0.0.1:52155 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:25,070 [1] (I)  [Addr]: 127.0.0.1:52155 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:25,391 [1] (I)  [Addr]: 127.0.0.1:52156 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:25,391 [1] (T)  [Addr]: 127.0.0.1:52156 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:25,391 [1] (T)  [Addr]: 127.0.0.1:52156 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:25,391 [1] (I)  [Addr]: 127.0.0.1:52156 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:25,391 [1] (T)  [Addr]: 127.0.0.1:52156 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:25,391 [1] (T)  [Addr]: 127.0.0.1:52156 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:25,391 [1] (I)  [Addr]: 127.0.0.1:52156 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:25,391 [1] (I)  [Addr]: 127.0.0.1:52156 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:25,735 [1] (I)  [Addr]: 127.0.0.1:52157 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:25,735 [1] (T)  [Addr]: 127.0.0.1:52157 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:25,735 [1] (T)  [Addr]: 127.0.0.1:52157 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:25,735 [1] (I)  [Addr]: 127.0.0.1:52157 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:25,735 [1] (T)  [Addr]: 127.0.0.1:52157 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:25,735 [1] (T)  [Addr]: 127.0.0.1:52157 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:25,736 [1] (I)  [Addr]: 127.0.0.1:52157 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:25,736 [1] (I)  [Addr]: 127.0.0.1:52157 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:26,049 [1] (I)  [Addr]: 127.0.0.1:52158 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:26,049 [1] (T)  [Addr]: 127.0.0.1:52158 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:26,049 [1] (T)  [Addr]: 127.0.0.1:52158 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:26,049 [1] (I)  [Addr]: 127.0.0.1:52158 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:26,049 [1] (T)  [Addr]: 127.0.0.1:52158 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:26,049 [1] (T)  [Addr]: 127.0.0.1:52158 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:26,049 [1] (I)  [Addr]: 127.0.0.1:52158 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:26,049 [1] (I)  [Addr]: 127.0.0.1:52158 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:26,365 [1] (I)  [Addr]: 127.0.0.1:52159 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:26,365 [1] (T)  [Addr]: 127.0.0.1:52159 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:26,365 [1] (T)  [Addr]: 127.0.0.1:52159 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:26,365 [1] (I)  [Addr]: 127.0.0.1:52159 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:26,365 [1] (T)  [Addr]: 127.0.0.1:52159 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:26,365 [1] (T)  [Addr]: 127.0.0.1:52159 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:26,366 [1] (I)  [Addr]: 127.0.0.1:52159 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:26,366 [1] (I)  [Addr]: 127.0.0.1:52159 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:26,675 [1] (I)  [Addr]: 127.0.0.1:52160 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:26,675 [1] (T)  [Addr]: 127.0.0.1:52160 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:26,676 [1] (T)  [Addr]: 127.0.0.1:52160 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:26,676 [1] (I)  [Addr]: 127.0.0.1:52160 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:26,676 [1] (T)  [Addr]: 127.0.0.1:52160 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:26,676 [1] (T)  [Addr]: 127.0.0.1:52160 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:26,676 [1] (I)  [Addr]: 127.0.0.1:52160 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:26,677 [1] (I)  [Addr]: 127.0.0.1:52160 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-19 20:33:27,020 [1] (I)  [Addr]: 127.0.0.1:52161 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-19 20:33:27,020 [1] (T)  [Addr]: 127.0.0.1:52161 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-19 20:33:27,021 [1] (T)  [Addr]: 127.0.0.1:52161 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-19 20:33:27,021 [1] (I)  [Addr]: 127.0.0.1:52161 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-19 20:33:27,021 [1] (T)  [Addr]: 127.0.0.1:52161 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-19 20:33:27,021 [1] (T)  [Addr]: 127.0.0.1:52161 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-19 20:33:27,022 [1] (I)  [Addr]: 127.0.0.1:52161 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-19 20:33:27,022 [1] (I)  [Addr]: 127.0.0.1:52161 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 01:16:54,881 [1] (I)  [Addr]: 127.0.0.1:52174 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 01:16:54,881 [1] (T)  [Addr]: 127.0.0.1:52174 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 01:16:54,882 [1] (T)  [Addr]: 127.0.0.1:52174 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-20 01:16:54,882 [1] (I)  [Addr]: 127.0.0.1:52174 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-20 01:16:54,882 [1] (T)  [Addr]: 127.0.0.1:52174 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-20 01:16:54,882 [1] (T)  [Addr]: 127.0.0.1:52174 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-20 01:16:54,883 [1] (I)  [Addr]: 127.0.0.1:52174 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 01:16:54,883 [1] (I)  [Addr]: 127.0.0.1:52174 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 01:16:56,301 [1] (I)  [Addr]: 127.0.0.1:52175 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 01:16:56,302 [1] (T)  [Addr]: 127.0.0.1:52175 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 01:16:56,302 [1] (T)  [Addr]: 127.0.0.1:52175 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-20 01:16:56,302 [1] (I)  [Addr]: 127.0.0.1:52175 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-20 01:16:56,302 [1] (T)  [Addr]: 127.0.0.1:52175 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-20 01:16:56,302 [1] (T)  [Addr]: 127.0.0.1:52175 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-20 01:16:56,302 [1] (I)  [Addr]: 127.0.0.1:52175 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 01:16:56,302 [1] (I)  [Addr]: 127.0.0.1:52175 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 01:16:57,037 [1] (I)  [Addr]: 127.0.0.1:52176 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 01:16:57,037 [1] (T)  [Addr]: 127.0.0.1:52176 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 01:16:57,037 [1] (T)  [Addr]: 127.0.0.1:52176 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-20 01:16:57,037 [1] (I)  [Addr]: 127.0.0.1:52176 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-20 01:16:57,037 [1] (T)  [Addr]: 127.0.0.1:52176 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-20 01:16:57,037 [1] (T)  [Addr]: 127.0.0.1:52176 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-20 01:16:57,037 [1] (I)  [Addr]: 127.0.0.1:52176 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 01:16:57,037 [1] (I)  [Addr]: 127.0.0.1:52176 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 01:16:57,693 [1] (I)  [Addr]: 127.0.0.1:52177 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 01:16:57,693 [1] (T)  [Addr]: 127.0.0.1:52177 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 01:16:57,693 [1] (T)  [Addr]: 127.0.0.1:52177 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-20 01:16:57,693 [1] (I)  [Addr]: 127.0.0.1:52177 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-20 01:16:57,693 [1] (T)  [Addr]: 127.0.0.1:52177 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-20 01:16:57,693 [1] (T)  [Addr]: 127.0.0.1:52177 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-20 01:16:57,694 [1] (I)  [Addr]: 127.0.0.1:52177 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 01:16:57,694 [1] (I)  [Addr]: 127.0.0.1:52177 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 01:16:58,332 [1] (I)  [Addr]: 127.0.0.1:52178 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 01:16:58,332 [1] (T)  [Addr]: 127.0.0.1:52178 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 01:16:58,332 [1] (T)  [Addr]: 127.0.0.1:52178 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-20 01:16:58,332 [1] (I)  [Addr]: 127.0.0.1:52178 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-20 01:16:58,332 [1] (T)  [Addr]: 127.0.0.1:52178 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-20 01:16:58,332 [1] (T)  [Addr]: 127.0.0.1:52178 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-20 01:16:58,333 [1] (I)  [Addr]: 127.0.0.1:52178 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 01:16:58,333 [1] (I)  [Addr]: 127.0.0.1:52178 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 01:16:59,043 [1] (I)  [Addr]: 127.0.0.1:52179 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 01:16:59,043 [1] (T)  [Addr]: 127.0.0.1:52179 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 01:16:59,043 [1] (T)  [Addr]: 127.0.0.1:52179 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-20 01:16:59,043 [1] (I)  [Addr]: 127.0.0.1:52179 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-20 01:16:59,043 [1] (T)  [Addr]: 127.0.0.1:52179 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-20 01:16:59,043 [1] (T)  [Addr]: 127.0.0.1:52179 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-20 01:16:59,043 [1] (I)  [Addr]: 127.0.0.1:52179 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 01:16:59,043 [1] (I)  [Addr]: 127.0.0.1:52179 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 01:16:59,649 [1] (I)  [Addr]: 127.0.0.1:52180 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 01:16:59,649 [1] (T)  [Addr]: 127.0.0.1:52180 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 01:16:59,649 [1] (T)  [Addr]: 127.0.0.1:52180 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-20 01:16:59,650 [1] (I)  [Addr]: 127.0.0.1:52180 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-20 01:16:59,650 [1] (T)  [Addr]: 127.0.0.1:52180 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-20 01:16:59,650 [1] (T)  [Addr]: 127.0.0.1:52180 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-20 01:16:59,650 [1] (I)  [Addr]: 127.0.0.1:52180 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 01:16:59,650 [1] (I)  [Addr]: 127.0.0.1:52180 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 01:17:00,283 [1] (I)  [Addr]: 127.0.0.1:52181 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 01:17:00,283 [1] (T)  [Addr]: 127.0.0.1:52181 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 01:17:00,283 [1] (T)  [Addr]: 127.0.0.1:52181 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-20 01:17:00,283 [1] (I)  [Addr]: 127.0.0.1:52181 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-20 01:17:00,283 [1] (T)  [Addr]: 127.0.0.1:52181 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-20 01:17:00,283 [1] (T)  [Addr]: 127.0.0.1:52181 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-20 01:17:00,284 [1] (I)  [Addr]: 127.0.0.1:52181 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 01:17:00,284 [1] (I)  [Addr]: 127.0.0.1:52181 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 01:17:00,816 [1] (I)  [Addr]: 127.0.0.1:52182 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 01:17:00,816 [1] (T)  [Addr]: 127.0.0.1:52182 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 01:17:00,816 [1] (T)  [Addr]: 127.0.0.1:52182 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-20 01:17:00,816 [1] (I)  [Addr]: 127.0.0.1:52182 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-20 01:17:00,816 [1] (T)  [Addr]: 127.0.0.1:52182 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-20 01:17:00,816 [1] (T)  [Addr]: 127.0.0.1:52182 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-20 01:17:00,816 [1] (I)  [Addr]: 127.0.0.1:52182 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 01:17:00,817 [1] (I)  [Addr]: 127.0.0.1:52182 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 01:17:01,321 [1] (I)  [Addr]: 127.0.0.1:52183 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 01:17:01,321 [1] (T)  [Addr]: 127.0.0.1:52183 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 01:17:01,321 [1] (T)  [Addr]: 127.0.0.1:52183 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-20 01:17:01,321 [1] (I)  [Addr]: 127.0.0.1:52183 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-20 01:17:01,321 [1] (T)  [Addr]: 127.0.0.1:52183 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-20 01:17:01,321 [1] (T)  [Addr]: 127.0.0.1:52183 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-20 01:17:01,322 [1] (I)  [Addr]: 127.0.0.1:52183 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 01:17:01,322 [1] (I)  [Addr]: 127.0.0.1:52183 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 01:18:17,794 [1] (I)  [Addr]: 127.0.0.1:52189 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 01:18:17,794 [1] (T)  [Addr]: 127.0.0.1:52189 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 01:18:17,794 [1] (T)  [Addr]: 127.0.0.1:52189 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-20 01:18:17,794 [1] (I)  [Addr]: 127.0.0.1:52189 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-20 01:18:17,794 [1] (T)  [Addr]: 127.0.0.1:52189 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-20 01:18:17,794 [1] (T)  [Addr]: 127.0.0.1:52189 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-20 01:18:17,795 [1] (I)  [Addr]: 127.0.0.1:52189 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 01:18:17,795 [1] (I)  [Addr]: 127.0.0.1:52189 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 01:18:18,722 [1] (I)  [Addr]: 127.0.0.1:52190 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 01:18:18,722 [1] (T)  [Addr]: 127.0.0.1:52190 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 01:18:18,722 [1] (T)  [Addr]: 127.0.0.1:52190 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-20 01:18:18,722 [1] (I)  [Addr]: 127.0.0.1:52190 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-20 01:18:18,722 [1] (T)  [Addr]: 127.0.0.1:52190 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-20 01:18:18,722 [1] (T)  [Addr]: 127.0.0.1:52190 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-20 01:18:18,723 [1] (I)  [Addr]: 127.0.0.1:52190 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 01:18:18,723 [1] (I)  [Addr]: 127.0.0.1:52190 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 01:18:19,628 [1] (I)  [Addr]: 127.0.0.1:52191 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 01:18:19,629 [1] (T)  [Addr]: 127.0.0.1:52191 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 01:18:19,629 [1] (T)  [Addr]: 127.0.0.1:52191 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-20 01:18:19,629 [1] (I)  [Addr]: 127.0.0.1:52191 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-20 01:18:19,629 [1] (T)  [Addr]: 127.0.0.1:52191 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-20 01:18:19,629 [1] (T)  [Addr]: 127.0.0.1:52191 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-20 01:18:19,629 [1] (I)  [Addr]: 127.0.0.1:52191 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 01:18:19,630 [1] (I)  [Addr]: 127.0.0.1:52191 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 01:18:20,537 [1] (I)  [Addr]: 127.0.0.1:52192 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 01:18:20,537 [1] (T)  [Addr]: 127.0.0.1:52192 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 01:18:20,537 [1] (T)  [Addr]: 127.0.0.1:52192 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-20 01:18:20,537 [1] (I)  [Addr]: 127.0.0.1:52192 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-20 01:18:20,537 [1] (T)  [Addr]: 127.0.0.1:52192 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-20 01:18:20,537 [1] (T)  [Addr]: 127.0.0.1:52192 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-20 01:18:20,538 [1] (I)  [Addr]: 127.0.0.1:52192 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 01:18:20,538 [1] (I)  [Addr]: 127.0.0.1:52192 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 01:18:21,394 [1] (I)  [Addr]: 127.0.0.1:52193 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 01:18:21,394 [1] (T)  [Addr]: 127.0.0.1:52193 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 01:18:21,394 [1] (T)  [Addr]: 127.0.0.1:52193 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-20 01:18:21,394 [1] (I)  [Addr]: 127.0.0.1:52193 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-20 01:18:21,394 [1] (T)  [Addr]: 127.0.0.1:52193 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-20 01:18:21,395 [1] (T)  [Addr]: 127.0.0.1:52193 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-20 01:18:21,395 [1] (I)  [Addr]: 127.0.0.1:52193 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 01:18:21,395 [1] (I)  [Addr]: 127.0.0.1:52193 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 01:18:22,208 [1] (I)  [Addr]: 127.0.0.1:52194 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 01:18:22,208 [1] (T)  [Addr]: 127.0.0.1:52194 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 01:18:22,208 [1] (T)  [Addr]: 127.0.0.1:52194 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-20 01:18:22,208 [1] (I)  [Addr]: 127.0.0.1:52194 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-20 01:18:22,208 [1] (T)  [Addr]: 127.0.0.1:52194 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-20 01:18:22,208 [1] (T)  [Addr]: 127.0.0.1:52194 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-20 01:18:22,209 [1] (I)  [Addr]: 127.0.0.1:52194 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 01:18:22,209 [1] (I)  [Addr]: 127.0.0.1:52194 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 01:18:23,004 [1] (I)  [Addr]: 127.0.0.1:52195 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 01:18:23,004 [1] (T)  [Addr]: 127.0.0.1:52195 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 01:18:23,004 [1] (T)  [Addr]: 127.0.0.1:52195 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-20 01:18:23,004 [1] (I)  [Addr]: 127.0.0.1:52195 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-20 01:18:23,004 [1] (T)  [Addr]: 127.0.0.1:52195 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-20 01:18:23,004 [1] (T)  [Addr]: 127.0.0.1:52195 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-20 01:18:23,005 [1] (I)  [Addr]: 127.0.0.1:52195 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 01:18:23,005 [1] (I)  [Addr]: 127.0.0.1:52195 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 01:18:23,841 [1] (I)  [Addr]: 127.0.0.1:52196 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 01:18:23,841 [1] (T)  [Addr]: 127.0.0.1:52196 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 01:18:23,842 [1] (T)  [Addr]: 127.0.0.1:52196 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-20 01:18:23,842 [1] (I)  [Addr]: 127.0.0.1:52196 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-20 01:18:23,842 [1] (T)  [Addr]: 127.0.0.1:52196 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-20 01:18:23,842 [1] (T)  [Addr]: 127.0.0.1:52196 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-20 01:18:23,842 [1] (I)  [Addr]: 127.0.0.1:52196 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 01:18:23,843 [1] (I)  [Addr]: 127.0.0.1:52196 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 01:18:24,689 [1] (I)  [Addr]: 127.0.0.1:52197 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 01:18:24,689 [1] (T)  [Addr]: 127.0.0.1:52197 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 01:18:24,689 [1] (T)  [Addr]: 127.0.0.1:52197 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-20 01:18:24,689 [1] (I)  [Addr]: 127.0.0.1:52197 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-20 01:18:24,689 [1] (T)  [Addr]: 127.0.0.1:52197 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-20 01:18:24,690 [1] (T)  [Addr]: 127.0.0.1:52197 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-20 01:18:24,690 [1] (I)  [Addr]: 127.0.0.1:52197 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 01:18:24,691 [1] (I)  [Addr]: 127.0.0.1:52197 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 01:45:40,659 [1] (I)  [Addr]: 127.0.0.1:52277 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 01:45:41,180 [1] (T)  [Addr]: 127.0.0.1:52277 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 01:45:43,930 [1] (D)  [Addr]: 127.0.0.1:52277 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 01:45:45,285 [1] (T)  [Addr]: 127.0.0.1:52277 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-20 01:45:45,285 [1] (I)  [Addr]: 127.0.0.1:52277 : Incoming message: $CLOSE - neotracsrvtcp.cpp, 223
+2015-08-20 01:45:45,285 [1] (T)  [Addr]: 127.0.0.1:52277 : Processing CLOSE command - neotracsrvtcp.cpp, 243
+2015-08-20 01:45:45,285 [1] (I)  [Addr]: 127.0.0.1:52277 : Remote requested close - neotracsrvtcp.cpp, 467
+2015-08-20 01:45:45,285 [1] (I)  [Addr]: 127.0.0.1:52277 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:29:55,612 [0] (T) Server context created - neotracsrvtcp.cpp, 88
+2015-08-20 02:29:55,636 [0] (T) Neo Socket reactor created - neotracsrvtcp.cpp, 126
+2015-08-20 02:29:55,637 [0] (I) Compiler version: 4 - neotracsrvtcp.cpp, 661
+2015-08-20 02:29:55,637 [0] (I) C++ version: 201103 - neotracsrvtcp.cpp, 662
+2015-08-20 02:29:55,637 [0] (I) Build date & Time: Aug 16 2015, 11:19:37 - neotracsrvtcp.cpp, 663
+2015-08-20 02:29:55,637 [0] (I) Server started - neotracsrvtcp.cpp, 664
+2015-08-20 02:30:00,572 [0] (I) Termination requested. - neotracsrvtcp.cpp, 668
+2015-08-20 02:30:00,572 [0] (I) Reactor stopped. - neotracsrvtcp.cpp, 672
+2015-08-20 02:30:00,643 [0] (I) Thread joined. - neotracsrvtcp.cpp, 675
+2015-08-20 02:30:00,643 [0] (I) Server stopped. - neotracsrvtcp.cpp, 677
+2015-08-20 02:30:00,643 [0] (D) Uninitializing subsystem: Logging Subsystem - , 0
+2015-08-20 02:30:03,065 [0] (T) Server context created - neotracsrvtcp.cpp, 88
+2015-08-20 02:30:03,065 [0] (T) Neo Socket reactor created - neotracsrvtcp.cpp, 126
+2015-08-20 02:30:03,066 [0] (I) Compiler version: 4 - neotracsrvtcp.cpp, 661
+2015-08-20 02:30:03,066 [0] (I) C++ version: 201103 - neotracsrvtcp.cpp, 662
+2015-08-20 02:30:03,066 [0] (I) Build date & Time: Aug 16 2015, 11:19:37 - neotracsrvtcp.cpp, 663
+2015-08-20 02:30:03,066 [0] (I) Server started - neotracsrvtcp.cpp, 664
+2015-08-20 02:30:08,806 [1] (I)  [Addr]: 127.0.0.1:53673 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:30:08,806 [1] (T) Database not opened before - neotracsrvtcp.cpp, 114
+2015-08-20 02:30:08,806 [1] (T) Instantiate the database class: U:postgres p: - ../common/database.cpp, 17
+2015-08-20 02:30:08,806 [1] (T)  [Addr]: 127.0.0.1:53673 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:30:11,310 [1] (D)  [Addr]: 127.0.0.1:53673 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:30:13,806 [1] (I)  [Addr]: 127.0.0.1:53673 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:30:13,806 [1] (I)  [Addr]: 127.0.0.1:53673 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:30:20,453 [1] (I)  [Addr]: 127.0.0.1:53676 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:30:20,453 [1] (T)  [Addr]: 127.0.0.1:53676 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:30:22,957 [1] (D)  [Addr]: 127.0.0.1:53676 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:30:25,450 [1] (I)  [Addr]: 127.0.0.1:53676 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:30:25,450 [1] (I)  [Addr]: 127.0.0.1:53676 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:30:31,127 [1] (I)  [Addr]: 127.0.0.1:53679 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:30:31,127 [1] (T)  [Addr]: 127.0.0.1:53679 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:30:33,631 [1] (D)  [Addr]: 127.0.0.1:53679 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:30:36,126 [1] (I)  [Addr]: 127.0.0.1:53679 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:30:36,126 [1] (I)  [Addr]: 127.0.0.1:53679 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:35:29,042 [0] (T) Server context created - neotracsrvtcp.cpp, 88
+2015-08-20 02:35:29,043 [0] (T) Neo Socket reactor created - neotracsrvtcp.cpp, 126
+2015-08-20 02:35:29,044 [0] (I) Compiler version: 4 - neotracsrvtcp.cpp, 661
+2015-08-20 02:35:29,044 [0] (I) C++ version: 201103 - neotracsrvtcp.cpp, 662
+2015-08-20 02:35:29,044 [0] (I) Build date & Time: Aug 16 2015, 11:19:37 - neotracsrvtcp.cpp, 663
+2015-08-20 02:35:29,044 [0] (I) Server started - neotracsrvtcp.cpp, 664
+2015-08-20 02:35:32,411 [1] (I)  [Addr]: 127.0.0.1:53682 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:35:32,411 [1] (T) Database not opened before - neotracsrvtcp.cpp, 114
+2015-08-20 02:35:32,411 [1] (T) Instantiate the database class: U:postgres p: - ../common/database.cpp, 17
+2015-08-20 02:35:32,411 [1] (T)  [Addr]: 127.0.0.1:53682 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:35:34,915 [1] (D)  [Addr]: 127.0.0.1:53682 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:35:37,410 [1] (I)  [Addr]: 127.0.0.1:53682 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:35:37,410 [1] (I)  [Addr]: 127.0.0.1:53682 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:35:41,031 [1] (I)  [Addr]: 127.0.0.1:53683 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:35:41,031 [1] (T)  [Addr]: 127.0.0.1:53683 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:35:43,535 [1] (D)  [Addr]: 127.0.0.1:53683 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:35:46,030 [1] (I)  [Addr]: 127.0.0.1:53683 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:35:46,030 [1] (I)  [Addr]: 127.0.0.1:53683 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:36:38,557 [1] (I)  [Addr]: 127.0.0.1:53684 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:36:38,557 [1] (T)  [Addr]: 127.0.0.1:53684 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:36:41,061 [1] (D)  [Addr]: 127.0.0.1:53684 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:36:43,554 [1] (I)  [Addr]: 127.0.0.1:53684 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:36:43,554 [1] (I)  [Addr]: 127.0.0.1:53684 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:36:47,425 [1] (I)  [Addr]: 127.0.0.1:53685 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:36:47,425 [1] (T)  [Addr]: 127.0.0.1:53685 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:36:49,929 [1] (D)  [Addr]: 127.0.0.1:53685 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:36:52,422 [1] (I)  [Addr]: 127.0.0.1:53685 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:36:52,422 [1] (I)  [Addr]: 127.0.0.1:53685 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:36:53,235 [1] (I)  [Addr]: 127.0.0.1:53686 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:36:53,235 [1] (T)  [Addr]: 127.0.0.1:53686 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:36:55,739 [1] (D)  [Addr]: 127.0.0.1:53686 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:36:58,234 [1] (I)  [Addr]: 127.0.0.1:53686 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:36:58,234 [1] (I)  [Addr]: 127.0.0.1:53686 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:36:58,247 [1] (I)  [Addr]: 127.0.0.1:53687 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:36:58,247 [1] (T)  [Addr]: 127.0.0.1:53687 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:00,751 [1] (D)  [Addr]: 127.0.0.1:53687 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:37:03,246 [1] (I)  [Addr]: 127.0.0.1:53687 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:03,246 [1] (I)  [Addr]: 127.0.0.1:53687 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:03,256 [1] (I)  [Addr]: 127.0.0.1:53688 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:03,256 [1] (T)  [Addr]: 127.0.0.1:53688 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:05,760 [1] (D)  [Addr]: 127.0.0.1:53688 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:37:08,254 [1] (I)  [Addr]: 127.0.0.1:53688 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:08,254 [1] (I)  [Addr]: 127.0.0.1:53688 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:08,268 [1] (I)  [Addr]: 127.0.0.1:53689 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:08,268 [1] (T)  [Addr]: 127.0.0.1:53689 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:10,772 [1] (D)  [Addr]: 127.0.0.1:53689 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:37:13,266 [1] (I)  [Addr]: 127.0.0.1:53689 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:13,266 [1] (I)  [Addr]: 127.0.0.1:53689 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:16,794 [1] (I)  [Addr]: 127.0.0.1:53690 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:16,794 [1] (T)  [Addr]: 127.0.0.1:53690 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:18,413 [1] (I)  [Addr]: 127.0.0.1:53691 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:18,413 [1] (T)  [Addr]: 127.0.0.1:53691 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:19,032 [1] (I)  [Addr]: 127.0.0.1:53692 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:19,032 [1] (T)  [Addr]: 127.0.0.1:53692 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:19,515 [1] (I)  [Addr]: 127.0.0.1:53693 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:19,516 [1] (T)  [Addr]: 127.0.0.1:53693 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:19,766 [1] (D)  [Addr]: 127.0.0.1:53690 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:37:20,037 [1] (I)  [Addr]: 127.0.0.1:53694 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:20,037 [1] (T)  [Addr]: 127.0.0.1:53694 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:20,569 [1] (I)  [Addr]: 127.0.0.1:53695 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:20,569 [1] (T)  [Addr]: 127.0.0.1:53695 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:21,063 [1] (I)  [Addr]: 127.0.0.1:53696 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:21,063 [1] (T)  [Addr]: 127.0.0.1:53696 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:21,564 [1] (D)  [Addr]: 127.0.0.1:53691 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:37:21,601 [1] (I)  [Addr]: 127.0.0.1:53697 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:21,602 [1] (T)  [Addr]: 127.0.0.1:53697 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:21,794 [1] (I)  [Addr]: 127.0.0.1:53690 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:21,794 [1] (I)  [Addr]: 127.0.0.1:53690 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:22,084 [1] (I)  [Addr]: 127.0.0.1:53698 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:22,085 [1] (T)  [Addr]: 127.0.0.1:53698 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:22,335 [1] (D)  [Addr]: 127.0.0.1:53692 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:37:22,586 [1] (D)  [Addr]: 127.0.0.1:53693 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:37:22,589 [1] (I)  [Addr]: 127.0.0.1:53699 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:22,589 [1] (T)  [Addr]: 127.0.0.1:53699 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:23,066 [1] (I)  [Addr]: 127.0.0.1:53700 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:23,066 [1] (T)  [Addr]: 127.0.0.1:53700 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:23,317 [1] (D)  [Addr]: 127.0.0.1:53694 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:37:23,410 [1] (I)  [Addr]: 127.0.0.1:53691 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:23,410 [1] (I)  [Addr]: 127.0.0.1:53691 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:23,560 [1] (I)  [Addr]: 127.0.0.1:53701 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:23,560 [1] (T)  [Addr]: 127.0.0.1:53701 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:24,030 [1] (I)  [Addr]: 127.0.0.1:53692 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:24,030 [1] (I)  [Addr]: 127.0.0.1:53692 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:24,281 [1] (D)  [Addr]: 127.0.0.1:53695 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:37:24,514 [1] (I)  [Addr]: 127.0.0.1:53693 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:24,514 [1] (I)  [Addr]: 127.0.0.1:53693 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:24,658 [1] (I)  [Addr]: 127.0.0.1:53702 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:24,658 [1] (T)  [Addr]: 127.0.0.1:53702 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:24,860 [1] (I)  [Addr]: 127.0.0.1:53703 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:24,860 [1] (T)  [Addr]: 127.0.0.1:53703 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:25,034 [1] (I)  [Addr]: 127.0.0.1:53694 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:25,034 [1] (I)  [Addr]: 127.0.0.1:53694 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:25,063 [1] (I)  [Addr]: 127.0.0.1:53704 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:25,065 [1] (T)  [Addr]: 127.0.0.1:53704 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:25,255 [1] (I)  [Addr]: 127.0.0.1:53705 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:25,255 [1] (T)  [Addr]: 127.0.0.1:53705 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:25,455 [1] (I)  [Addr]: 127.0.0.1:53706 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:25,456 [1] (T)  [Addr]: 127.0.0.1:53706 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:25,567 [1] (I)  [Addr]: 127.0.0.1:53695 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:25,567 [1] (I)  [Addr]: 127.0.0.1:53695 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:25,657 [1] (I)  [Addr]: 127.0.0.1:53707 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:25,657 [1] (T)  [Addr]: 127.0.0.1:53707 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:25,848 [1] (I)  [Addr]: 127.0.0.1:53708 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:25,848 [1] (T)  [Addr]: 127.0.0.1:53708 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:26,051 [1] (I)  [Addr]: 127.0.0.1:53709 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:26,051 [1] (T)  [Addr]: 127.0.0.1:53709 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:26,063 [1] (I)  [Addr]: 127.0.0.1:53696 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:26,063 [1] (I)  [Addr]: 127.0.0.1:53696 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:26,248 [1] (I)  [Addr]: 127.0.0.1:53710 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:26,248 [1] (T)  [Addr]: 127.0.0.1:53710 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:26,438 [1] (I)  [Addr]: 127.0.0.1:53711 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:26,438 [1] (T)  [Addr]: 127.0.0.1:53711 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:26,602 [1] (I)  [Addr]: 127.0.0.1:53697 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:26,602 [1] (I)  [Addr]: 127.0.0.1:53697 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:27,082 [1] (I)  [Addr]: 127.0.0.1:53698 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:27,082 [1] (I)  [Addr]: 127.0.0.1:53698 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:27,590 [1] (I)  [Addr]: 127.0.0.1:53699 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:27,590 [1] (I)  [Addr]: 127.0.0.1:53699 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:28,066 [1] (I)  [Addr]: 127.0.0.1:53700 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:28,066 [1] (I)  [Addr]: 127.0.0.1:53700 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:28,558 [1] (I)  [Addr]: 127.0.0.1:53701 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:28,558 [1] (I)  [Addr]: 127.0.0.1:53701 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:29,658 [1] (I)  [Addr]: 127.0.0.1:53702 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:29,658 [1] (I)  [Addr]: 127.0.0.1:53702 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:29,858 [1] (I)  [Addr]: 127.0.0.1:53703 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:29,858 [1] (I)  [Addr]: 127.0.0.1:53703 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:30,062 [1] (I)  [Addr]: 127.0.0.1:53704 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:30,062 [1] (I)  [Addr]: 127.0.0.1:53704 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:30,254 [1] (I)  [Addr]: 127.0.0.1:53705 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:30,254 [1] (I)  [Addr]: 127.0.0.1:53705 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:30,454 [1] (I)  [Addr]: 127.0.0.1:53706 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:30,454 [1] (I)  [Addr]: 127.0.0.1:53706 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:30,654 [1] (I)  [Addr]: 127.0.0.1:53707 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:30,654 [1] (I)  [Addr]: 127.0.0.1:53707 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:30,846 [1] (I)  [Addr]: 127.0.0.1:53708 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:30,846 [1] (I)  [Addr]: 127.0.0.1:53708 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:31,050 [1] (I)  [Addr]: 127.0.0.1:53709 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:31,050 [1] (I)  [Addr]: 127.0.0.1:53709 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:31,246 [1] (I)  [Addr]: 127.0.0.1:53710 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:31,246 [1] (I)  [Addr]: 127.0.0.1:53710 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:31,438 [1] (I)  [Addr]: 127.0.0.1:53711 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:31,438 [1] (I)  [Addr]: 127.0.0.1:53711 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:35,710 [1] (I)  [Addr]: 127.0.0.1:53712 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:35,711 [1] (T)  [Addr]: 127.0.0.1:53712 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:35,910 [1] (I)  [Addr]: 127.0.0.1:53713 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:35,910 [1] (T)  [Addr]: 127.0.0.1:53713 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:36,096 [1] (I)  [Addr]: 127.0.0.1:53714 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:36,096 [1] (T)  [Addr]: 127.0.0.1:53714 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:36,295 [1] (I)  [Addr]: 127.0.0.1:53715 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:36,295 [1] (T)  [Addr]: 127.0.0.1:53715 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:36,492 [1] (I)  [Addr]: 127.0.0.1:53716 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:36,492 [1] (T)  [Addr]: 127.0.0.1:53716 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:36,673 [1] (I)  [Addr]: 127.0.0.1:53717 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:36,673 [1] (T)  [Addr]: 127.0.0.1:53717 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:36,868 [1] (I)  [Addr]: 127.0.0.1:53718 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:36,868 [1] (T)  [Addr]: 127.0.0.1:53718 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:37,049 [1] (I)  [Addr]: 127.0.0.1:53719 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:37,050 [1] (T)  [Addr]: 127.0.0.1:53719 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:37,252 [1] (I)  [Addr]: 127.0.0.1:53720 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:37,253 [1] (T)  [Addr]: 127.0.0.1:53720 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:37,512 [1] (I)  [Addr]: 127.0.0.1:53721 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:37,512 [1] (T)  [Addr]: 127.0.0.1:53721 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:39,766 [1] (D)  [Addr]: 127.0.0.1:53713 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:37:39,766 [1] (D)  [Addr]: 127.0.0.1:53714 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:37:39,766 [1] (D)  [Addr]: 127.0.0.1:53715 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:37:39,766 [1] (D)  [Addr]: 127.0.0.1:53716 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:37:39,766 [1] (D)  [Addr]: 127.0.0.1:53717 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:37:39,767 [1] (D)  [Addr]: 127.0.0.1:53718 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:37:39,767 [1] (D)  [Addr]: 127.0.0.1:53719 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:37:39,767 [1] (D)  [Addr]: 127.0.0.1:53720 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:37:39,767 [1] (D)  [Addr]: 127.0.0.1:53712 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:37:40,017 [1] (D)  [Addr]: 127.0.0.1:53721 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:37:40,068 [1] (I)  [Addr]: 127.0.0.1:53722 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:40,068 [1] (T)  [Addr]: 127.0.0.1:53722 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:40,284 [1] (I)  [Addr]: 127.0.0.1:53723 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:40,284 [1] (T)  [Addr]: 127.0.0.1:53723 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:40,480 [1] (I)  [Addr]: 127.0.0.1:53724 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:40,481 [1] (T)  [Addr]: 127.0.0.1:53724 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:40,701 [1] (I)  [Addr]: 127.0.0.1:53725 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:40,701 [1] (T)  [Addr]: 127.0.0.1:53725 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:40,710 [1] (I)  [Addr]: 127.0.0.1:53712 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:40,710 [1] (I)  [Addr]: 127.0.0.1:53712 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:40,897 [1] (I)  [Addr]: 127.0.0.1:53726 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:40,897 [1] (T)  [Addr]: 127.0.0.1:53726 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:40,911 [1] (I)  [Addr]: 127.0.0.1:53713 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:40,912 [1] (I)  [Addr]: 127.0.0.1:53713 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:41,092 [1] (I)  [Addr]: 127.0.0.1:53727 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:41,092 [1] (T)  [Addr]: 127.0.0.1:53727 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:41,094 [1] (I)  [Addr]: 127.0.0.1:53714 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:41,094 [1] (I)  [Addr]: 127.0.0.1:53714 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:41,292 [1] (I)  [Addr]: 127.0.0.1:53728 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:41,292 [1] (T)  [Addr]: 127.0.0.1:53728 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:41,294 [1] (I)  [Addr]: 127.0.0.1:53715 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:41,294 [1] (I)  [Addr]: 127.0.0.1:53715 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:41,487 [1] (I)  [Addr]: 127.0.0.1:53729 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:41,487 [1] (T)  [Addr]: 127.0.0.1:53729 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:41,490 [1] (I)  [Addr]: 127.0.0.1:53716 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:41,490 [1] (I)  [Addr]: 127.0.0.1:53716 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:41,670 [1] (I)  [Addr]: 127.0.0.1:53717 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:41,670 [1] (I)  [Addr]: 127.0.0.1:53717 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:41,703 [1] (I)  [Addr]: 127.0.0.1:53730 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:41,703 [1] (T)  [Addr]: 127.0.0.1:53730 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:41,867 [1] (I)  [Addr]: 127.0.0.1:53718 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:41,867 [1] (I)  [Addr]: 127.0.0.1:53718 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:41,904 [1] (I)  [Addr]: 127.0.0.1:53731 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:41,905 [1] (T)  [Addr]: 127.0.0.1:53731 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:42,050 [1] (I)  [Addr]: 127.0.0.1:53719 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:42,050 [1] (I)  [Addr]: 127.0.0.1:53719 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:42,086 [1] (I)  [Addr]: 127.0.0.1:53732 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:42,086 [1] (T)  [Addr]: 127.0.0.1:53732 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:42,250 [1] (I)  [Addr]: 127.0.0.1:53720 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:42,250 [1] (I)  [Addr]: 127.0.0.1:53720 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:42,496 [1] (I)  [Addr]: 127.0.0.1:53733 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:42,496 [1] (T)  [Addr]: 127.0.0.1:53733 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:42,511 [1] (I)  [Addr]: 127.0.0.1:53721 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:42,511 [1] (I)  [Addr]: 127.0.0.1:53721 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:45,016 [1] (D)  [Addr]: 127.0.0.1:53727 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:37:45,016 [1] (D)  [Addr]: 127.0.0.1:53728 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:37:45,016 [1] (D)  [Addr]: 127.0.0.1:53729 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:37:45,016 [1] (D)  [Addr]: 127.0.0.1:53730 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:37:45,016 [1] (D)  [Addr]: 127.0.0.1:53731 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:37:45,016 [1] (D)  [Addr]: 127.0.0.1:53732 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:37:45,017 [1] (D)  [Addr]: 127.0.0.1:53733 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:37:45,017 [1] (D)  [Addr]: 127.0.0.1:53722 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:37:45,017 [1] (D)  [Addr]: 127.0.0.1:53723 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:37:45,017 [1] (D)  [Addr]: 127.0.0.1:53724 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:37:45,017 [1] (D)  [Addr]: 127.0.0.1:53725 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:37:45,017 [1] (D)  [Addr]: 127.0.0.1:53726 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:37:45,066 [1] (I)  [Addr]: 127.0.0.1:53722 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:45,066 [1] (I)  [Addr]: 127.0.0.1:53722 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:45,282 [1] (I)  [Addr]: 127.0.0.1:53723 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:45,282 [1] (I)  [Addr]: 127.0.0.1:53723 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:45,478 [1] (I)  [Addr]: 127.0.0.1:53724 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:45,478 [1] (I)  [Addr]: 127.0.0.1:53724 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:45,698 [1] (I)  [Addr]: 127.0.0.1:53725 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:45,698 [1] (I)  [Addr]: 127.0.0.1:53725 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:45,894 [1] (I)  [Addr]: 127.0.0.1:53726 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:45,894 [1] (I)  [Addr]: 127.0.0.1:53726 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:46,090 [1] (I)  [Addr]: 127.0.0.1:53727 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:46,090 [1] (I)  [Addr]: 127.0.0.1:53727 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:46,290 [1] (I)  [Addr]: 127.0.0.1:53728 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:46,290 [1] (I)  [Addr]: 127.0.0.1:53728 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:46,486 [1] (I)  [Addr]: 127.0.0.1:53729 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:46,486 [1] (I)  [Addr]: 127.0.0.1:53729 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:46,702 [1] (I)  [Addr]: 127.0.0.1:53730 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:46,702 [1] (I)  [Addr]: 127.0.0.1:53730 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:46,902 [1] (I)  [Addr]: 127.0.0.1:53731 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:46,902 [1] (I)  [Addr]: 127.0.0.1:53731 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:47,086 [1] (I)  [Addr]: 127.0.0.1:53732 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:47,086 [1] (I)  [Addr]: 127.0.0.1:53732 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:47,494 [1] (I)  [Addr]: 127.0.0.1:53733 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:47,494 [1] (I)  [Addr]: 127.0.0.1:53733 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:47,508 [1] (I)  [Addr]: 127.0.0.1:53734 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:47,509 [1] (T)  [Addr]: 127.0.0.1:53734 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:50,012 [1] (D)  [Addr]: 127.0.0.1:53734 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:37:52,506 [1] (I)  [Addr]: 127.0.0.1:53734 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:52,506 [1] (I)  [Addr]: 127.0.0.1:53734 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:52,516 [1] (I)  [Addr]: 127.0.0.1:53735 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:52,516 [1] (T)  [Addr]: 127.0.0.1:53735 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:37:55,020 [1] (D)  [Addr]: 127.0.0.1:53735 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:37:57,514 [1] (I)  [Addr]: 127.0.0.1:53735 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:37:57,514 [1] (I)  [Addr]: 127.0.0.1:53735 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:37:57,528 [1] (I)  [Addr]: 127.0.0.1:53736 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:37:57,528 [1] (T)  [Addr]: 127.0.0.1:53736 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:38:00,032 [1] (D)  [Addr]: 127.0.0.1:53736 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:38:02,526 [1] (I)  [Addr]: 127.0.0.1:53736 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:38:02,526 [1] (I)  [Addr]: 127.0.0.1:53736 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:38:02,538 [1] (I)  [Addr]: 127.0.0.1:53737 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:38:02,539 [1] (T)  [Addr]: 127.0.0.1:53737 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:38:05,042 [1] (D)  [Addr]: 127.0.0.1:53737 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:38:07,538 [1] (I)  [Addr]: 127.0.0.1:53737 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:38:07,538 [1] (I)  [Addr]: 127.0.0.1:53737 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:38:07,551 [1] (I)  [Addr]: 127.0.0.1:53738 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:38:07,551 [1] (T)  [Addr]: 127.0.0.1:53738 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:38:10,055 [1] (D)  [Addr]: 127.0.0.1:53738 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:38:12,550 [1] (I)  [Addr]: 127.0.0.1:53738 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:38:12,550 [1] (I)  [Addr]: 127.0.0.1:53738 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:38:12,564 [1] (I)  [Addr]: 127.0.0.1:53739 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:38:12,564 [1] (T)  [Addr]: 127.0.0.1:53739 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:38:15,068 [1] (D)  [Addr]: 127.0.0.1:53739 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:38:17,562 [1] (I)  [Addr]: 127.0.0.1:53739 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:38:17,562 [1] (I)  [Addr]: 127.0.0.1:53739 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:38:17,629 [1] (I)  [Addr]: 127.0.0.1:53740 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:38:17,629 [1] (T)  [Addr]: 127.0.0.1:53740 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:38:20,133 [1] (D)  [Addr]: 127.0.0.1:53740 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:38:22,626 [1] (I)  [Addr]: 127.0.0.1:53740 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:38:22,626 [1] (I)  [Addr]: 127.0.0.1:53740 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:38:53,059 [1] (I)  [Addr]: 127.0.0.1:53741 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:38:53,059 [1] (T)  [Addr]: 127.0.0.1:53741 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:38:55,563 [1] (D)  [Addr]: 127.0.0.1:53741 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:38:56,283 [1] (T)  [Addr]: 127.0.0.1:53741 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 413
+2015-08-20 02:38:58,787 [1] (D)  [Addr]: 127.0.0.1:53741 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:38:59,991 [1] (T)  [Addr]: 127.0.0.1:53741 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-20 02:39:00,005 [1] (I)  [Addr]: 127.0.0.1:53741 : Incoming message: $HELP - neotracsrvtcp.cpp, 223
+2015-08-20 02:39:00,006 [1] (T)  [Addr]: 127.0.0.1:53741 : Processing HELP command - neotracsrvtcp.cpp, 228
+2015-08-20 02:39:00,006 [1] (T)  [Addr]: 127.0.0.1:53741 : Transmit response: so many commands so little time
+ - neotracsrvtcp.cpp, 257
+2015-08-20 02:39:02,510 [1] (D)  [Addr]: 127.0.0.1:53741 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:39:04,795 [1] (T)  [Addr]: 127.0.0.1:53741 : Processing text command - neotracsrvtcp.cpp, 379
+2015-08-20 02:39:04,795 [1] (I)  [Addr]: 127.0.0.1:53741 : Incoming message: $CLOSE - neotracsrvtcp.cpp, 223
+2015-08-20 02:39:04,795 [1] (T)  [Addr]: 127.0.0.1:53741 : Processing CLOSE command - neotracsrvtcp.cpp, 243
+2015-08-20 02:39:04,795 [1] (I)  [Addr]: 127.0.0.1:53741 : Remote requested close - neotracsrvtcp.cpp, 467
+2015-08-20 02:39:04,795 [1] (I)  [Addr]: 127.0.0.1:53741 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:39:07,537 [1] (I)  [Addr]: 127.0.0.1:53742 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:39:07,537 [1] (T)  [Addr]: 127.0.0.1:53742 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:39:10,041 [1] (D)  [Addr]: 127.0.0.1:53742 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:39:12,534 [1] (I)  [Addr]: 127.0.0.1:53742 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:39:12,534 [1] (I)  [Addr]: 127.0.0.1:53742 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:39:21,784 [1] (I)  [Addr]: 127.0.0.1:53743 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:39:21,784 [1] (T)  [Addr]: 127.0.0.1:53743 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:39:24,288 [1] (D)  [Addr]: 127.0.0.1:53743 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:39:26,782 [1] (I)  [Addr]: 127.0.0.1:53743 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:39:26,782 [1] (I)  [Addr]: 127.0.0.1:53743 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:40:55,475 [1] (I)  [Addr]: 127.0.0.1:53784 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:40:55,475 [1] (T)  [Addr]: 127.0.0.1:53784 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:40:57,979 [1] (D)  [Addr]: 127.0.0.1:53784 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:41:00,474 [1] (I)  [Addr]: 127.0.0.1:53784 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:41:00,474 [1] (I)  [Addr]: 127.0.0.1:53784 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:42:13,306 [1] (I)  [Addr]: 127.0.0.1:53785 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:42:13,306 [1] (T)  [Addr]: 127.0.0.1:53785 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:42:15,810 [1] (D)  [Addr]: 127.0.0.1:53785 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:42:18,306 [1] (I)  [Addr]: 127.0.0.1:53785 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:42:18,306 [1] (I)  [Addr]: 127.0.0.1:53785 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:44:00,825 [1] (I)  [Addr]: 127.0.0.1:53845 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:44:00,825 [1] (T)  [Addr]: 127.0.0.1:53845 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:44:03,329 [1] (D)  [Addr]: 127.0.0.1:53845 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:44:05,822 [1] (I)  [Addr]: 127.0.0.1:53845 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:44:05,822 [1] (I)  [Addr]: 127.0.0.1:53845 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:44:16,817 [1] (I)  [Addr]: 127.0.0.1:53846 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:44:16,817 [1] (T)  [Addr]: 127.0.0.1:53846 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:44:19,321 [1] (D)  [Addr]: 127.0.0.1:53846 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:44:21,825 [1] (D)  [Addr]: 127.0.0.1:53846 : Timeout 80 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:44:24,329 [1] (D)  [Addr]: 127.0.0.1:53846 : Timeout 70 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:44:26,833 [1] (D)  [Addr]: 127.0.0.1:53846 : Timeout 60 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:44:29,337 [1] (D)  [Addr]: 127.0.0.1:53846 : Timeout 50 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:44:31,841 [1] (D)  [Addr]: 127.0.0.1:53846 : Timeout 40 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:44:34,345 [1] (D)  [Addr]: 127.0.0.1:53846 : Timeout 30 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:44:36,849 [1] (D)  [Addr]: 127.0.0.1:53846 : Timeout 20 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:44:39,353 [1] (D)  [Addr]: 127.0.0.1:53846 : Timeout 10 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:44:41,856 [1] (D)  [Addr]: 127.0.0.1:53846 : Timeout 0 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:44:41,857 [1] (I)  [Addr]: 127.0.0.1:53846 : Connection Timeout - neotracsrvtcp.cpp, 524
+2015-08-20 02:44:41,857 [1] (I)  [Addr]: 127.0.0.1:53846 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:45:17,878 [1] (I)  [Addr]: 127.0.0.1:53847 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:45:17,878 [1] (T)  [Addr]: 127.0.0.1:53847 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:45:20,382 [1] (D)  [Addr]: 127.0.0.1:53847 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:45:22,886 [1] (D)  [Addr]: 127.0.0.1:53847 : Timeout 80 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:45:27,318 [1] (D)  [Addr]: 127.0.0.1:53847 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:45:29,822 [1] (D)  [Addr]: 127.0.0.1:53847 : Timeout 80 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:45:32,326 [1] (D)  [Addr]: 127.0.0.1:53847 : Timeout 70 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:45:34,830 [1] (D)  [Addr]: 127.0.0.1:53847 : Timeout 60 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:45:37,333 [1] (D)  [Addr]: 127.0.0.1:53847 : Timeout 50 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:45:39,837 [1] (D)  [Addr]: 127.0.0.1:53847 : Timeout 40 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:45:40,700 [1] (I)  [Addr]: 127.0.0.1:53847 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:45:40,700 [1] (I)  [Addr]: 127.0.0.1:53847 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:45:43,826 [1] (I)  [Addr]: 127.0.0.1:53848 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:45:43,826 [1] (T)  [Addr]: 127.0.0.1:53848 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:45:46,330 [1] (D)  [Addr]: 127.0.0.1:53848 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:45:46,354 [1] (I)  [Addr]: 127.0.0.1:53848 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:45:46,354 [1] (I)  [Addr]: 127.0.0.1:53848 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:47:29,127 [1] (I)  [Addr]: 127.0.0.1:53849 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:47:29,127 [1] (T)  [Addr]: 127.0.0.1:53849 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:47:31,631 [1] (D)  [Addr]: 127.0.0.1:53849 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:47:34,126 [1] (I)  [Addr]: 127.0.0.1:53849 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:47:34,126 [1] (I)  [Addr]: 127.0.0.1:53849 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:48:15,142 [1] (I)  [Addr]: 127.0.0.1:53850 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:48:15,142 [1] (T)  [Addr]: 127.0.0.1:53850 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:48:17,646 [1] (D)  [Addr]: 127.0.0.1:53850 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:48:20,142 [1] (I)  [Addr]: 127.0.0.1:53850 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:48:20,142 [1] (I)  [Addr]: 127.0.0.1:53850 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:49:16,168 [1] (I)  [Addr]: 127.0.0.1:53851 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:49:16,168 [1] (T)  [Addr]: 127.0.0.1:53851 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:49:18,673 [1] (D)  [Addr]: 127.0.0.1:53851 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:49:21,166 [1] (I)  [Addr]: 127.0.0.1:53851 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:49:21,166 [1] (I)  [Addr]: 127.0.0.1:53851 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:49:29,455 [1] (I)  [Addr]: 127.0.0.1:53852 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:49:29,455 [1] (T)  [Addr]: 127.0.0.1:53852 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:49:31,958 [1] (D)  [Addr]: 127.0.0.1:53852 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:49:34,462 [1] (D)  [Addr]: 127.0.0.1:53852 : Timeout 80 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:49:36,966 [1] (D)  [Addr]: 127.0.0.1:53852 : Timeout 70 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:49:39,470 [1] (D)  [Addr]: 127.0.0.1:53852 : Timeout 60 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:49:41,975 [1] (D)  [Addr]: 127.0.0.1:53852 : Timeout 50 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:49:44,479 [1] (D)  [Addr]: 127.0.0.1:53852 : Timeout 40 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:49:46,982 [1] (D)  [Addr]: 127.0.0.1:53852 : Timeout 30 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:49:47,096 [1] (T)  [Addr]: 127.0.0.1:53852 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 413
+2015-08-20 02:49:49,600 [1] (D)  [Addr]: 127.0.0.1:53852 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:49:50,277 [1] (T)  [Addr]: 127.0.0.1:53852 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 413
+2015-08-20 02:49:50,827 [1] (T)  [Addr]: 127.0.0.1:53852 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 413
+2015-08-20 02:49:51,049 [1] (T)  [Addr]: 127.0.0.1:53852 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 413
+2015-08-20 02:49:51,291 [1] (T)  [Addr]: 127.0.0.1:53852 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 413
+2015-08-20 02:49:51,550 [1] (T)  [Addr]: 127.0.0.1:53852 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 413
+2015-08-20 02:49:51,801 [1] (T)  [Addr]: 127.0.0.1:53852 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 413
+2015-08-20 02:49:52,141 [1] (T)  [Addr]: 127.0.0.1:53852 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 413
+2015-08-20 02:49:52,889 [1] (T)  [Addr]: 127.0.0.1:53852 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 413
+2015-08-20 02:49:53,137 [1] (T)  [Addr]: 127.0.0.1:53852 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 413
+2015-08-20 02:49:53,386 [1] (T)  [Addr]: 127.0.0.1:53852 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 413
+2015-08-20 02:49:53,628 [1] (T)  [Addr]: 127.0.0.1:53852 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 413
+2015-08-20 02:49:53,938 [1] (T)  [Addr]: 127.0.0.1:53852 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 413
+2015-08-20 02:49:54,282 [1] (T)  [Addr]: 127.0.0.1:53852 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 413
+2015-08-20 02:49:54,609 [1] (T)  [Addr]: 127.0.0.1:53852 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 413
+2015-08-20 02:49:54,935 [1] (T)  [Addr]: 127.0.0.1:53852 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 413
+2015-08-20 02:49:55,278 [1] (T)  [Addr]: 127.0.0.1:53852 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 413
+2015-08-20 02:49:55,598 [1] (T)  [Addr]: 127.0.0.1:53852 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 413
+2015-08-20 02:49:55,893 [1] (T)  [Addr]: 127.0.0.1:53852 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 413
+2015-08-20 02:49:56,186 [1] (T)  [Addr]: 127.0.0.1:53852 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 413
+2015-08-20 02:49:56,511 [1] (T)  [Addr]: 127.0.0.1:53852 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 413
+2015-08-20 02:49:56,795 [1] (T)  [Addr]: 127.0.0.1:53852 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 413
+2015-08-20 02:49:57,083 [1] (T)  [Addr]: 127.0.0.1:53852 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 413
+2015-08-20 02:49:57,309 [1] (T)  [Addr]: 127.0.0.1:53852 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 413
+2015-08-20 02:49:57,563 [1] (T)  [Addr]: 127.0.0.1:53852 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 413
+2015-08-20 02:49:57,863 [1] (T)  [Addr]: 127.0.0.1:53852 : Incoming message header unknown - ignored - neotracsrvtcp.cpp, 413
+2015-08-20 02:50:00,342 [1] (I)  [Addr]: 127.0.0.1:53852 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:50:00,342 [1] (I)  [Addr]: 127.0.0.1:53852 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:50:01,979 [1] (I)  [Addr]: 127.0.0.1:53853 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:50:01,980 [1] (T)  [Addr]: 127.0.0.1:53853 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:50:03,942 [1] (I)  [Addr]: 127.0.0.1:53853 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:50:03,942 [1] (I)  [Addr]: 127.0.0.1:53853 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:50:41,843 [1] (I)  [Addr]: 127.0.0.1:53856 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:50:41,843 [1] (T)  [Addr]: 127.0.0.1:53856 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:50:44,347 [1] (D)  [Addr]: 127.0.0.1:53856 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:50:46,575 [1] (I)  [Addr]: 127.0.0.1:53856 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:50:46,575 [1] (I)  [Addr]: 127.0.0.1:53856 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:52:42,686 [1] (I)  [Addr]: 127.0.0.1:53919 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:52:42,686 [1] (T)  [Addr]: 127.0.0.1:53919 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:52:45,190 [1] (D)  [Addr]: 127.0.0.1:53919 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:52:47,686 [1] (I)  [Addr]: 127.0.0.1:53919 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:52:47,686 [1] (I)  [Addr]: 127.0.0.1:53919 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:53:10,793 [1] (I)  [Addr]: 127.0.0.1:53922 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:53:10,793 [1] (T)  [Addr]: 127.0.0.1:53922 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:53:13,297 [1] (D)  [Addr]: 127.0.0.1:53922 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:53:15,790 [1] (I)  [Addr]: 127.0.0.1:53922 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:53:15,790 [1] (I)  [Addr]: 127.0.0.1:53922 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:53:15,801 [1] (I)  [Addr]: 127.0.0.1:53924 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:53:15,801 [1] (T)  [Addr]: 127.0.0.1:53924 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:53:18,305 [1] (D)  [Addr]: 127.0.0.1:53924 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:53:20,798 [1] (I)  [Addr]: 127.0.0.1:53924 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:53:20,798 [1] (I)  [Addr]: 127.0.0.1:53924 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:53:20,804 [1] (I)  [Addr]: 127.0.0.1:53925 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:53:20,805 [1] (T)  [Addr]: 127.0.0.1:53925 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:53:23,308 [1] (D)  [Addr]: 127.0.0.1:53925 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 02:53:24,363 [1] (I)  [Addr]: 127.0.0.1:53925 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:53:24,363 [1] (I)  [Addr]: 127.0.0.1:53925 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 02:54:19,342 [1] (I)  [Addr]: 127.0.0.1:53926 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 02:54:19,342 [1] (T)  [Addr]: 127.0.0.1:53926 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 02:54:21,047 [1] (I)  [Addr]: 127.0.0.1:53926 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 02:54:21,047 [1] (I)  [Addr]: 127.0.0.1:53926 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 04:44:23,840 [1] (I)  [Addr]: 127.0.0.1:53965 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 04:44:23,856 [1] (T)  [Addr]: 127.0.0.1:53965 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 04:44:26,360 [1] (D)  [Addr]: 127.0.0.1:53965 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 04:44:26,878 [1] (I)  [Addr]: 127.0.0.1:53965 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 04:44:26,878 [1] (I)  [Addr]: 127.0.0.1:53965 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 04:46:45,058 [0] (T) Server context created - neotracsrvtcp.cpp, 88
+2015-08-20 04:46:45,058 [0] (T) Neo Socket reactor created - neotracsrvtcp.cpp, 126
+2015-08-20 04:46:45,059 [0] (I) Compiler version: 4 - neotracsrvtcp.cpp, 661
+2015-08-20 04:46:45,059 [0] (I) C++ version: 201103 - neotracsrvtcp.cpp, 662
+2015-08-20 04:46:45,059 [0] (I) Build date & Time: Aug 16 2015, 11:19:37 - neotracsrvtcp.cpp, 663
+2015-08-20 04:46:45,059 [0] (I) Server started - neotracsrvtcp.cpp, 664
+2015-08-20 04:48:00,691 [0] (T) Server context created - neotracsrvtcp.cpp, 88
+2015-08-20 04:48:00,692 [0] (T) Neo Socket reactor created - neotracsrvtcp.cpp, 126
+2015-08-20 04:48:00,692 [0] (I) Compiler version: 4 - neotracsrvtcp.cpp, 661
+2015-08-20 04:48:00,692 [0] (I) C++ version: 201103 - neotracsrvtcp.cpp, 662
+2015-08-20 04:48:00,692 [0] (I) Build date & Time: Aug 16 2015, 11:19:37 - neotracsrvtcp.cpp, 663
+2015-08-20 04:48:00,692 [0] (I) Server started - neotracsrvtcp.cpp, 664
+2015-08-20 04:48:29,616 [1] (I)  [Addr]: 127.0.0.1:53968 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 04:48:29,616 [1] (T) Database not opened before - neotracsrvtcp.cpp, 114
+2015-08-20 04:48:29,617 [1] (T) Instantiate the database class: U:postgres p: - ../common/database.cpp, 17
+2015-08-20 04:48:29,617 [1] (T)  [Addr]: 127.0.0.1:53968 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 04:48:32,121 [1] (D)  [Addr]: 127.0.0.1:53968 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 04:48:34,614 [1] (I)  [Addr]: 127.0.0.1:53968 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 04:48:34,614 [1] (I)  [Addr]: 127.0.0.1:53968 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 05:29:05,539 [1] (I)  [Addr]: 127.0.0.1:53990 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 05:29:05,965 [1] (T)  [Addr]: 127.0.0.1:53990 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 05:29:08,520 [1] (D)  [Addr]: 127.0.0.1:53990 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 05:29:10,715 [1] (I)  [Addr]: 127.0.0.1:53990 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 05:29:10,716 [1] (I)  [Addr]: 127.0.0.1:53990 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 05:29:38,391 [0] (T) Server context created - neotracsrvtcp.cpp, 88
+2015-08-20 05:29:38,391 [0] (T) Neo Socket reactor created - neotracsrvtcp.cpp, 126
+2015-08-20 05:29:38,392 [0] (I) Compiler version: 4 - neotracsrvtcp.cpp, 661
+2015-08-20 05:29:38,392 [0] (I) C++ version: 201103 - neotracsrvtcp.cpp, 662
+2015-08-20 05:29:38,392 [0] (I) Build date & Time: Aug 16 2015, 11:19:37 - neotracsrvtcp.cpp, 663
+2015-08-20 05:29:38,392 [0] (I) Server started - neotracsrvtcp.cpp, 664
+2015-08-20 05:29:42,121 [1] (I)  [Addr]: 127.0.0.1:53992 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 05:29:42,122 [1] (T) Database not opened before - neotracsrvtcp.cpp, 114
+2015-08-20 05:29:42,122 [1] (T) Instantiate the database class: U:postgres p: - ../common/database.cpp, 17
+2015-08-20 05:29:42,122 [1] (T)  [Addr]: 127.0.0.1:53992 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 05:29:44,626 [1] (D)  [Addr]: 127.0.0.1:53992 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 05:29:47,118 [1] (I)  [Addr]: 127.0.0.1:53992 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 05:29:47,118 [1] (I)  [Addr]: 127.0.0.1:53992 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 05:33:20,321 [0] (T) Server context created - neotracsrvtcp.cpp, 88
+2015-08-20 05:33:20,348 [0] (T) Neo Socket reactor created - neotracsrvtcp.cpp, 126
+2015-08-20 05:33:20,349 [0] (I) Compiler version: 4 - neotracsrvtcp.cpp, 661
+2015-08-20 05:33:20,349 [0] (I) C++ version: 201103 - neotracsrvtcp.cpp, 662
+2015-08-20 05:33:20,349 [0] (I) Build date & Time: Aug 16 2015, 11:19:37 - neotracsrvtcp.cpp, 663
+2015-08-20 05:33:20,349 [0] (I) Server started - neotracsrvtcp.cpp, 664
+2015-08-20 05:33:23,092 [1] (I)  [Addr]: 127.0.0.1:54016 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 05:33:23,092 [1] (T) Database not opened before - neotracsrvtcp.cpp, 114
+2015-08-20 05:33:23,092 [1] (T) Instantiate the database class: U:postgres p: - ../common/database.cpp, 17
+2015-08-20 05:33:23,092 [1] (T)  [Addr]: 127.0.0.1:54016 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 05:33:25,596 [1] (D)  [Addr]: 127.0.0.1:54016 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 05:33:28,090 [1] (I)  [Addr]: 127.0.0.1:54016 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 05:33:28,090 [1] (I)  [Addr]: 127.0.0.1:54016 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 05:35:46,659 [0] (T) Server context created - neotracsrvtcp.cpp, 88
+2015-08-20 05:35:46,659 [0] (T) Neo Socket reactor created - neotracsrvtcp.cpp, 126
+2015-08-20 05:35:46,659 [0] (I) Compiler version: 4 - neotracsrvtcp.cpp, 661
+2015-08-20 05:35:46,660 [0] (I) C++ version: 201103 - neotracsrvtcp.cpp, 662
+2015-08-20 05:35:46,660 [0] (I) Build date & Time: Aug 16 2015, 11:19:37 - neotracsrvtcp.cpp, 663
+2015-08-20 05:35:46,678 [0] (I) Server started - neotracsrvtcp.cpp, 664
+2015-08-20 05:35:48,945 [1] (I)  [Addr]: 127.0.0.1:54018 : New Connection - neotracsrvtcp.cpp, 159
+2015-08-20 05:35:48,945 [1] (T) Database not opened before - neotracsrvtcp.cpp, 114
+2015-08-20 05:35:48,945 [1] (T) Instantiate the database class: U:postgres p: - ../common/database.cpp, 17
+2015-08-20 05:35:48,945 [1] (T)  [Addr]: 127.0.0.1:54018 : Database information: Neo Systems database. Postgresql: User=postgres - neotracsrvtcp.cpp, 173
+2015-08-20 05:35:51,449 [1] (D)  [Addr]: 127.0.0.1:54018 : Timeout 90 on - neotracsrvtcp.cpp, 520
+2015-08-20 05:35:53,942 [1] (I)  [Addr]: 127.0.0.1:54018 : Nothing to be read - connection closed - neotracsrvtcp.cpp, 473
+2015-08-20 05:35:53,942 [1] (I)  [Addr]: 127.0.0.1:54018 : Disconnecting - neotracsrvtcp.cpp, 178
+2015-08-20 06:11:56,576 [0] (I) Termination requested. - neotracsrvtcp.cpp, 668
+2015-08-20 06:11:57,090 [0] (I) Reactor stopped. - neotracsrvtcp.cpp, 672
+2015-08-20 06:11:57,282 [0] (I) Thread joined. - neotracsrvtcp.cpp, 675
+2015-08-20 06:11:57,282 [0] (I) Server stopped. - neotracsrvtcp.cpp, 677
+2015-08-20 06:11:57,287 [0] (T) Destroy the database class - ../common/database.cpp, 25
+2015-08-20 06:11:57,308 [0] (D) Uninitializing subsystem: Logging Subsystem - , 0

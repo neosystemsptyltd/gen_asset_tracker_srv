@@ -26,3 +26,5 @@
 *.exe
 *.out
 *.app
+/tests/neotracsrvtcp_test/build/
+/tests/neotracsrvtcp_test/dist/

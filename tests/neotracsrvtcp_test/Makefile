@@ -55,23 +55,11 @@ build: .build-post
 
 .build-pre:
 # Add your pre 'build' code here...
-	
+
 .build-post: .build-impl
 # Add your post 'build' code here...
-CND_BASEDIR                base directory for relative paths
-CND_DISTDIR
-CND_BUILDDIR
-CONF
-CND_PLATFORM_${CONF}
-CND_ARTIFACT_DIR_${CONF}
-CND_ARTIFACT_NAME_${CONF}
-CND_ARTIFACT_PATH_${CONF}
-CND_PACKAGE_DIR_${CONF}
-CND_PACKAGE_NAME_${CONF}
-									    CND_PACKAGE_PATH_${CONF}
-	echo ${CND_PACKAGE_DIR_${CONF}}
-	cp ${CND_DISTDIR}/Debug/GNU-Linux-x86/neotracsrvtcp ${CND_BASEDIR}/../dist/Debug/GNU-Linux-x86/
-	cp ${CND_BASEDIR}/../poco-1.6.1/lib/Linux/i686/*.so ${CND_BASEDIR}/../dist/Debug/GNU-Linux-x86/
+	cp ${CND_DISTDIR}/Debug/GNU-Linux-x86/neotracsrvtcp_test ${CND_BASEDIR}/../../dist/Debug/GNU-Linux-x86/
+	cp ${CND_BASEDIR}/../../poco-1.6.1/lib/Linux/i686/*.so ${CND_BASEDIR}/../../dist/Debug/GNU-Linux-x86/
 
 # clean
 clean: .clean-post
@@ -95,7 +83,7 @@ clobber: .clobber-post
 
 # all
 all: .all-post
-	
+
 .all-pre:
 # Add your pre 'all' code here...
 

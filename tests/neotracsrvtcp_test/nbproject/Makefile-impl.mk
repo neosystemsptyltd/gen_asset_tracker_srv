@@ -24,14 +24,14 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=neotracsrvtcp
+PROJECTNAME=neotracsrvtcp_test
 
 # Active Configuration
-DEFAULTCONF=Debug_home_ubuntu
+DEFAULTCONF=Debug
 CONF=${DEFAULTCONF}
 
 # All Configurations
-ALLCONFS=Debug_home_ubuntu Release_home_ubuntu Debug_laptop_ubuntu Release_laptop_ubuntu 
+ALLCONFS=Debug Release 
 
 
 # build

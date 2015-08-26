@@ -23,7 +23,7 @@ AS=as
 # Macros
 CND_PLATFORM=GNU-Linux-x86
 CND_DLIB_EXT=so
-CND_CONF=Release
+CND_CONF=Debug_laptop_ubuntu
 CND_DISTDIR=dist
 CND_BUILDDIR=build
 
@@ -47,8 +47,8 @@ OBJECTFILES= \
 CFLAGS=
 
 # CC Compiler Flags
-CCFLAGS=
-CXXFLAGS=
+CCFLAGS=-Wall -Wextra -std=gnu++11
+CXXFLAGS=-Wall -Wextra -std=gnu++11
 
 # Fortran Compiler Flags
 FFLAGS=
@@ -57,7 +57,7 @@ FFLAGS=
 ASFLAGS=
 
 # Link Libraries and Options
-LDLIBSOPTIONS=
+LDLIBSOPTIONS=-L../poco-1.6.1/lib/Linux/x86_64 -Wl,-rpath,./ -dynamic -lPocoNetd -lPocoUtild -lPocoFoundationd -lPocoJSONd -lPocoXMLd
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
@@ -70,32 +70,32 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/neotracsrvtcp: ${OBJECTFILES}
 ${OBJECTDIR}/_ext/1270477542/NeoProtocolBase.o: ../common/NeoProtocolBase.cpp 
 	${MKDIR} -p ${OBJECTDIR}/_ext/1270477542
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/1270477542/NeoProtocolBase.o ../common/NeoProtocolBase.cpp
+	$(COMPILE.cc) -g -Werror -D_DEBUG -I../poco-1.6.1/Util/include -I../poco-1.6.1/Net/include -I../poco-1.6.1/Foundation/include -I../common -I../boost -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/1270477542/NeoProtocolBase.o ../common/NeoProtocolBase.cpp
 
 ${OBJECTDIR}/_ext/1270477542/base91.o: ../common/base91.c 
 	${MKDIR} -p ${OBJECTDIR}/_ext/1270477542
 	${RM} "$@.d"
-	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/1270477542/base91.o ../common/base91.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/1270477542/base91.o ../common/base91.c
 
 ${OBJECTDIR}/_ext/1270477542/custlog.o: ../common/custlog.cpp 
 	${MKDIR} -p ${OBJECTDIR}/_ext/1270477542
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/1270477542/custlog.o ../common/custlog.cpp
+	$(COMPILE.cc) -g -Werror -D_DEBUG -I../poco-1.6.1/Util/include -I../poco-1.6.1/Net/include -I../poco-1.6.1/Foundation/include -I../common -I../boost -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/1270477542/custlog.o ../common/custlog.cpp
 
 ${OBJECTDIR}/_ext/1270477542/database.o: ../common/database.cpp 
 	${MKDIR} -p ${OBJECTDIR}/_ext/1270477542
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/1270477542/database.o ../common/database.cpp
+	$(COMPILE.cc) -g -Werror -D_DEBUG -I../poco-1.6.1/Util/include -I../poco-1.6.1/Net/include -I../poco-1.6.1/Foundation/include -I../common -I../boost -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/1270477542/database.o ../common/database.cpp
 
 ${OBJECTDIR}/_ext/1270477542/helpers.o: ../common/helpers.cpp 
 	${MKDIR} -p ${OBJECTDIR}/_ext/1270477542
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/1270477542/helpers.o ../common/helpers.cpp
+	$(COMPILE.cc) -g -Werror -D_DEBUG -I../poco-1.6.1/Util/include -I../poco-1.6.1/Net/include -I../poco-1.6.1/Foundation/include -I../common -I../boost -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/1270477542/helpers.o ../common/helpers.cpp
 
 ${OBJECTDIR}/neotracsrvtcp.o: neotracsrvtcp.cpp 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/neotracsrvtcp.o neotracsrvtcp.cpp
+	$(COMPILE.cc) -g -Werror -D_DEBUG -I../poco-1.6.1/Util/include -I../poco-1.6.1/Net/include -I../poco-1.6.1/Foundation/include -I../common -I../boost -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/neotracsrvtcp.o neotracsrvtcp.cpp
 
 # Subprojects
 .build-subprojects:

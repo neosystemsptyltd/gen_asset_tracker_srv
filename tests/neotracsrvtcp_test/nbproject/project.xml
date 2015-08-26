@@ -3,28 +3,20 @@
     <type>org.netbeans.modules.cnd.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>neotracsrvtcp</name>
-            <c-extensions>c</c-extensions>
+            <name>neotracsrvtcp_test</name>
+            <c-extensions/>
             <cpp-extensions>cpp</cpp-extensions>
-            <header-extensions>h,hpp</header-extensions>
+            <header-extensions/>
             <sourceEncoding>UTF-8</sourceEncoding>
             <make-dep-projects/>
             <sourceRootList/>
             <confList>
                 <confElem>
-                    <name>Debug_home_ubuntu</name>
+                    <name>Debug</name>
                     <type>1</type>
                 </confElem>
                 <confElem>
-                    <name>Release_home_ubuntu</name>
-                    <type>1</type>
-                </confElem>
-                <confElem>
-                    <name>Debug_laptop_ubuntu</name>
-                    <type>1</type>
-                </confElem>
-                <confElem>
-                    <name>Release_laptop_ubuntu</name>
+                    <name>Release</name>
                     <type>1</type>
                 </confElem>
             </confList>
